@@ -2,45 +2,46 @@
   {
     "id": 1,
     "date": "2026-06-29",
+    "season": 2020,
     "categories": [
       {
-        "name": "500+ Career Home Runs",
+        "name": "400-499 Career Home Runs",
         "difficulty": "easy",
         "words": [
-          "ALEX RODRIGUEZ",
-          "ALBERT PUJOLS",
-          "MIGUEL CABRERA",
-          "ERNIE BANKS"
+          "CARL YASTRZEMSKI",
+          "GIANCARLO STANTON",
+          "DAVE WINFIELD",
+          "JOSÉ CANSECO"
         ]
       },
       {
-        "name": "80+ Extra-Base Hits in 2025",
+        "name": "Gold Glove Winners in 2020",
         "difficulty": "medium",
         "words": [
-          "SHOHEI OHTANI",
-          "KYLE SCHWARBER",
-          "PETE ALONSO",
-          "CORBIN CARROLL"
+          "ISIAH KINER-FALEFA",
+          "JOEY GALLO",
+          "J.P. CRAWFORD",
+          "ALEX GORDON"
         ]
       },
       {
-        "name": "35+ Home Runs in 2023",
+        "name": "OPS Over .900 in 2020",
         "difficulty": "hard",
         "words": [
-          "LUIS ROBERT JR.",
-          "ADOLIS GARCÍA",
-          "JUAN SOTO",
-          "MOOKIE BETTS"
+          "FERNANDO TATIS JR.",
+          "LUKE VOIT",
+          "RONALD ACUÑA JR.",
+          "MIKE TROUT"
         ]
       },
       {
-        "name": "WHIP Under 1.00 in 2025",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "TARIK SKUBAL",
-          "NICK PIVETTA",
-          "JACOB DEGROM",
-          "BRYAN WOO"
+          "DEREK JETER",
+          "JIM LEFEBVRE",
+          "WIL MYERS",
+          "JONATHAN INDIA"
         ]
       }
     ]
@@ -48,45 +49,46 @@
   {
     "id": 2,
     "date": "2026-06-30",
+    "season": 2000,
     "categories": [
       {
-        "name": "2,000+ Career RBI",
+        "name": "500+ Career Doubles",
         "difficulty": "easy",
         "words": [
-          "ALEX RODRIGUEZ",
-          "ALBERT PUJOLS",
-          "BABE RUTH",
-          "HANK AARON"
+          "ROBINSON CANÓ",
+          "PETE ROSE",
+          "TRISTRAM SPEAKER",
+          "FREDDIE FREEMAN"
         ]
       },
       {
-        "name": "40+ Doubles in 2025",
+        "name": "300+ Career Wins (Pitchers)",
         "difficulty": "medium",
         "words": [
-          "MATT OLSON",
-          "JARREN DURAN",
-          "BO BICHETTE",
-          "BRENT ROOKER"
+          "EARLY WYNN",
+          "EDDIE PLANK",
+          "OLD HOSS RADBOURN",
+          "TOM SEAVER"
         ]
       },
       {
-        "name": "30+ Saves in 2025",
+        "name": "Won Cy Young Award",
         "difficulty": "hard",
         "words": [
-          "JEFF HOFFMAN",
-          "AROLDIS CHAPMAN",
-          "TREVOR MEGILL",
-          "EMILIO PAGÁN"
+          "VIDA BLUE",
+          "GAYLORD PERRY",
+          "ROGER CLEMENS",
+          "JIM PALMER"
         ]
       },
       {
-        "name": "WHIP Under 1.00 in 2025",
+        "name": "40+ Home Runs in 2000",
         "difficulty": "tricky",
         "words": [
-          "JACOB DEGROM",
-          "PAUL SKENES",
-          "NICK PIVETTA",
-          "BRYAN WOO"
+          "JIM EDMONDS",
+          "JEFF BAGWELL",
+          "VLADIMIR GUERRERO",
+          "ALEX RODRIGUEZ"
         ]
       }
     ]
@@ -94,45 +96,46 @@
   {
     "id": 3,
     "date": "2026-07-01",
+    "season": 2000,
     "categories": [
       {
-        "name": "2,000+ Career RBI",
+        "name": "1,500+ Career RBI",
         "difficulty": "easy",
         "words": [
-          "BABE RUTH",
-          "ALBERT PUJOLS",
-          "ALEX RODRIGUEZ",
-          "HANK AARON"
+          "REGGIE JACKSON",
+          "GARY SHEFFIELD",
+          "WILLIE STARGELL",
+          "HARMON KILLEBREW"
         ]
       },
       {
-        "name": "40+ Home Runs in 2024",
+        "name": "40+ Doubles in 2000",
         "difficulty": "medium",
         "words": [
-          "SHOHEI OHTANI",
-          "ANTHONY SANTANDER",
-          "JUAN SOTO",
-          "AARON JUDGE"
+          "JEFF KENT",
+          "SHANNON STEWART",
+          "JERMAINE DYE",
+          "TODD HELTON"
         ]
       },
       {
-        "name": "3,000+ Career Strikeouts (Pitchers)",
+        "name": "200+ Strikeouts (Pitching) in 2000",
         "difficulty": "hard",
         "words": [
-          "RANDY JOHNSON",
-          "STEVE CARLTON",
-          "GAYLORD PERRY",
-          "JUSTIN VERLANDER"
+          "AL LEITER",
+          "KEVIN BROWN",
+          "MIKE MUSSINA",
+          "RYAN DEMPSTER"
         ]
       },
       {
-        "name": "WHIP Under 1.00 in 2025",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "TARIK SKUBAL",
-          "BRYAN WOO",
-          "JACOB DEGROM",
-          "PAUL SKENES"
+          "MARK FIDRYCH",
+          "RON HANSEN",
+          "LUIS APARICIO",
+          "TOM TRESH"
         ]
       }
     ]
@@ -140,45 +143,46 @@
   {
     "id": 4,
     "date": "2026-07-02",
+    "season": 2006,
     "categories": [
       {
-        "name": "400+ Career Home Runs",
+        "name": "Hall of Famers",
         "difficulty": "easy",
         "words": [
-          "VLADIMIR GUERRERO",
-          "NELSON CRUZ",
-          "JEFF BAGWELL",
-          "DAVE WINFIELD"
+          "HANK GREENBERG",
+          "WILL HARRIDGE",
+          "DAN BROUTHERS",
+          "JEFF BAGWELL"
         ]
       },
       {
-        "name": "15+ Wins (Pitching) in 2025",
+        "name": "Silver Slugger Winners in 2006",
         "difficulty": "medium",
         "words": [
-          "BRYAN WOO",
-          "FREDDY PERALTA",
-          "JESÚS LUZARDO",
-          "GARRETT CROCHET"
+          "CHASE UTLEY",
+          "JOSÉ REYES",
+          "ROBINSON CANÓ",
+          "BRIAN MCCANN"
         ]
       },
       {
-        "name": "30+ Saves in 2025",
+        "name": "15+ Wins (Pitching) in 2006",
         "difficulty": "hard",
         "words": [
-          "ROBERT SUAREZ",
-          "EMILIO PAGÁN",
-          "TREVOR MEGILL",
-          "ANDRÉS MUÑOZ"
+          "STEVE TRACHSEL",
+          "JOHN SMOLTZ",
+          "CARLOS ZAMBRANO",
+          "JON GARLAND"
         ]
       },
       {
-        "name": "200+ Strikeouts (Pitching) in 2025",
+        "name": "World Series MVP",
         "difficulty": "tricky",
         "words": [
-          "CARLOS RODÓN",
-          "TARIK SKUBAL",
-          "PAUL SKENES",
-          "HUNTER BROWN"
+          "RICK DEMPSEY",
+          "DARRELL PORTER",
+          "PAT BORDERS",
+          "HIDEKI MATSUI"
         ]
       }
     ]
@@ -186,45 +190,46 @@
   {
     "id": 5,
     "date": "2026-07-03",
+    "season": 2006,
     "categories": [
       {
-        "name": "600+ Career Doubles",
+        "name": "400-499 Career Home Runs",
         "difficulty": "easy",
         "words": [
-          "TRISTRAM SPEAKER",
-          "CRAIG BIGGIO",
-          "STAN MUSIAL",
-          "GEORGE BRETT"
+          "CARLOS BELTRÁN",
+          "JEFF BAGWELL",
+          "WILLIE STARGELL",
+          "JUAN GONZALEZ"
         ]
       },
       {
-        "name": "100+ RBI in 2025",
+        "name": "35+ Home Runs in 2006",
         "difficulty": "medium",
         "words": [
-          "SALVADOR PEREZ",
-          "CAL RALEIGH",
-          "AARON JUDGE",
-          "JUNIOR CAMINERO"
+          "ALBERT PUJOLS",
+          "JIM THOME",
+          "CARLOS LEE",
+          "JASON GIAMBI"
         ]
       },
       {
-        "name": "3,000+ Career Strikeouts (Pitchers)",
+        "name": "200+ Strikeouts (Pitching) in 2006",
         "difficulty": "hard",
         "words": [
-          "STEVE CARLTON",
-          "DON SUTTON",
-          "BERT BLYLEVEN",
-          "TOM SEAVER"
+          "JOHN SMOLTZ",
+          "JOHAN SANTANA",
+          "CARLOS ZAMBRANO",
+          "JEREMY BONDERMAN"
         ]
       },
       {
-        "name": "OPS Over .950 in 2024",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "YORDAN ALVAREZ",
-          "JUAN SOTO",
-          "BOBBY WITT JR.",
-          "SHOHEI OHTANI"
+          "ALVIN DAVIS",
+          "ERIC HINSKE",
+          "MIKE HARGROVE",
+          "WILLIE MAYS"
         ]
       }
     ]
@@ -232,45 +237,46 @@
   {
     "id": 6,
     "date": "2026-07-04",
+    "season": 2014,
     "categories": [
       {
-        "name": "1,500+ Career RBI",
+        "name": "500+ Career Doubles",
         "difficulty": "easy",
         "words": [
-          "REGGIE JACKSON",
-          "GOOSE GOSLIN",
-          "TY COBB",
-          "MIKE SCHMIDT"
+          "TODD HELTON",
+          "CAL RIPKEN JR.",
+          "ALBERT PUJOLS",
+          "JEFF KENT"
         ]
       },
       {
-        "name": "80+ Extra-Base Hits in 2025",
+        "name": "70+ Extra-Base Hits in 2014",
         "difficulty": "medium",
         "words": [
-          "AARON JUDGE",
-          "SHOHEI OHTANI",
-          "CAL RALEIGH",
-          "PETE ALONSO"
+          "MIGUEL CABRERA",
+          "MIKE TROUT",
+          "NELSON CRUZ",
+          "JOSÉ ABREU"
         ]
       },
       {
-        "name": "3,000+ Career Strikeouts (Pitchers)",
+        "name": "200+ Strikeouts (Pitching) in 2014",
         "difficulty": "hard",
         "words": [
-          "BERT BLYLEVEN",
-          "WALTER JOHNSON",
-          "RANDY JOHNSON",
-          "JUSTIN VERLANDER"
+          "ZACK GREINKE",
+          "CHRIS SALE",
+          "IAN KENNEDY",
+          "MAX SCHERZER"
         ]
       },
       {
-        "name": "200+ Strikeouts (Pitching) in 2025",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "LOGAN WEBB",
-          "JESÚS LUZARDO",
-          "GARRETT CROCHET",
-          "TARIK SKUBAL"
+          "TODD WORRELL",
+          "HERB SCORE",
+          "VINCE COLEMAN",
+          "GARY PETERS"
         ]
       }
     ]
@@ -278,45 +284,375 @@
   {
     "id": 7,
     "date": "2026-07-05",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "DAVID ORTIZ",
+          "NAP LAJOIE",
+          "AL SIMMONS",
+          "ADRIAN BELTRÉ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2008",
+        "difficulty": "medium",
+        "words": [
+          "GRADY SIZEMORE",
+          "JUSTIN MORNEAU",
+          "CARLOS QUENTIN",
+          "DAVID WRIGHT"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2008",
+        "difficulty": "hard",
+        "words": [
+          "GAVIN FLOYD",
+          "JOE SAUNDERS",
+          "TED LILLY",
+          "TIM LINCECUM"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "CARLOS BELTRÁN",
+          "JOSÉ CANSECO",
+          "DICK ALLEN",
+          "BOBBY CROSBY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026-07-06",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "DEREK JETER",
+          "ROGER BRESNAHAN",
+          "OZZIE SMITH",
+          "OSCAR CHARLESTON"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2008",
+        "difficulty": "medium",
+        "words": [
+          "CHASE UTLEY",
+          "JOSE LOPEZ",
+          "KEVIN YOUKILIS",
+          "MARK TEIXEIRA"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2008",
+        "difficulty": "hard",
+        "words": [
+          "ROY HALLADAY",
+          "RYAN DEMPSTER",
+          "JOHAN SANTANA",
+          "TIM LINCECUM"
+        ]
+      },
+      {
+        "name": "All-Star in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "DAN HAREN",
+          "CARLOS MARMOL",
+          "MIGUEL TEJADA",
+          "ICHIRO SUZUKI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "date": "2026-07-07",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HAROLD BAINES",
+          "CAP ANSON",
+          "ADRIAN BELTRÉ",
+          "ALEX RODRIGUEZ"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TIM KEEFE",
+          "PUD GALVIN",
+          "EARLY WYNN",
+          "KID NICHOLS"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "HUSTON STREET",
+          "DENNIS ECKERSLEY",
+          "DOUG JONES",
+          "KENLEY JANSEN"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "CHRISTIAN YELICH",
+          "ALEX BREGMAN",
+          "EUGENIO SUÁREZ",
+          "JORGE SOLER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026-07-08",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "JOHNNY DAMON",
+          "ROBIN YOUNT",
+          "HANK AARON",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2025",
+        "difficulty": "medium",
+        "words": [
+          "EUGENIO SUÁREZ",
+          "PETE ALONSO",
+          "CAL RALEIGH",
+          "CORBIN CARROLL"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "CATFISH HUNTER",
+          "GAYLORD PERRY",
+          "BOB WELCH",
+          "JACOB DEGROM"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "RICK SUTCLIFFE",
+          "SANDY ALOMAR JR.",
+          "HANLEY RAMIREZ",
+          "STEVE HOWE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "date": "2026-07-09",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE MAYS",
+          "ALEX RODRIGUEZ",
+          "MANNY RAMIREZ",
+          "EDDIE MURRAY"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TOM GLAVINE",
+          "GREG MADDUX",
+          "MICKEY WELCH",
+          "DON SUTTON"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2009",
+        "difficulty": "hard",
+        "words": [
+          "FÉLIX HERNÁNDEZ",
+          "TIM LINCECUM",
+          "ADAM WAINWRIGHT",
+          "ROY HALLADAY"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "RON CEY",
+          "STEVE YEAGER",
+          "BUCKY DENT",
+          "ALAN TRAMMELL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "date": "2026-07-10",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "BOB LEMON",
+          "LOU BROCK",
+          "MORGAN BULKELEY",
+          "JIM KAAT"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2024",
+        "difficulty": "medium",
+        "words": [
+          "KYLE SCHWARBER",
+          "AARON JUDGE",
+          "JOSÉ RAMÍREZ",
+          "JUAN SOTO"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "GREG MADDUX",
+          "PEDRO MARTÍNEZ",
+          "PHIL NIEKRO",
+          "CHRIS SALE"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "DYLAN CEASE",
+          "SETH LUGO",
+          "SHOTA IMANAGA",
+          "GEORGE KIRBY"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "date": "2026-07-11",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "CARLOS BELTRÁN",
+          "ANDRE DAWSON",
+          "PAUL KONERKO"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2022",
+        "difficulty": "medium",
+        "words": [
+          "KETEL MARTE",
+          "RAFAEL DEVERS",
+          "IAN HAPP",
+          "NOLAN ARENADO"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "JOHAN SANTANA",
+          "ROGER CLEMENS",
+          "GREG MADDUX",
+          "CLAYTON KERSHAW"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY ALCANTARA",
+          "TYLER ANDERSON",
+          "YU DARVISH",
+          "ZAC GALLEN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "date": "2026-07-12",
+    "season": 2019,
     "categories": [
       {
         "name": "500+ Career Home Runs",
         "difficulty": "easy",
         "words": [
           "HANK AARON",
-          "HARMON KILLEBREW",
-          "JIM THOME",
-          "MARK MCGWIRE"
+          "MARK MCGWIRE",
+          "ALBERT PUJOLS",
+          "FRANK ROBINSON"
         ]
       },
       {
-        "name": "80+ Extra-Base Hits in 2025",
+        "name": "70+ Extra-Base Hits in 2019",
         "difficulty": "medium",
         "words": [
-          "CORBIN CARROLL",
-          "KYLE SCHWARBER",
-          "PETE ALONSO",
-          "CAL RALEIGH"
+          "XANDER BOGAERTS",
+          "EDUARDO ESCOBAR",
+          "OZZIE ALBIES",
+          "FREDDIE FREEMAN"
         ]
       },
       {
-        "name": "30+ Saves in 2025",
+        "name": "200+ Strikeouts (Pitching) in 2019",
         "difficulty": "hard",
         "words": [
-          "TREVOR MEGILL",
-          "CARLOS ESTÉVEZ",
-          "EMILIO PAGÁN",
-          "ROBERT SUAREZ"
+          "EDUARDO RODRIGUEZ",
+          "LUCAS GIOLITO",
+          "CHARLIE MORTON",
+          "JUSTIN VERLANDER"
         ]
       },
       {
-        "name": "200+ Strikeouts (Pitching) in 2025",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "CRISTOPHER SÁNCHEZ",
-          "DYLAN CEASE",
-          "LOGAN WEBB",
-          "SONNY GRAY"
+          "LUIS GIL",
+          "ROY SIEVERS",
+          "TODD HOLLANDSWORTH",
+          "DONTRELLE WILLIS"
         ]
       }
     ]

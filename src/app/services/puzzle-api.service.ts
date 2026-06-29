@@ -6,6 +6,7 @@ import { Category, Puzzle } from '../models/game.models';
 interface JsonPuzzle {
   id: number;
   date: string;
+  season?: number;
   categories: {
     name: string;
     difficulty: 'easy' | 'medium' | 'hard' | 'tricky';
@@ -110,6 +111,7 @@ export class PuzzleApiService {
     return {
       id: data.id,
       date: data.date,
+      season: (data as any).season,
       categories: data.categories.map(
         (cat): Category => ({
           name: cat.name,
@@ -124,6 +126,7 @@ export class PuzzleApiService {
     return {
       id: data.id,
       date: data.date,
+      season: data.season,
       categories: data.categories.map(
         (cat): Category => ({
           name: cat.name,

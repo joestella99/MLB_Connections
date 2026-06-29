@@ -58,6 +58,27 @@ export class GameBoardComponent implements OnInit {
     return Array(this.state.mistakesRemaining).fill(true);
   }
 
+  get hasSeason(): boolean {
+    return !!this.state.puzzle.season;
+  }
+
+  revealYear(): void {
+    if (this.state.yearRevealed || this.state.gameOver || !this.state.puzzle.season) return;
+    if (this.state.mistakesRemaining <= 0) return;
+
+    this.state.yearRevealed = true;
+    this.state.mistakesRemaining--;
+    this.message = `Season revealed: ${this.state.puzzle.season}`;
+    this.messageType = 'info';
+
+    if (this.state.mistakesRemaining <= 0) {
+      this.state.gameOver = true;
+      this.message = 'Game Over!';
+      this.revealAll();
+      this.generateShareText();
+    }
+  }
+
   toggleTile(tile: Tile): void {
     if (tile.solved || this.state.gameOver || this.animatingSolve) return;
 

@@ -9,6 +9,7 @@ export interface Category {
 export interface Puzzle {
   id: number;
   date: string;
+  season?: number;
   categories: Category[];
 }
 
@@ -26,6 +27,7 @@ export interface GameState {
   mistakesRemaining: number;
   gameOver: boolean;
   gameWon: boolean;
+  yearRevealed: boolean;
 }
 
 export const DIFFICULTY_COLORS: Record<Difficulty, string> = {

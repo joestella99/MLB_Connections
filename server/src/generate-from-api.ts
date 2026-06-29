@@ -31,6 +31,7 @@ interface PuzzleCategory {
 interface Puzzle {
   id: number;
   date: string;
+  season?: number;
   categories: PuzzleCategory[];
 }
 
@@ -80,6 +81,36 @@ async function getCareerPitchingLeaders(
   return data.leagueLeaders?.[0]?.leaders ?? [];
 }
 
+/** Fetch award recipients — optionally filtered by season */
+async function getAwardRecipients(
+  awardId: string,
+  season?: number
+): Promise<PlayerStat[]> {
+  const seasonParam = season ? `?season=${season}` : '';
+  const url = `${MLB_API}/awards/${awardId}/recipients${seasonParam}`;
+  const data = await fetchJson(url);
+  const awards: any[] = data.awards ?? [];
+  return awards.map((a: any) => ({
+    name: a.player?.nameFirstLast ?? 'Unknown',
+    playerId: a.player?.id ?? 0,
+    value: a.season ?? '',
+    numValue: parseInt(a.season) || 0,
+  }));
+}
+
+/** Combine AL + NL award recipients for a given season */
+async function getCombinedAwardRecipients(
+  alAwardId: string,
+  nlAwardId: string,
+  season?: number
+): Promise<PlayerStat[]> {
+  const [al, nl] = await Promise.all([
+    getAwardRecipients(alAwardId, season),
+    getAwardRecipients(nlAwardId, season),
+  ]);
+  return [...al, ...nl];
+}
+
 function leaderToStat(leader: any, suffix = ''): PlayerStat {
   const name: string = leader.person?.fullName ?? 'Unknown';
   return {
@@ -94,50 +125,55 @@ function displayName(fullName: string): string {
   return fullName.trim().toUpperCase();
 }
 
+/** Pick a random year from a range */
+function randomSeason(min = 2000, max = 2025): number {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 // ----- Category templates -----
-// Each template is a function that queries the MLB API and returns qualifying players
-// VERIFIED WORKING categories only:
+// VERIFIED WORKING stat categories:
 //   Career batting: homeRuns, runsBattedIn, doubles
 //   Season batting: homeRuns, runsBattedIn, doubles, extraBaseHits, onBasePlusSlugging
 //   Career pitching: wins, strikeouts, saves
 //   Season pitching: earnedRunAverage, wins, saves, strikeouts, walksAndHitsPerInningPitched
+//
+// Awards API IDs used:
+//   ALGG/NLGG = Gold Glove,  ALSS/NLSS = Silver Slugger,
+//   ALMVP/NLMVP = MVP,  ALCY/NLCY = Cy Young,
+//   WSMVP = World Series MVP,  MLBHOF = Hall of Fame,
+//   ALAS/NLAS = All-Star,  ALROY/NLROY = Rookie of the Year
 
-function buildTemplates(): CategoryTemplate[] {
-  const currentYear = new Date().getFullYear();
-
+function buildTemplates(season: number): CategoryTemplate[] {
   return [
-    // ===== EASY (well-known all-time stats) =====
+    // ===== EASY — well-known career milestones =====
     {
       name: '500+ Career Home Runs',
       difficulty: 'easy',
       fetch: async () => {
-        const leaders = await getCareerBattingLeaders('homeRuns', 30);
+        const leaders = await getCareerBattingLeaders('homeRuns', 50);
         return leaders
           .filter((l: any) => parseFloat(l.value) >= 500)
           .map((l: any) => leaderToStat(l, ' HR'));
       },
     },
     {
-      name: '400+ Career Home Runs',
+      name: '400-499 Career Home Runs',
       difficulty: 'easy',
       fetch: async () => {
         const leaders = await getCareerBattingLeaders('homeRuns', 50);
         return leaders
-          .filter((l: any) => {
-            const v = parseFloat(l.value);
-            return v >= 400 && v < 500;
-          })
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 400 && v < 500; })
           .map((l: any) => leaderToStat(l, ' HR'));
       },
     },
     {
-      name: '2,000+ Career RBI',
+      name: '300-399 Career Home Runs',
       difficulty: 'easy',
       fetch: async () => {
-        const leaders = await getCareerBattingLeaders('runsBattedIn', 30);
+        const leaders = await getCareerBattingLeaders('homeRuns', 50);
         return leaders
-          .filter((l: any) => parseFloat(l.value) >= 2000)
-          .map((l: any) => leaderToStat(l, ' RBI'));
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 300 && v < 400; })
+          .map((l: any) => leaderToStat(l, ' HR'));
       },
     },
     {
@@ -146,63 +182,85 @@ function buildTemplates(): CategoryTemplate[] {
       fetch: async () => {
         const leaders = await getCareerBattingLeaders('runsBattedIn', 50);
         return leaders
-          .filter((l: any) => {
-            const v = parseFloat(l.value);
-            return v >= 1500 && v < 2000;
-          })
+          .filter((l: any) => parseFloat(l.value) >= 1500)
           .map((l: any) => leaderToStat(l, ' RBI'));
       },
     },
     {
-      name: '600+ Career Doubles',
+      name: '1,000–1,499 Career RBI',
       difficulty: 'easy',
       fetch: async () => {
-        const leaders = await getCareerBattingLeaders('doubles', 20);
+        const leaders = await getCareerBattingLeaders('runsBattedIn', 50);
         return leaders
-          .filter((l: any) => parseFloat(l.value) >= 600)
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 1000 && v < 1500; })
+          .map((l: any) => leaderToStat(l, ' RBI'));
+      },
+    },
+    {
+      name: '500+ Career Doubles',
+      difficulty: 'easy',
+      fetch: async () => {
+        const leaders = await getCareerBattingLeaders('doubles', 50);
+        return leaders
+          .filter((l: any) => parseFloat(l.value) >= 500)
           .map((l: any) => leaderToStat(l, ' 2B'));
       },
     },
+    {
+      name: 'Hall of Famers',
+      difficulty: 'easy',
+      fetch: async () => getAwardRecipients('MLBHOF'),
+    },
 
-    // ===== MEDIUM (recent season stats + career pitching) =====
+    // ===== MEDIUM — season stats (uses puzzle year) + moderate career =====
     {
-      name: `45+ Home Runs in ${currentYear - 1}`,
+      name: `35+ Home Runs in ${season}`,
       difficulty: 'medium',
       fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('homeRuns', currentYear - 1, 20);
+        const leaders = await getSeasonBattingLeaders('homeRuns', season, 30);
         return leaders
-          .filter((l: any) => parseFloat(l.value) >= 45)
+          .filter((l: any) => parseFloat(l.value) >= 35)
           .map((l: any) => leaderToStat(l, ' HR'));
       },
     },
     {
-      name: `40+ Home Runs in ${currentYear - 2}`,
+      name: `100+ RBI in ${season}`,
       difficulty: 'medium',
       fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('homeRuns', currentYear - 2, 20);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 40)
-          .map((l: any) => leaderToStat(l, ' HR'));
-      },
-    },
-    {
-      name: `100+ RBI in ${currentYear - 1}`,
-      difficulty: 'medium',
-      fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('runsBattedIn', currentYear - 1, 30);
+        const leaders = await getSeasonBattingLeaders('runsBattedIn', season, 30);
         return leaders
           .filter((l: any) => parseFloat(l.value) >= 100)
           .map((l: any) => leaderToStat(l, ' RBI'));
       },
     },
     {
-      name: `40+ Doubles in ${currentYear - 1}`,
+      name: `40+ Doubles in ${season}`,
       difficulty: 'medium',
       fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('doubles', currentYear - 1, 20);
+        const leaders = await getSeasonBattingLeaders('doubles', season, 30);
         return leaders
           .filter((l: any) => parseFloat(l.value) >= 40)
           .map((l: any) => leaderToStat(l, ' 2B'));
+      },
+    },
+    {
+      name: `70+ Extra-Base Hits in ${season}`,
+      difficulty: 'medium',
+      fetch: async () => {
+        const leaders = await getSeasonBattingLeaders('extraBaseHits', season, 30);
+        return leaders
+          .filter((l: any) => parseFloat(l.value) >= 70)
+          .map((l: any) => leaderToStat(l, ' XBH'));
+      },
+    },
+    {
+      name: '250-299 Career Wins (Pitchers)',
+      difficulty: 'medium',
+      fetch: async () => {
+        const leaders = await getCareerPitchingLeaders('wins', 50);
+        return leaders
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 250 && v < 300; })
+          .map((l: any) => leaderToStat(l, ' W'));
       },
     },
     {
@@ -216,151 +274,153 @@ function buildTemplates(): CategoryTemplate[] {
       },
     },
     {
-      name: `15+ Wins (Pitching) in ${currentYear - 1}`,
+      name: `Gold Glove Winners in ${season}`,
       difficulty: 'medium',
-      fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('wins', currentYear - 1, 30);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 15)
-          .map((l: any) => leaderToStat(l, ' W'));
-      },
+      fetch: async () => getCombinedAwardRecipients('ALGG', 'NLGG', season),
     },
     {
-      name: `80+ Extra-Base Hits in ${currentYear - 1}`,
+      name: `Silver Slugger Winners in ${season}`,
       difficulty: 'medium',
-      fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('extraBaseHits', currentYear - 1, 20);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 80)
-          .map((l: any) => leaderToStat(l, ' XBH'));
-      },
+      fetch: async () => getCombinedAwardRecipients('ALSS', 'NLSS', season),
     },
 
-    // ===== HARD =====
+    // ===== HARD — tighter season stats + niche career + awards =====
     {
-      name: `ERA Under 2.50 in ${currentYear - 1}`,
+      name: `ERA Under 3.00 in ${season}`,
       difficulty: 'hard',
       fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('earnedRunAverage', currentYear - 1, 30);
+        const leaders = await getSeasonPitchingLeaders('earnedRunAverage', season, 30);
         return leaders
-          .filter((l: any) => parseFloat(l.value) <= 2.5 && parseFloat(l.value) > 0)
+          .filter((l: any) => { const v = parseFloat(l.value); return v > 0 && v < 3.0; })
           .map((l: any) => leaderToStat(l, ' ERA'));
       },
     },
     {
-      name: '3,000+ Career Strikeouts (Pitchers)',
+      name: `200+ Strikeouts (Pitching) in ${season}`,
       difficulty: 'hard',
       fetch: async () => {
-        const leaders = await getCareerPitchingLeaders('strikeouts', 30);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 3000)
-          .map((l: any) => leaderToStat(l, ' K'));
-      },
-    },
-    {
-      name: `30+ Saves in ${currentYear - 1}`,
-      difficulty: 'hard',
-      fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('saves', currentYear - 1, 20);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 30)
-          .map((l: any) => leaderToStat(l, ' SV'));
-      },
-    },
-    {
-      name: `OPS Over 1.000 in ${currentYear - 1}`,
-      difficulty: 'hard',
-      fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('onBasePlusSlugging', currentYear - 1, 15);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 1.0)
-          .map((l: any) => leaderToStat(l, ' OPS'));
-      },
-    },
-    {
-      name: `250+ Strikeouts (Pitching) in ${currentYear - 1}`,
-      difficulty: 'hard',
-      fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('strikeouts', currentYear - 1, 20);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 250)
-          .map((l: any) => leaderToStat(l, ' K'));
-      },
-    },
-    {
-      name: `35+ Home Runs in ${currentYear - 3}`,
-      difficulty: 'hard',
-      fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('homeRuns', currentYear - 3, 20);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 35)
-          .map((l: any) => leaderToStat(l, ' HR'));
-      },
-    },
-
-    // ===== TRICKY =====
-    {
-      name: `200+ Strikeouts (Pitching) in ${currentYear - 1}`,
-      difficulty: 'tricky',
-      fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('strikeouts', currentYear - 1, 20);
+        const leaders = await getSeasonPitchingLeaders('strikeouts', season, 20);
         return leaders
           .filter((l: any) => parseFloat(l.value) >= 200)
           .map((l: any) => leaderToStat(l, ' K'));
       },
     },
     {
-      name: `WHIP Under 1.00 in ${currentYear - 1}`,
-      difficulty: 'tricky',
+      name: `15+ Wins (Pitching) in ${season}`,
+      difficulty: 'hard',
       fetch: async () => {
-        const leaders = await getSeasonPitchingLeaders('walksAndHitsPerInningPitched', currentYear - 1, 30);
+        const leaders = await getSeasonPitchingLeaders('wins', season, 30);
         return leaders
-          .filter((l: any) => parseFloat(l.value) < 1.0 && parseFloat(l.value) > 0)
-          .map((l: any) => leaderToStat(l, ' WHIP'));
+          .filter((l: any) => parseFloat(l.value) >= 15)
+          .map((l: any) => leaderToStat(l, ' W'));
       },
     },
     {
-      name: '500+ Career Saves',
-      difficulty: 'tricky',
+      name: `OPS Over .900 in ${season}`,
+      difficulty: 'hard',
       fetch: async () => {
-        const leaders = await getCareerPitchingLeaders('saves', 20);
+        const leaders = await getSeasonBattingLeaders('onBasePlusSlugging', season, 20);
         return leaders
-          .filter((l: any) => parseFloat(l.value) >= 500)
-          .map((l: any) => leaderToStat(l, ' SV'));
-      },
-    },
-    {
-      name: '500+ Career Doubles',
-      difficulty: 'tricky',
-      fetch: async () => {
-        const leaders = await getCareerBattingLeaders('doubles', 50);
-        return leaders
-          .filter((l: any) => {
-            const v = parseFloat(l.value);
-            return v >= 500 && v < 600;
-          })
-          .map((l: any) => leaderToStat(l, ' 2B'));
-      },
-    },
-    {
-      name: `OPS Over .950 in ${currentYear - 2}`,
-      difficulty: 'tricky',
-      fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('onBasePlusSlugging', currentYear - 2, 15);
-        return leaders
-          .filter((l: any) => parseFloat(l.value) >= 0.95)
+          .filter((l: any) => parseFloat(l.value) >= 0.9)
           .map((l: any) => leaderToStat(l, ' OPS'));
       },
     },
     {
-      name: `120+ RBI in ${currentYear - 2}`,
+      name: `30+ Saves in ${season}`,
+      difficulty: 'hard',
+      fetch: async () => {
+        const leaders = await getSeasonPitchingLeaders('saves', season, 20);
+        return leaders
+          .filter((l: any) => parseFloat(l.value) >= 30)
+          .map((l: any) => leaderToStat(l, ' SV'));
+      },
+    },
+    {
+      name: '2,500+ Career Strikeouts (Pitchers)',
+      difficulty: 'hard',
+      fetch: async () => {
+        const leaders = await getCareerPitchingLeaders('strikeouts', 50);
+        return leaders
+          .filter((l: any) => parseFloat(l.value) >= 2500)
+          .map((l: any) => leaderToStat(l, ' K'));
+      },
+    },
+    {
+      name: '300+ Career Saves',
+      difficulty: 'hard',
+      fetch: async () => {
+        const leaders = await getCareerPitchingLeaders('saves', 50);
+        return leaders
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 300; })
+          .map((l: any) => leaderToStat(l, ' SV'));
+      },
+    },
+    {
+      name: 'Won AL or NL MVP',
+      difficulty: 'hard',
+      fetch: async () => getCombinedAwardRecipients('ALMVP', 'NLMVP'),
+    },
+    {
+      name: 'Won Cy Young Award',
+      difficulty: 'hard',
+      fetch: async () => getCombinedAwardRecipients('ALCY', 'NLCY'),
+    },
+
+    // ===== TRICKY — very specific / deceptive =====
+    {
+      name: `WHIP Under 1.10 in ${season}`,
       difficulty: 'tricky',
       fetch: async () => {
-        const leaders = await getSeasonBattingLeaders('runsBattedIn', currentYear - 2, 20);
+        const leaders = await getSeasonPitchingLeaders('walksAndHitsPerInningPitched', season, 30);
+        return leaders
+          .filter((l: any) => { const v = parseFloat(l.value); return v > 0 && v < 1.10; })
+          .map((l: any) => leaderToStat(l, ' WHIP'));
+      },
+    },
+    {
+      name: `40+ Home Runs in ${season}`,
+      difficulty: 'tricky',
+      fetch: async () => {
+        const leaders = await getSeasonBattingLeaders('homeRuns', season, 15);
+        return leaders
+          .filter((l: any) => parseFloat(l.value) >= 40)
+          .map((l: any) => leaderToStat(l, ' HR'));
+      },
+    },
+    {
+      name: `120+ RBI in ${season}`,
+      difficulty: 'tricky',
+      fetch: async () => {
+        const leaders = await getSeasonBattingLeaders('runsBattedIn', season, 15);
         return leaders
           .filter((l: any) => parseFloat(l.value) >= 120)
           .map((l: any) => leaderToStat(l, ' RBI'));
       },
+    },
+    {
+      name: '350-499 Career Doubles',
+      difficulty: 'tricky',
+      fetch: async () => {
+        const leaders = await getCareerBattingLeaders('doubles', 50);
+        return leaders
+          .filter((l: any) => { const v = parseFloat(l.value); return v >= 350 && v < 500; })
+          .map((l: any) => leaderToStat(l, ' 2B'));
+      },
+    },
+    {
+      name: 'World Series MVP',
+      difficulty: 'tricky',
+      fetch: async () => getAwardRecipients('WSMVP'),
+    },
+    {
+      name: 'Won Rookie of the Year',
+      difficulty: 'tricky',
+      fetch: async () => getCombinedAwardRecipients('ALROY', 'NLROY'),
+    },
+    {
+      name: `All-Star in ${season}`,
+      difficulty: 'tricky',
+      fetch: async () => getCombinedAwardRecipients('ALAS', 'NLAS', season),
     },
   ];
 }
@@ -403,7 +463,9 @@ async function tryBuildCategory(
 }
 
 async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | null> {
-  const templates = buildTemplates();
+  const season = randomSeason(2000, new Date().getFullYear());
+  console.log(`  Featured season: ${season}`);
+  const templates = buildTemplates(season);
   const difficulties: ('easy' | 'medium' | 'hard' | 'tricky')[] = [
     'easy', 'medium', 'hard', 'tricky',
   ];
@@ -434,7 +496,7 @@ async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | nul
     }
   }
 
-  return { id, date: dateStr, categories };
+  return { id, date: dateStr, season, categories };
 }
 
 // ----- Main -----

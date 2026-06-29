@@ -68,6 +68,7 @@ export class GameService {
       mistakesRemaining: 4,
       gameOver: false,
       gameWon: false,
+      yearRevealed: false,
     };
   }
 

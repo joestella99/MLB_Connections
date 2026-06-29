@@ -1,0 +1,58 @@
+name: Generate Puzzles & Deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Run daily at 6:00 AM UTC (2:00 AM ET) to generate fresh puzzles
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      # Install root Angular dependencies
+      - run: npm ci
+
+      # Install server dependencies
+      - run: cd server && npm ci
+
+      # Generate fresh puzzles from MLB Stats API
+      - name: Generate puzzles
+        run: cd server && npx ts-node --transpile-only src/generate-from-api.ts 14
+
+      # Build Angular for GitHub Pages
+      - run: npx ng build --configuration production --base-href /MLB_Connections/
+
+      # Copy 404.html for SPA routing on GitHub Pages
+      - name: Copy index.html to 404.html
+        run: cp dist/mlb-connections/browser/index.html dist/mlb-connections/browser/404.html
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/mlb-connections/browser
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

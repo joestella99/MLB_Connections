@@ -55,6 +55,20 @@
     }
   </div>
 
+  <!-- Year Reveal -->
+  @if (hasSeason && !state.yearRevealed && !state.gameOver) {
+    <div class="year-reveal">
+      <button class="btn btn-hint" (click)="revealYear()">
+        🗓️ Reveal Season Year (−1 life)
+      </button>
+    </div>
+  }
+  @if (state.yearRevealed && state.puzzle.season) {
+    <div class="year-badge">
+      ⚾ Featured Season: <strong>{{ state.puzzle.season }}</strong>
+    </div>
+  }
+
   <!-- Controls -->
   <div class="controls">
     <button class="btn btn-secondary" (click)="shuffle()" [disabled]="state.gameOver">
