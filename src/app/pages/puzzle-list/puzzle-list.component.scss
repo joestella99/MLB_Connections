@@ -56,4 +56,21 @@
     margin-top: 4px;
     opacity: 0.7;
   }
+
+  .today-badge {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    background: #c0392b;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  &.today {
+    border-color: #c0392b;
+    box-shadow: 0 0 12px rgba(192, 57, 43, 0.3);
+  }
 }

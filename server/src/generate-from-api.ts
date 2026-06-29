@@ -499,38 +499,86 @@ async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | nul
   return { id, date: dateStr, season, categories };
 }
 
+// ----- File I/O helpers -----
+
+const OUT_DIR = path.resolve(__dirname, '../../public/data');
+const OUT_PATH = path.join(OUT_DIR, 'puzzles.json');
+
+function readCatalog(): Puzzle[] {
+  if (!fs.existsSync(OUT_PATH)) return [];
+  try {
+    return JSON.parse(fs.readFileSync(OUT_PATH, 'utf-8'));
+  } catch {
+    return [];
+  }
+}
+
+function writeCatalog(puzzles: Puzzle[]): void {
+  if (!fs.existsSync(OUT_DIR)) {
+    fs.mkdirSync(OUT_DIR, { recursive: true });
+  }
+  // Sort by date ascending
+  puzzles.sort((a, b) => a.date.localeCompare(b.date));
+  fs.writeFileSync(OUT_PATH, JSON.stringify(puzzles, null, 2));
+}
+
 // ----- Main -----
 
 async function main(): Promise<void> {
-  console.log('=== MLB Connections Puzzle Generator (API-only) ===\n');
+  const isAppend = process.argv.includes('--append');
 
-  const numPuzzles = parseInt(process.argv[2] || '7', 10);
-  const puzzles: Puzzle[] = [];
-  const today = new Date();
+  if (isAppend) {
+    // === DAILY MODE: append one puzzle for today ===
+    console.log('=== MLB Connections — Daily Puzzle Generation ===\n');
 
-  for (let i = 0; i < numPuzzles; i++) {
-    const date = new Date(today);
-    date.setDate(date.getDate() + i);
-    const dateStr = date.toISOString().slice(0, 10);
+    const catalog = readCatalog();
+    const todayStr = new Date().toISOString().slice(0, 10);
 
-    console.log(`\nGenerating puzzle #${i + 1} for ${dateStr}...`);
-    const puzzle = await generatePuzzle(i + 1, dateStr);
-    if (puzzle) {
-      puzzles.push(puzzle);
+    const existing = catalog.find((p) => p.date === todayStr);
+    if (existing) {
+      console.log(`Puzzle for ${todayStr} already exists (id=${existing.id}). Skipping.`);
+      return;
     }
+
+    const nextId = catalog.length > 0
+      ? Math.max(...catalog.map((p) => p.id)) + 1
+      : 1;
+
+    console.log(`Generating puzzle #${nextId} for ${todayStr}...`);
+    const puzzle = await generatePuzzle(nextId, todayStr);
+
+    if (puzzle) {
+      catalog.push(puzzle);
+      writeCatalog(catalog);
+      console.log(`\n✓ Appended puzzle #${nextId} (${todayStr}) → ${OUT_PATH}`);
+      console.log(`  Catalog now has ${catalog.length} puzzles.`);
+    } else {
+      console.error('✗ Failed to generate a valid puzzle for today.');
+      process.exit(1);
+    }
+  } else {
+    // === BATCH MODE: generate N puzzles from scratch ===
+    console.log('=== MLB Connections Puzzle Generator (batch) ===\n');
+
+    const numPuzzles = parseInt(process.argv[2] || '7', 10);
+    const puzzles: Puzzle[] = [];
+    const today = new Date();
+
+    for (let i = 0; i < numPuzzles; i++) {
+      const date = new Date(today);
+      date.setDate(date.getDate() + i);
+      const dateStr = date.toISOString().slice(0, 10);
+
+      console.log(`\nGenerating puzzle #${i + 1} for ${dateStr}...`);
+      const puzzle = await generatePuzzle(i + 1, dateStr);
+      if (puzzle) {
+        puzzles.push(puzzle);
+      }
+    }
+
+    writeCatalog(puzzles);
+    console.log(`\n✓ Generated ${puzzles.length} puzzles → ${OUT_PATH}`);
   }
-
-  // Write to Angular public assets
-  const outDir = path.resolve(__dirname, '../../public/data');
-  if (!fs.existsSync(outDir)) {
-    fs.mkdirSync(outDir, { recursive: true });
-  }
-
-  const outPath = path.join(outDir, 'puzzles.json');
-  fs.writeFileSync(outPath, JSON.stringify(puzzles, null, 2));
-
-  console.log(`\n✓ Generated ${puzzles.length} puzzles → ${outPath}`);
-  console.log('  Run "ng serve" and the app will load these automatically.');
 }
 
 main().catch((err) => {

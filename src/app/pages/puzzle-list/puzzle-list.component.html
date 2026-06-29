@@ -5,9 +5,12 @@
   } @else {
   <div class="puzzle-grid">
     @for (puzzle of puzzles; track puzzle.id) {
-      <a class="puzzle-card" [routerLink]="['/play', puzzle.id]">
+      <a class="puzzle-card" [routerLink]="['/play', puzzle.id]" [class.today]="isToday(puzzle.date)">
+        @if (isToday(puzzle.date)) {
+          <span class="today-badge">TODAY</span>
+        }
         <span class="puzzle-number">#{{ puzzle.id }}</span>
-        <span class="puzzle-date">{{ puzzle.date }}</span>
+        <span class="puzzle-date">{{ formatDate(puzzle.date) }}</span>
       </a>
     }
   </div>

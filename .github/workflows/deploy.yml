@@ -1,15 +1,15 @@
-name: Generate Puzzles & Deploy
+name: Daily Puzzle & Deploy
 
 on:
   push:
     branches: [main]
   schedule:
-    # Run daily at 6:00 AM UTC (2:00 AM ET) to generate fresh puzzles
+    # Run daily at 6:00 AM UTC (2:00 AM ET)
     - cron: '0 6 * * *'
   workflow_dispatch: # Allow manual trigger
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -37,9 +37,21 @@ jobs:
       # Install server dependencies
       - run: cd server && npm ci
 
-      # Generate fresh puzzles from MLB Stats API
-      - name: Generate puzzles
-        run: cd server && npx ts-node --transpile-only src/generate-from-api.ts 14
+      # Daily cron: append one puzzle for today
+      # Push/manual: just build what's already in the catalog
+      - name: Generate today's puzzle
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: cd server && npx ts-node --transpile-only src/generate-from-api.ts --append
+
+      # Commit updated catalog back to repo (only if changed)
+      - name: Commit puzzle catalog
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/puzzles.json
+          git diff --cached --quiet || git commit -m "🧩 Daily puzzle for $(date -u +%Y-%m-%d)"
+          git push
 
       # Build Angular for GitHub Pages
       - run: npx ng build --configuration production --base-href /MLB_Connections/

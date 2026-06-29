@@ -18,8 +18,18 @@ export class PuzzleListComponent implements OnInit {
 
   ngOnInit(): void {
     this.gameService.getPuzzleListFromApi().subscribe((list) => {
-      this.puzzles = list;
+      // Sort newest first
+      this.puzzles = list.sort((a, b) => b.date.localeCompare(a.date));
       this.loading = false;
     });
+  }
+
+  formatDate(dateStr: string): string {
+    const d = new Date(dateStr + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+  }
+
+  isToday(dateStr: string): boolean {
+    return dateStr === new Date().toISOString().slice(0, 10);
   }
 }

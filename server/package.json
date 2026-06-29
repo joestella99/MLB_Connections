@@ -7,6 +7,7 @@
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "generate": "ts-node-dev --transpile-only src/generate-from-api.ts",
+    "generate:daily": "ts-node-dev --transpile-only src/generate-from-api.ts --append",
     "ingest:lahman": "ts-node-dev --transpile-only src/ingest/lahman-import.ts",
     "ingest:mlbapi": "ts-node-dev --transpile-only src/ingest/mlb-api-import.ts",
     "generate:puzzles": "ts-node-dev --transpile-only src/puzzles/generate-puzzles.ts"

@@ -14,6 +14,7 @@
     "ingest:lahman": "cd server && npm run ingest:lahman",
     "ingest:mlbapi": "cd server && npm run ingest:mlbapi",
     "generate": "cd server && npm run generate",
+    "generate:daily": "cd server && npm run generate:daily",
     "generate:puzzles": "cd server && npm run generate:puzzles"
   },
   "private": true,
