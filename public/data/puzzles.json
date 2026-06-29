@@ -1,141 +1,141 @@
 [
   {
     "id": 1,
-    "date": "2026-06-29",
-    "season": 2015,
+    "date": "2026-06-27",
+    "season": 2004,
     "categories": [
       {
-        "name": "500+ Career Doubles",
+        "name": "Hall of Famers",
         "difficulty": "easy",
         "words": [
-          "HONUS WAGNER",
-          "MANNY RAMIREZ",
-          "ED DELAHANTY",
-          "PAUL MOLITOR"
+          "JOE CRONIN",
+          "NED HANLON",
+          "BIZ MACKEY",
+          "JOE GORDON"
         ]
       },
       {
-        "name": "70+ Extra-Base Hits in 2015",
+        "name": "300+ Career Wins (Pitchers)",
         "difficulty": "medium",
         "words": [
-          "PAUL GOLDSCHMIDT",
-          "JOSÉ BAUTISTA",
-          "BRYCE HARPER",
-          "MATT CARPENTER"
+          "STEVE CARLTON",
+          "WALTER JOHNSON",
+          "CHRISTY MATHEWSON",
+          "CY YOUNG"
         ]
       },
       {
-        "name": "ERA Under 3.00 in 2015",
+        "name": "15+ Wins (Pitching) in 2004",
         "difficulty": "hard",
         "words": [
-          "ZACK GREINKE",
-          "JOHN LACKEY",
-          "GERRIT COLE",
-          "MATT HARVEY"
+          "MARK BUEHRLE",
+          "RANDY JOHNSON",
+          "SHAWN ESTES",
+          "CARLOS ZAMBRANO"
         ]
       },
       {
-        "name": "All-Star in 2015",
+        "name": "Won Rookie of the Year",
         "difficulty": "tricky",
         "words": [
-          "SALVADOR PEREZ",
-          "SHELBY MILLER",
-          "MATT HOLLIDAY",
-          "ANDREW MCCUTCHEN"
+          "CAL RIPKEN JR.",
+          "MARK MCGWIRE",
+          "BRYCE HARPER",
+          "CRAIG KIMBREL"
         ]
       }
     ]
   },
   {
     "id": 2,
-    "date": "2026-06-30",
-    "season": 2018,
+    "date": "2026-06-28",
+    "season": 2015,
     "categories": [
       {
-        "name": "500+ Career Home Runs",
+        "name": "Hall of Famers",
         "difficulty": "easy",
         "words": [
-          "EDDIE MATHEWS",
-          "WILLIE MCCOVEY",
-          "TED WILLIAMS",
-          "EDDIE MURRAY"
+          "NELLIE FOX",
+          "ROGERS HORNSBY",
+          "HACK WILSON",
+          "LEFTY GROVE"
         ]
       },
       {
-        "name": "70+ Extra-Base Hits in 2018",
+        "name": "300+ Career Wins (Pitchers)",
         "difficulty": "medium",
         "words": [
-          "KHRIS DAVIS",
-          "FRANCISCO LINDOR",
-          "JAVIER BÁEZ",
-          "RHYS HOSKINS"
+          "PHIL NIEKRO",
+          "GROVER ALEXANDER",
+          "EDDIE PLANK",
+          "JOHN CLARKSON"
         ]
       },
       {
-        "name": "200+ Strikeouts (Pitching) in 2018",
+        "name": "15+ Wins (Pitching) in 2015",
         "difficulty": "hard",
         "words": [
-          "JUSTIN VERLANDER",
-          "MIKE FOLTYNEWICZ",
-          "MAX SCHERZER",
-          "TREVOR BAUER"
+          "MICHAEL WACHA",
+          "DALLAS KEUCHEL",
+          "MARK BUEHRLE",
+          "GERRIT COLE"
         ]
       },
       {
-        "name": "World Series MVP",
+        "name": "All-Star in 2015",
         "difficulty": "tricky",
         "words": [
-          "SALVADOR PEREZ",
-          "REGGIE JACKSON",
-          "TOM GLAVINE",
-          "SANDY KOUFAX"
+          "CARLOS MARTINEZ",
+          "MIKE MOUSTAKAS",
+          "KRIS BRYANT",
+          "AROLDIS CHAPMAN"
         ]
       }
     ]
   },
   {
     "id": 3,
-    "date": "2026-07-01",
-    "season": 2005,
+    "date": "2026-06-29",
+    "season": 2013,
     "categories": [
       {
-        "name": "1,500+ Career RBI",
+        "name": "500+ Career Doubles",
         "difficulty": "easy",
         "words": [
-          "TONY PEREZ",
-          "HARRY HEILMANN",
-          "KEN GRIFFEY JR.",
-          "AL KALINE"
+          "HANK AARON",
+          "TRISTRAM SPEAKER",
+          "DAVE PARKER",
+          "FREDDIE FREEMAN"
         ]
       },
       {
-        "name": "70+ Extra-Base Hits in 2005",
+        "name": "250-299 Career Wins (Pitchers)",
         "difficulty": "medium",
         "words": [
-          "MANNY RAMIREZ",
-          "RICHIE SEXSON",
-          "ALEX RODRIGUEZ",
-          "ANDRUW JONES"
+          "RED FABER",
+          "CARL HUBBELL",
+          "JUSTIN VERLANDER",
+          "JACK MORRIS"
         ]
       },
       {
-        "name": "Won AL or NL MVP",
+        "name": "200+ Strikeouts (Pitching) in 2013",
         "difficulty": "hard",
         "words": [
-          "LARRY WALKER",
-          "CODY BELLINGER",
-          "BUCKY WALTERS",
-          "CHRISTIAN YELICH"
+          "CLAYTON KERSHAW",
+          "JEFF SAMARDZIJA",
+          "ANÍBAL SÁNCHEZ",
+          "COLE HAMELS"
         ]
       },
       {
         "name": "World Series MVP",
         "difficulty": "tricky",
         "words": [
-          "DAVE STEWART",
-          "HIDEKI MATSUI",
-          "GENE TENACE",
-          "JERMAINE DYE"
+          "REGGIE JACKSON",
+          "STEVE PEARCE",
+          "SCOTT BROSIUS",
+          "GENE TENACE"
         ]
       }
     ]

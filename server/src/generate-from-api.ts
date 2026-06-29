@@ -557,7 +557,7 @@ async function main(): Promise<void> {
       process.exit(1);
     }
   } else {
-    // === BATCH MODE: generate N puzzles from scratch ===
+    // === BATCH MODE: generate N puzzles ending at today ===
     console.log('=== MLB Connections Puzzle Generator (batch) ===\n');
 
     const numPuzzles = parseInt(process.argv[2] || '7', 10);
@@ -566,7 +566,7 @@ async function main(): Promise<void> {
 
     for (let i = 0; i < numPuzzles; i++) {
       const date = new Date(today);
-      date.setDate(date.getDate() + i);
+      date.setDate(date.getDate() - (numPuzzles - 1 - i)); // go backward so last puzzle = today
       const dateStr = date.toISOString().slice(0, 10);
 
       console.log(`\nGenerating puzzle #${i + 1} for ${dateStr}...`);
