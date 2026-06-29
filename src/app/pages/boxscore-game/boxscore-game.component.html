@@ -1,0 +1,254 @@
+<div class="boxscore-container">
+  <!-- Loading -->
+  <div *ngIf="state.loading" class="loading">
+    <div class="spinner"></div>
+    <p>Finding a random game...</p>
+  </div>
+
+  <!-- Error -->
+  <div *ngIf="state.error" class="error-card">
+    <p>{{ state.error }}</p>
+    <button class="btn-primary" (click)="loadGame()">Try Again</button>
+  </div>
+
+  <!-- Game Info -->
+  <div *ngIf="state.game && !state.loading" class="game-content">
+    <div class="game-header">
+      <h1>Box Score Challenge</h1>
+      <p class="subtitle">Guess the final box score</p>
+    </div>
+
+    <!-- Matchup Card -->
+    <div class="matchup-card">
+      <div class="matchup-date">{{ formatDate(state.game.gameDate) }}</div>
+      <div class="matchup-teams">
+        <div class="team away">
+          <span class="team-name">{{ state.game.awayTeam.name }}</span>
+          <span class="team-label">AWAY</span>
+        </div>
+        <div class="vs">&#64;</div>
+        <div class="team home">
+          <span class="team-name">{{ state.game.homeTeam.name }}</span>
+          <span class="team-label">HOME</span>
+        </div>
+      </div>
+      <div class="matchup-venue">📍 {{ state.game.venue }}</div>
+      <div *ngIf="state.game.weather" class="matchup-weather">🌤️ {{ state.game.weather }}</div>
+    </div>
+
+    <!-- Pitchers -->
+    <div class="pitchers-card" *ngIf="state.game.awayProbable || state.game.homeProbable">
+      <h3>Starting Pitchers</h3>
+      <div class="pitchers-row">
+        <div class="pitcher">
+          <span class="pitcher-team">{{ state.game.awayTeam.abbreviation }}</span>
+          <span class="pitcher-name">{{ state.game.awayProbable || 'Unknown' }}</span>
+        </div>
+        <span class="pitcher-vs">vs</span>
+        <div class="pitcher">
+          <span class="pitcher-team">{{ state.game.homeTeam.abbreviation }}</span>
+          <span class="pitcher-name">{{ state.game.homeProbable || 'Unknown' }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lineups Toggle -->
+    <button class="btn-lineups" (click)="toggleLineups()">
+      {{ showLineups ? '▲ Hide Lineups' : '▼ Show Lineups' }}
+    </button>
+
+    <div *ngIf="showLineups" class="lineups-card">
+      <div class="lineup-col">
+        <h4>{{ state.game.awayTeam.abbreviation }} Lineup</h4>
+        <ol>
+          <li *ngFor="let p of state.game.awayLineup">{{ p }}</li>
+        </ol>
+      </div>
+      <div class="lineup-col">
+        <h4>{{ state.game.homeTeam.abbreviation }} Lineup</h4>
+        <ol>
+          <li *ngFor="let p of state.game.homeLineup">{{ p }}</li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Guess Form -->
+    <div *ngIf="!state.submitted" class="guess-form">
+      <h3>Your Predictions</h3>
+      <p class="form-hint">Runs are required. Other stats earn bonus points!</p>
+
+      <div class="stat-table">
+        <div class="stat-header">
+          <span></span>
+          <span>{{ state.game.awayTeam.abbreviation }}</span>
+          <span>{{ state.game.homeTeam.abbreviation }}</span>
+        </div>
+
+        <div class="stat-row">
+          <label>Runs *</label>
+          <input type="number" min="0" max="99" [(ngModel)]="state.guess.awayRuns" placeholder="—">
+          <input type="number" min="0" max="99" [(ngModel)]="state.guess.homeRuns" placeholder="—">
+        </div>
+
+        <div class="stat-row">
+          <label>Hits</label>
+          <input type="number" min="0" max="40" [(ngModel)]="state.guess.awayHits" placeholder="—">
+          <input type="number" min="0" max="40" [(ngModel)]="state.guess.homeHits" placeholder="—">
+        </div>
+
+        <div class="stat-row">
+          <label>Errors</label>
+          <input type="number" min="0" max="15" [(ngModel)]="state.guess.awayErrors" placeholder="—">
+          <input type="number" min="0" max="15" [(ngModel)]="state.guess.homeErrors" placeholder="—">
+        </div>
+
+        <div class="stat-row">
+          <label>Home Runs</label>
+          <input type="number" min="0" max="15" [(ngModel)]="state.guess.awayHR" placeholder="—">
+          <input type="number" min="0" max="15" [(ngModel)]="state.guess.homeHR" placeholder="—">
+        </div>
+
+        <div class="stat-row">
+          <label>Strikeouts</label>
+          <input type="number" min="0" max="30" [(ngModel)]="state.guess.awayStrikeouts" placeholder="—">
+          <input type="number" min="0" max="30" [(ngModel)]="state.guess.homeStrikeouts" placeholder="—">
+        </div>
+      </div>
+
+      <button
+        class="btn-submit"
+        [disabled]="!isGuessComplete"
+        (click)="submitGuess()">
+        🔒 Lock In Predictions
+      </button>
+    </div>
+
+    <!-- Results -->
+    <div *ngIf="state.submitted && state.breakdown && state.actual" class="results-section">
+      <div class="score-hero">
+        <div class="score-grade grade-{{ scoreGrade.toLowerCase() }}">{{ scoreGrade }}</div>
+        <div class="score-points">{{ state.breakdown.totalPoints }} / {{ state.breakdown.maxPoints }}</div>
+        <div class="score-pct">{{ scorePercent }}% Accuracy</div>
+      </div>
+
+      <!-- Actual vs Guess Table -->
+      <div class="results-table">
+        <div class="results-header">
+          <span></span>
+          <span>{{ state.game.awayTeam.abbreviation }}</span>
+          <span>{{ state.game.homeTeam.abbreviation }}</span>
+          <span>Pts</span>
+        </div>
+
+        <div class="results-row" [class.correct]="state.breakdown.awayRunPoints === 20">
+          <label>Runs</label>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.awayRuns ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.awayRuns }}</span>
+          </span>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.homeRuns ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.homeRuns }}</span>
+          </span>
+          <span class="pts">+{{ state.breakdown.awayRunPoints + state.breakdown.homeRunPoints }}</span>
+        </div>
+
+        <div class="results-row" [class.correct]="state.breakdown.awayHitPoints === 10">
+          <label>Hits</label>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.awayHits ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.awayHits }}</span>
+          </span>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.homeHits ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.homeHits }}</span>
+          </span>
+          <span class="pts">+{{ state.breakdown.awayHitPoints + state.breakdown.homeHitPoints }}</span>
+        </div>
+
+        <div class="results-row" [class.correct]="state.breakdown.awayErrorPoints === 5">
+          <label>Errors</label>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.awayErrors ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.awayErrors }}</span>
+          </span>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.homeErrors ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.homeErrors }}</span>
+          </span>
+          <span class="pts">+{{ state.breakdown.awayErrorPoints + state.breakdown.homeErrorPoints }}</span>
+        </div>
+
+        <div class="results-row" [class.correct]="state.breakdown.awayHRPoints === 10">
+          <label>HRs</label>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.awayHR ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.awayHR }}</span>
+          </span>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.homeHR ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.homeHR }}</span>
+          </span>
+          <span class="pts">+{{ state.breakdown.awayHRPoints + state.breakdown.homeHRPoints }}</span>
+        </div>
+
+        <div class="results-row" [class.correct]="state.breakdown.awayKPoints === 5">
+          <label>K's</label>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.awayStrikeouts ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.awayStrikeouts }}</span>
+          </span>
+          <span class="result-cell">
+            <span class="guess-val">{{ state.guess.homeStrikeouts ?? '—' }}</span>
+            <span class="actual-val">{{ state.actual.homeStrikeouts }}</span>
+          </span>
+          <span class="pts">+{{ state.breakdown.awayKPoints + state.breakdown.homeKPoints }}</span>
+        </div>
+      </div>
+
+      <!-- Bonus Breakdown -->
+      <div class="bonus-section">
+        <div class="bonus-row" [class.earned]="state.breakdown.correctWinner">
+          <span>{{ state.breakdown.correctWinner ? '✅' : '❌' }} Correct Winner</span>
+          <span>+{{ state.breakdown.winnerPoints }}</span>
+        </div>
+        <div class="bonus-row" [class.earned]="state.breakdown.runDiffPoints > 0">
+          <span>📊 Run Differential</span>
+          <span>+{{ state.breakdown.runDiffPoints }}</span>
+        </div>
+        <div *ngIf="state.breakdown.perfectBonus > 0" class="bonus-row earned perfect">
+          <span>🏆 PERFECT BONUS</span>
+          <span>+{{ state.breakdown.perfectBonus }}</span>
+        </div>
+      </div>
+
+      <!-- Leaderboard Submit -->
+      <div *ngIf="!scoreSubmitted" class="submit-section">
+        <h3>Submit to Leaderboard</h3>
+        <div class="submit-row">
+          <input
+            type="text"
+            [(ngModel)]="playerName"
+            placeholder="Your name"
+            maxlength="20"
+            class="name-input">
+          <button
+            class="btn-submit-score"
+            [disabled]="!playerName.trim()"
+            (click)="submitToLeaderboard()">
+            Submit Score
+          </button>
+        </div>
+      </div>
+      <div *ngIf="scoreSubmitted" class="submitted-msg">
+        ✅ Score submitted! <a routerLink="/leaderboard">View Leaderboard →</a>
+      </div>
+
+      <!-- Play Again -->
+      <div class="play-again">
+        <button class="btn-primary" (click)="loadGame()">🎲 New Game</button>
+        <a routerLink="/leaderboard" class="btn-secondary">🏆 Leaderboard</a>
+      </div>
+    </div>
+  </div>
+</div>

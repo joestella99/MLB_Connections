@@ -1,0 +1,47 @@
+<div class="leaderboard-container">
+  <div class="leaderboard-header">
+    <h1>🏆 Leaderboard</h1>
+    <p class="subtitle">Box Score Challenge Top Scores</p>
+  </div>
+
+  <div *ngIf="loading" class="loading">Loading scores...</div>
+
+  <div *ngIf="!loading && entries.length === 0" class="empty">
+    <p>No scores yet! Be the first.</p>
+    <a routerLink="/boxscore" class="btn-play">Play Box Score Challenge →</a>
+  </div>
+
+  <div *ngIf="!loading && entries.length > 0" class="leaderboard-table">
+    <div class="table-header">
+      <span class="col-rank">#</span>
+      <span class="col-name">Player</span>
+      <span class="col-score">Score</span>
+      <span class="col-acc">Acc%</span>
+      <span class="col-game">Game</span>
+    </div>
+
+    <div
+      *ngFor="let entry of entries; let i = index"
+      class="table-row"
+      [ngClass]="getRankClass(i)">
+      <span class="col-rank rank-icon">{{ getRankIcon(i) }}</span>
+      <span class="col-name">
+        <span class="player-name">{{ entry.playerName }}</span>
+        <span class="winner-badge" *ngIf="entry.correctWinner">✅</span>
+      </span>
+      <span class="col-score">
+        <strong>{{ entry.score }}</strong>
+        <span class="max-score">/{{ entry.maxScore }}</span>
+      </span>
+      <span class="col-acc">{{ entry.accuracy }}%</span>
+      <span class="col-game">
+        <span class="matchup-text">{{ entry.matchup }}</span>
+        <span class="game-date">{{ formatDate(entry.gameDate) }}</span>
+      </span>
+    </div>
+  </div>
+
+  <div class="leaderboard-actions">
+    <a routerLink="/boxscore" class="btn-play">🎲 Play Again</a>
+  </div>
+</div>
