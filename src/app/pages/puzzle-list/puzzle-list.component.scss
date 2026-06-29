@@ -1,0 +1,59 @@
+.puzzle-list-page {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  font-family: 'Roboto Condensed', 'Segoe UI', system-ui, sans-serif;
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+.puzzle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
+
+.puzzle-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: #1c2e4a;
+  border: 2px solid #2a4060;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #e0d6c2;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+
+  &:hover {
+    background: #c0392b;
+    border-color: #e74c3c;
+    color: #fff;
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(192, 57, 43, 0.4);
+  }
+
+  .puzzle-number {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .puzzle-date {
+    font-size: 0.85rem;
+    margin-top: 4px;
+    opacity: 0.7;
+  }
+}

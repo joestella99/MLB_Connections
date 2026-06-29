@@ -1,0 +1,15 @@
+<div class="puzzle-list-page">
+  <h1>All Puzzles</h1>
+  @if (loading) {
+    <p class="loading">Loading puzzles...</p>
+  } @else {
+  <div class="puzzle-grid">
+    @for (puzzle of puzzles; track puzzle.id) {
+      <a class="puzzle-card" [routerLink]="['/play', puzzle.id]">
+        <span class="puzzle-number">#{{ puzzle.id }}</span>
+        <span class="puzzle-date">{{ puzzle.date }}</span>
+      </a>
+    }
+  </div>
+  }
+</div>

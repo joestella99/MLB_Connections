@@ -1,0 +1,29 @@
+{
+  "name": "mlb-connections-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "generate": "ts-node-dev --transpile-only src/generate-from-api.ts",
+    "ingest:lahman": "ts-node-dev --transpile-only src/ingest/lahman-import.ts",
+    "ingest:mlbapi": "ts-node-dev --transpile-only src/ingest/mlb-api-import.ts",
+    "generate:puzzles": "ts-node-dev --transpile-only src/puzzles/generate-puzzles.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "@types/pg": "^8.11.8",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "~5.5.2"
+  }
+}

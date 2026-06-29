@@ -1,0 +1,94 @@
+.how-to-play {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 32px 20px;
+  font-family: 'Roboto Condensed', 'Segoe UI', system-ui, sans-serif;
+
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+.section {
+  margin-bottom: 24px;
+
+  h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #e0d6c2;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+  }
+
+  p,
+  li {
+    font-size: 1rem;
+    color: #8a9bc0;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 6px;
+    }
+  }
+}
+
+.difficulty-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.diff-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  color: #8a9bc0;
+}
+
+.diff-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 12px 32px;
+  background: #c0392b;
+  color: #fff;
+  border: 2px solid #e74c3c;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #e74c3c;
+    box-shadow: 0 0 12px rgba(192, 57, 43, 0.4);
+  }
+}

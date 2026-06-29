@@ -1,0 +1,89 @@
+<div class="game-container">
+  @if (loading) {
+    <div class="loading">Loading puzzle...</div>
+  } @else {
+  <div class="game-header">
+    <h1>MLB Connections</h1>
+    <p class="subtitle">Find four groups of four!</p>
+  </div>
+
+  <!-- Message Banner -->
+  <div
+    class="message"
+    [class.error]="messageType === 'error'"
+    [class.success]="messageType === 'success'"
+    [class.visible]="message"
+  >
+    {{ message }}
+  </div>
+
+  <!-- Solved Categories -->
+  <div class="solved-categories">
+    @for (cat of sortedSolvedCategories; track trackByCategory($index, cat)) {
+      <div
+        class="solved-row"
+        [style.background-color]="getCategoryColor(cat)"
+        [style.color]="getCategoryTextColor(cat)"
+      >
+        <div class="solved-name">{{ cat.name }}</div>
+        <div class="solved-words">{{ cat.words.join(', ') }}</div>
+      </div>
+    }
+  </div>
+
+  <!-- Game Grid (unsolved tiles) -->
+  @if (unsolvedTiles.length > 0) {
+    <div class="grid">
+      @for (tile of unsolvedTiles; track trackByWord($index, tile)) {
+        <button
+          class="tile"
+          [class.selected]="tile.selected"
+          [class.disabled]="state.gameOver"
+          (click)="toggleTile(tile)"
+        >
+          <span class="tile-text">{{ tile.word }}</span>
+        </button>
+      }
+    </div>
+  }
+
+  <!-- Mistakes Remaining -->
+  <div class="mistakes">
+    Mistakes remaining:
+    @for (dot of mistakesDots; track $index) {
+      <span class="dot">●</span>
+    }
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn btn-secondary" (click)="shuffle()" [disabled]="state.gameOver">
+      Shuffle
+    </button>
+    <button
+      class="btn btn-secondary"
+      (click)="deselectAll()"
+      [disabled]="selectedTiles.length === 0 || state.gameOver"
+    >
+      Deselect All
+    </button>
+    <button
+      class="btn btn-primary"
+      (click)="submit()"
+      [disabled]="selectedTiles.length !== 4 || state.gameOver"
+    >
+      Submit
+    </button>
+  </div>
+
+  <!-- Share Section -->
+  @if (showShare) {
+    <div class="share-section">
+      <pre class="share-text">{{ shareText }}</pre>
+      <button class="btn btn-primary" (click)="copyShare()">
+        Share Results
+      </button>
+    </div>
+  }
+  }
+</div>
