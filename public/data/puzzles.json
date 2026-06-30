@@ -139,5 +139,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "date": "2026-06-30",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ALBERT PUJOLS",
+          "FRANK THOMAS",
+          "EDDIE MURRAY",
+          "EDDIE MATHEWS"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "FERGIE JENKINS",
+          "JIM MCCORMICK",
+          "TONY MULLANE",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "JOSE MESA",
+          "RICH GOSSAGE",
+          "TOM HENKE",
+          "BRUCE SUTTER"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "PRINCE FIELDER",
+          "ADAM DUNN",
+          "CARLOS PENA",
+          "RYAN HOWARD"
+        ]
+      }
+    ]
   }
 ]
