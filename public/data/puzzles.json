@@ -186,5 +186,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 5,
+    "date": "2026-07-01",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "KEN GRIFFEY JR.",
+          "JOE DIMAGGIO",
+          "HARRY HEILMANN",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2011",
+        "difficulty": "medium",
+        "words": [
+          "JEFF FRANCOEUR",
+          "DAVID ORTIZ",
+          "ROBINSON CANÓ",
+          "ALEX GORDON"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "TOM SEAVER",
+          "DENNY MCLAIN",
+          "OREL HERSHISER",
+          "GAYLORD PERRY"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "TONY KUBEK",
+          "VINCE COLEMAN",
+          "MICHAEL HARRIS II",
+          "YORDAN ALVAREZ"
+        ]
+      }
+    ]
   }
 ]
