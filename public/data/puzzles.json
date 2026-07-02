@@ -233,5 +233,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 6,
+    "date": "2026-07-02",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "DAVE WINFIELD",
+          "HARRY HEILMANN",
+          "TONY PEREZ"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "BURLEIGH GRIMES",
+          "MIKE MUSSINA",
+          "JACK MORRIS",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2003",
+        "difficulty": "hard",
+        "words": [
+          "MANNY RAMIREZ",
+          "RICHARD HIDALGO",
+          "TROT NIXON",
+          "JIM EDMONDS"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2003",
+        "difficulty": "tricky",
+        "words": [
+          "RICHIE SEXSON",
+          "GARY SHEFFIELD",
+          "ALBERT PUJOLS",
+          "CARLOS DELGADO"
+        ]
+      }
+    ]
   }
 ]
