@@ -280,5 +280,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "date": "2026-07-03",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "JIMMIE FOXX",
+          "EDDIE MURRAY",
+          "MARK MCGWIRE"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2010",
+        "difficulty": "medium",
+        "words": [
+          "VERNON WELLS",
+          "DELMON YOUNG",
+          "ALFONSO SORIANO",
+          "JAMES LONEY"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2010",
+        "difficulty": "hard",
+        "words": [
+          "RAFAEL SORIANO",
+          "BRIAN WILSON",
+          "DAVID AARDSMA",
+          "JONATHAN PAPELBON"
+        ]
+      },
+      {
+        "name": "All-Star in 2010",
+        "difficulty": "tricky",
+        "words": [
+          "BRANDON PHILLIPS",
+          "EVAN MEEK",
+          "JUSTIN VERLANDER",
+          "CC SABATHIA"
+        ]
+      }
+    ]
   }
 ]
