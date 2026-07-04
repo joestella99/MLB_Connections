@@ -327,5 +327,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 8,
+    "date": "2026-07-04",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "BILLY WILLIAMS",
+          "TOM YAWKEY",
+          "FRED MCGRIFF",
+          "BILL DICKEY"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2025",
+        "difficulty": "medium",
+        "words": [
+          "KYLE SCHWARBER",
+          "AARON JUDGE",
+          "EUGENIO SUÁREZ",
+          "CHRISTIAN YELICH"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2025",
+        "difficulty": "hard",
+        "words": [
+          "AROLDIS CHAPMAN",
+          "TREVOR MEGILL",
+          "JEFF HOFFMAN",
+          "ROBERT SUAREZ"
+        ]
+      },
+      {
+        "name": "All-Star in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "CAL RALEIGH",
+          "MAIKEL GARCIA",
+          "BRENT ROOKER",
+          "ALEX BREGMAN"
+        ]
+      }
+    ]
   }
 ]
