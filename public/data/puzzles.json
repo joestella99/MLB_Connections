@@ -421,5 +421,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 10,
+    "date": "2026-07-06",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HAROLD BAINES",
+          "FRED MCGRIFF",
+          "ANDRE DAWSON",
+          "AL KALINE"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TOMMY JOHN",
+          "BERT BLYLEVEN",
+          "RED RUFFING",
+          "JAMIE MOYER"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2018",
+        "difficulty": "hard",
+        "words": [
+          "COREY KLUBER",
+          "MIKE CLEVINGER",
+          "BLAKE SNELL",
+          "GERMÁN MÁRQUEZ"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "MILES MIKOLAS",
+          "TREVOR BAUER",
+          "MAX SCHERZER",
+          "GERRIT COLE"
+        ]
+      }
+    ]
   }
 ]
