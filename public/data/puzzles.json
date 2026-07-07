@@ -468,5 +468,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 11,
+    "date": "2026-07-07",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JEFF BAGWELL",
+          "JUAN GONZALEZ",
+          "LOU GEHRIG",
+          "ANDRE DAWSON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2015",
+        "difficulty": "medium",
+        "words": [
+          "DAVID ORTIZ",
+          "BRYCE HARPER",
+          "MANNY MACHADO",
+          "JOSÉ BAUTISTA"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "DENNY MCLAIN",
+          "ROGER CLEMENS",
+          "ROGER CLEMENS",
+          "MIKE MCCORMICK"
+        ]
+      },
+      {
+        "name": "All-Star in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "RUSSELL MARTIN",
+          "TROY TULOWITZKI",
+          "MICHAEL WACHA",
+          "PRINCE FIELDER"
+        ]
+      }
+    ]
   }
 ]
