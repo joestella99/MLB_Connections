@@ -5,7 +5,7 @@
 
 .mode-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 
@@ -31,12 +31,16 @@
   background: linear-gradient(160deg, rgba(15, 64, 44, 0.86), rgba(8, 32, 25, 0.98));
 }
 
-.mode-card.boxscore {
+.mode-card.nfl {
+  background: linear-gradient(160deg, rgba(43, 32, 79, 0.82), rgba(18, 14, 36, 0.98));
+}
+
+.mode-card.boxscore-mlb {
   background: linear-gradient(160deg, rgba(78, 42, 18, 0.88), rgba(32, 20, 13, 0.98));
 }
 
-.mode-card.nfl {
-  background: linear-gradient(160deg, rgba(43, 32, 79, 0.82), rgba(18, 14, 36, 0.98));
+.mode-card.boxscore-nfl {
+  background: linear-gradient(160deg, rgba(20, 55, 74, 0.9), rgba(9, 26, 38, 0.98));
 }
 
 .card-topline {
