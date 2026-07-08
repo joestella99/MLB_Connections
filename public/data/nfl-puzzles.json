@@ -6,43 +6,43 @@
     "season": 2020,
     "categories": [
       {
-        "name": "AP NFL MVP Winners",
+        "name": "20+ Passing TDs in 2020",
         "difficulty": "easy",
         "words": [
-          "CAM NEWTON",
-          "ADRIAN PETERSON",
-          "MATT RYAN",
-          "TOM BRADY"
+          "DREW BREES",
+          "DEREK CARR",
+          "PHILIP RIVERS",
+          "KIRK COUSINS"
         ]
       },
       {
-        "name": "1,500+ Rushing Yards in 2012",
+        "name": "1,200+ Receiving Yards in 2020",
         "difficulty": "medium",
         "words": [
-          "ALFRED MORRIS",
-          "MARSHAWN LYNCH",
-          "AARIAN FOSTER",
-          "DOUG MARTIN"
+          "ALLEN ROBINSON",
+          "TRAVIS KELCE",
+          "DK METCALF",
+          "DAVANTE ADAMS"
         ]
       },
       {
-        "name": "5,000+ Passing Yards in a Season",
+        "name": "12+ Rushing TDs in 2020",
         "difficulty": "hard",
         "words": [
-          "PATRICK MAHOMES",
-          "DREW BREES",
-          "JAMEIS WINSTON",
-          "BEN ROETHLISBERGER"
+          "JOSH JACOBS",
+          "NICK CHUBB",
+          "DERRICK HENRY",
+          "ALVIN KAMARA"
         ]
       },
       {
-        "name": "Notable Rookie Quarterbacks",
+        "name": "130+ Total Tackles in 2020",
         "difficulty": "tricky",
         "words": [
-          "DAK PRESCOTT",
-          "JUSTIN HERBERT",
-          "ROBERT GRIFFIN III",
-          "RUSSELL WILSON"
+          "DEVIN WHITE",
+          "NEVILLE HEWITT",
+          "JAYLON SMITH",
+          "SHAQUILLE LEONARD"
         ]
       }
     ]
@@ -51,46 +51,46 @@
     "id": 2,
     "date": "2026-07-07",
     "sport": "nfl",
-    "season": 2008,
+    "season": 2020,
     "categories": [
       {
-        "name": "Hall of Fame Quarterbacks",
+        "name": "3,500+ Passing Yards in 2020",
         "difficulty": "easy",
         "words": [
-          "STEVE YOUNG",
-          "JOHN ELWAY",
-          "JOE MONTANA",
-          "TROY AIKMAN"
+          "KYLER MURRAY",
+          "DESHAUN WATSON",
+          "MATTHEW STAFFORD",
+          "JOSH ALLEN"
         ]
       },
       {
-        "name": "1,200+ Receiving Yards in 2018",
+        "name": "8+ Rushing TDs in 2020",
         "difficulty": "medium",
         "words": [
-          "DAVANTE ADAMS",
-          "JULIO JONES",
-          "MICHAEL THOMAS",
-          "DEANDRE HOPKINS"
+          "CAM NEWTON",
+          "AARON JONES SR.",
+          "NICK CHUBB",
+          "TAYSOM HILL"
         ]
       },
       {
-        "name": "Comeback Player of the Year Winners",
+        "name": "100+ Receptions in 2020",
         "difficulty": "hard",
         "words": [
-          "CHAD PENNINGTON",
-          "MATTHEW STAFFORD",
-          "JOE FLACCO",
-          "PHILIP RIVERS"
+          "DAVANTE ADAMS",
+          "TRAVIS KELCE",
+          "DARREN WALLER",
+          "ALLEN ROBINSON"
         ]
       },
       {
-        "name": "10+ Receiving TDs in 2020",
+        "name": "130+ Total Tackles in 2020",
         "difficulty": "tricky",
         "words": [
-          "ADAM THIELEN",
-          "TRAVIS KELCE",
-          "MIKE EVANS",
-          "TYREEK HILL"
+          "ZACH CUNNINGHAM",
+          "JAYLON SMITH",
+          "BOBBY WAGNER",
+          "JOE SCHOBERT"
         ]
       }
     ]
@@ -99,46 +99,46 @@
     "id": 3,
     "date": "2026-07-08",
     "sport": "nfl",
-    "season": 2023,
+    "season": 2006,
     "categories": [
       {
-        "name": "Hall of Fame Quarterbacks",
+        "name": "80+ Receptions in 2006",
         "difficulty": "easy",
         "words": [
-          "JOE MONTANA",
-          "DAN MARINO",
-          "BRETT FAVRE",
-          "JOHN ELWAY"
+          "TERRELL OWENS",
+          "JERRICHO COTCHERY",
+          "ANQUAN BOLDIN",
+          "TORRY HOLT"
         ]
       },
       {
-        "name": "Offensive Rookie of the Year Winners",
+        "name": "1,200+ Rushing Yards in 2006",
         "difficulty": "medium",
         "words": [
-          "JA'MARR CHASE",
-          "PERCY HARVIN",
-          "DAK PRESCOTT",
-          "ANQUAN BOLDIN"
+          "LADAINIAN TOMLINSON",
+          "BRIAN WESTBROOK",
+          "STEVEN JACKSON",
+          "WILLIE PARKER"
         ]
       },
       {
-        "name": "5,000+ Passing Yards in a Season",
+        "name": "12+ Rushing TDs in 2006",
         "difficulty": "hard",
         "words": [
-          "PATRICK MAHOMES",
-          "JUSTIN HERBERT",
-          "PEYTON MANNING",
-          "BEN ROETHLISBERGER"
+          "RUDI JOHNSON",
+          "COREY DILLON",
+          "MAURICE JONES-DREW",
+          "LARRY JOHNSON"
         ]
       },
       {
-        "name": "15+ Sacks in 2018",
+        "name": "130+ Total Tackles in 2006",
         "difficulty": "tricky",
         "words": [
-          "DEE FORD",
-          "AARON DONALD",
-          "CHANDLER JONES",
-          "DANIELLE HUNTER"
+          "ZACH THOMAS",
+          "LANCE BRIGGS",
+          "KEITH BROOKING",
+          "ANTONIO PIERCE"
         ]
       }
     ]

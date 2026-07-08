@@ -1,6 +1,13 @@
 import fs from 'fs';
 import path from 'path';
 
+// ESPN public NFL stats API (free, no auth). Follows the exact same
+// data-driven pattern as generate-from-api.ts (MLB): fetch stat leaders,
+// filter by threshold, build 4-player groups. NO hardcoded player names.
+const ESPN_CORE = 'https://sports.core.api.espn.com/v2/sports/football/leagues/nfl';
+
+// ----- Types (mirror MLB generator) -----
+
 type Difficulty = 'easy' | 'medium' | 'hard' | 'tricky';
 
 interface PlayerStat {
@@ -8,6 +15,13 @@ interface PlayerStat {
   playerId: number;
   value: string;
   numValue: number;
+}
+
+interface CategoryTemplate {
+  name: string;
+  difficulty: Difficulty;
+  fetch: () => Promise<PlayerStat[]>;
+  minPlayers?: number;
 }
 
 interface PuzzleCategory {
@@ -24,270 +38,461 @@ interface Puzzle {
   categories: PuzzleCategory[];
 }
 
-interface CategoryTemplate {
-  name: string;
-  difficulty: Difficulty;
-  fetch: (season: number) => PlayerStat[];
-  minPlayers?: number;
-}
-
 interface BuiltCategory {
   cat: PuzzleCategory;
   players: PlayerStat[];
   eligibleKeys: Set<string>;
+  pickedKeys: Set<string>;
 }
 
-interface CategoryDataset {
-  label: string;
-  players: string[];
-  season?: number;
-}
+// ----- File I/O paths -----
 
 const OUT_DIR = path.resolve(__dirname, '../../public/data');
 const OUT_PATH = path.join(OUT_DIR, 'nfl-puzzles.json');
 
-const AP_MVP_WINNERS = [
-  'AARON RODGERS', 'CAM NEWTON', 'LAMAR JACKSON', 'MATT RYAN', 'PATRICK MAHOMES', 'TOM BRADY', 'PEYTON MANNING', 'ADRIAN PETERSON',
-];
+// ----- API helpers -----
 
-const HALL_OF_FAME_QBS = [
-  'PEYTON MANNING', 'JOHN ELWAY', 'DAN MARINO', 'TROY AIKMAN', 'STEVE YOUNG', 'BRETT FAVRE', 'WARREN MOON', 'JOE MONTANA',
-];
+async function fetchJson(url: string): Promise<any> {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}: ${url}`);
+  return res.json();
+}
 
-const DPOY_WINNERS = [
-  'T.J. WATT', 'LUKE KUECHLY', 'AARON DONALD', 'STEPHON GILMORE', 'MICHAEL STRAHAN', 'J.J. WATT', 'CHARLES WOODSON', 'SHAQ LEONARD',
-];
+// Cache: `${season}:${category}` -> raw leaders array from ESPN
+const leadersCache = new Map<string, any[]>();
+// Cache: athleteId -> displayName
+const athleteCache = new Map<number, string>();
 
-const COMEBACK_PLAYERS = [
-  'GENO SMITH', 'ALEX SMITH', 'JOE FLACCO', 'CHAD PENNINGTON', 'RYAN TANNEHILL', 'PHILIP RIVERS', 'MATTHEW STAFFORD', 'RANDALL CUNNINGHAM',
-];
+async function getSeasonLeaders(
+  season: number,
+  category: string,
+  limit = 50
+): Promise<any[]> {
+  const key = `${season}:${category}`;
+  const cached = leadersCache.get(key);
+  if (cached) return cached;
 
-const SUPER_BOWL_MVPS = [
-  'PATRICK MAHOMES', 'COOPER KUPP', 'JULIAN EDELMAN', 'JOE FLACCO', 'VON MILLER', 'DREW BREES', 'AARON RODGERS', 'SANTONIO HOLMES',
-];
+  const url = `${ESPN_CORE}/seasons/${season}/types/2/leaders?limit=${limit}`;
+  const data = await fetchJson(url);
+  const categories: any[] = data.categories ?? [];
 
-const OROY_WINNERS = [
-  'C.J. STROUD', 'JA\'MARR CHASE', 'DAK PRESCOTT', 'PERCY HARVIN', 'SAQUON BARKLEY', 'ODELL BECKHAM JR.', 'ANQUAN BOLDIN', 'CAM NEWTON',
-];
+  // Cache every category returned so we don't refetch the same season endpoint.
+  for (const c of categories) {
+    leadersCache.set(`${season}:${c.name}`, c.leaders ?? []);
+  }
 
-const ROOKIE_QBS = [
-  'C.J. STROUD', 'JUSTIN HERBERT', 'ANDREW LUCK', 'DAK PRESCOTT', 'CAM NEWTON', 'RUSSELL WILSON', 'ROBERT GRIFFIN III', 'MATT RYAN',
-];
+  return leadersCache.get(key) ?? [];
+}
 
-const TWO_THOUSAND_RUSHERS = [
-  'ERIC DICKERSON', 'BARRY SANDERS', 'ADRIAN PETERSON', 'DERRICK HENRY', 'JAMAL LEWIS', 'CHRIS JOHNSON', 'TERRELL DAVIS', 'O.J. SIMPSON',
-];
+function athleteIdFromRef(ref: string): number {
+  const match = ref.match(/athletes\/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
 
-const PASS_5000_SEASON = [
-  'PEYTON MANNING', 'DREW BREES', 'TOM BRADY', 'PATRICK MAHOMES', 'JAMEIS WINSTON', 'JUSTIN HERBERT', 'DAN MARINO', 'BEN ROETHLISBERGER',
-];
+async function resolveAthleteName(id: number): Promise<string | null> {
+  if (id <= 0) return null;
+  const cached = athleteCache.get(id);
+  if (cached) return cached;
+  try {
+    const data = await fetchJson(
+      `${ESPN_CORE}/athletes/${id}?lang=en&region=us`
+    );
+    const name: string =
+      data.displayName || data.fullName || data.shortName || '';
+    if (!name) return null;
+    athleteCache.set(id, name);
+    return name;
+  } catch {
+    return null;
+  }
+}
 
-const CATEGORY_DATASETS: Record<string, CategoryDataset[]> = {
-  rushing1500: [
-    { label: '1,500+ Rushing Yards in 2013', season: 2013, players: ['LESEAN MCCOY', 'MATT FORTE', 'JAMAAL CHARLES', 'MARSHAWN LYNCH', 'ADRIAN PETERSON'] },
-    { label: '1,500+ Rushing Yards in 2012', season: 2012, players: ['ADRIAN PETERSON', 'AARIAN FOSTER', 'ALFRED MORRIS', 'DOUG MARTIN', 'MARSHAWN LYNCH'] },
-    { label: '1,500+ Rushing Yards in 2022', season: 2022, players: ['JOSH JACOBS', 'DERRICK HENRY', 'NICK CHUBB', 'SAQUON BARKLEY', 'MILES SANDERS'] },
-  ],
-  receiving1200: [
-    { label: '1,200+ Receiving Yards in 2021', season: 2021, players: ['COOPER KUPP', 'JUSTIN JEFFERSON', 'JA\'MARR CHASE', 'DEEBO SAMUEL', 'DAVANTE ADAMS'] },
-    { label: '1,200+ Receiving Yards in 2018', season: 2018, players: ['JULIO JONES', 'DEANDRE HOPKINS', 'MICHAEL THOMAS', 'TYREEK HILL', 'DAVANTE ADAMS'] },
-    { label: '1,200+ Receiving Yards in 2015', season: 2015, players: ['JULIO JONES', 'ANTONIO BROWN', 'DEANDRE HOPKINS', 'ALLEN ROBINSON', 'ODELL BECKHAM JR.'] },
-  ],
-  sacks15: [
-    { label: '15+ Sacks in 2021', season: 2021, players: ['T.J. WATT', 'ROBERT QUINN', 'MYLES GARRETT', 'TREY HENDRICKSON', 'NICK BOSA'] },
-    { label: '15+ Sacks in 2018', season: 2018, players: ['AARON DONALD', 'J.J. WATT', 'DEE FORD', 'CHANDLER JONES', 'DANIELLE HUNTER'] },
-    { label: '15+ Sacks in 2014', season: 2014, players: ['J.J. WATT', 'JUSTIN HOUSTON', 'ELVIS DUMERVIL', 'MUHAMMAD WILKERSON', 'CAMERON WAKE'] },
-  ],
-  tdReceptions10: [
-    { label: '10+ Receiving TDs in 2007', season: 2007, players: ['RANDY MOSS', 'TERRELL OWENS', 'T.J. HOUSHMANDZADEH', 'PLAXICO BURRESS', 'GREG JENNINGS'] },
-    { label: '10+ Receiving TDs in 2020', season: 2020, players: ['DAVANTE ADAMS', 'TYREEK HILL', 'ADAM THIELEN', 'MIKE EVANS', 'TRAVIS KELCE'] },
-    { label: '10+ Receiving TDs in 2014', season: 2014, players: ['DEZ BRYANT', 'JORDY NELSON', 'ANTONIO BROWN', 'DEMARYIUS THOMAS', 'ROBB GRONKOWSKI'] },
-  ],
-};
+// Resolve a batch of athlete IDs to names with limited concurrency.
+async function resolveAthletes(ids: number[]): Promise<Map<number, string>> {
+  const out = new Map<number, string>();
+  const unique = Array.from(new Set(ids)).filter((id) => id > 0);
+  const CONCURRENCY = 6;
+
+  let i = 0;
+  async function worker() {
+    while (i < unique.length) {
+      const id = unique[i++];
+      const name = await resolveAthleteName(id);
+      if (name) out.set(id, name);
+    }
+  }
+  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()));
+  return out;
+}
+
+// Convert filtered leaders into PlayerStat[], resolving names via cache.
+async function leadersToStats(
+  leaders: any[],
+  valueSuffix: string
+): Promise<PlayerStat[]> {
+  const withIds = leaders
+    .map((l: any) => {
+      const ref: string = l.athlete?.$ref ?? l.athlete?.ref ?? '';
+      const id = athleteIdFromRef(ref);
+      const rawNum =
+        typeof l.value === 'number' ? l.value : parseFloat(l.value);
+      const displayValue = l.displayValue ?? String(l.value ?? '');
+      return { id, rawNum, displayValue };
+    })
+    .filter((x) => x.id > 0);
+
+  const nameMap = await resolveAthletes(withIds.map((x) => x.id));
+
+  return withIds
+    .map((x) => {
+      const name = nameMap.get(x.id);
+      if (!name) return null;
+      return {
+        name,
+        playerId: x.id,
+        value: `${x.displayValue}${valueSuffix}`,
+        numValue: x.rawNum,
+      } as PlayerStat;
+    })
+    .filter((p): p is PlayerStat => p !== null);
+}
+
+// Fetch a stat category, filter by numeric threshold, and return
+// resolved PlayerStat[] with a value suffix.
+async function statCategory(
+  season: number,
+  category: string,
+  predicate: (numValue: number) => boolean,
+  suffix: string
+): Promise<PlayerStat[]> {
+  const leaders = await getSeasonLeaders(season, category);
+  const filtered = leaders.filter((l: any) => {
+    const v = typeof l.value === 'number' ? l.value : parseFloat(l.value);
+    return Number.isFinite(v) && predicate(v);
+  });
+  return leadersToStats(filtered, suffix);
+}
+
+// ----- Utility helpers (mirror MLB generator) -----
 
 function displayName(fullName: string): string {
   return fullName.trim().toUpperCase();
 }
 
 function playerKey(player: PlayerStat): string {
-  return player.playerId > 0 ? `id:${player.playerId}` : `name:${displayName(player.name)}`;
+  return player.playerId > 0
+    ? `id:${player.playerId}`
+    : `name:${displayName(player.name)}`;
 }
 
-function toPlayerStats(players: string[], value: string): PlayerStat[] {
-  return players.map((name) => ({ name, playerId: 0, value, numValue: 0 }));
+function dedupePlayers(players: PlayerStat[]): PlayerStat[] {
+  const seen = new Set<string>();
+  const unique: PlayerStat[] = [];
+  for (const p of players) {
+    const key = playerKey(p);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(p);
+  }
+  return unique;
 }
 
-function randomSeason(min = 2007, max = 2023): number {
+function randomSeason(min = 2005, max = new Date().getFullYear() - 1): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 function shuffle<T>(arr: T[]): T[] {
-  const copy = [...arr];
-  for (let i = copy.length - 1; i > 0; i--) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  return copy;
+  return a;
 }
 
-function findSeasonDataset(key: keyof typeof CATEGORY_DATASETS, season: number): CategoryDataset {
-  const exact = CATEGORY_DATASETS[key].find((dataset) => dataset.season === season);
-  return exact ?? CATEGORY_DATASETS[key][season % CATEGORY_DATASETS[key].length];
-}
+// ----- Category templates (all data-driven, threshold-based) -----
 
 function buildTemplates(season: number): CategoryTemplate[] {
-  const rushing = findSeasonDataset('rushing1500', season);
-  const receiving = findSeasonDataset('receiving1200', season);
-  const sacks = findSeasonDataset('sacks15', season);
-  const touchdowns = findSeasonDataset('tdReceptions10', season);
-
   return [
+    // ===== EASY — broadly known season milestones =====
     {
-      name: 'AP NFL MVP Winners',
+      name: `3,500+ Passing Yards in ${season}`,
       difficulty: 'easy',
-      fetch: () => toPlayerStats(AP_MVP_WINNERS, 'MVP'),
+      fetch: () =>
+        statCategory(season, 'passingYards', (v) => v >= 3500, ' YDS'),
     },
     {
-      name: 'Hall of Fame Quarterbacks',
+      name: `1,000+ Rushing Yards in ${season}`,
       difficulty: 'easy',
-      fetch: () => toPlayerStats(HALL_OF_FAME_QBS, 'HOF'),
+      fetch: () =>
+        statCategory(season, 'rushingYards', (v) => v >= 1000, ' YDS'),
     },
     {
-      name: 'Defensive Player of the Year Winners',
+      name: `1,000+ Receiving Yards in ${season}`,
       difficulty: 'easy',
-      fetch: () => toPlayerStats(DPOY_WINNERS, 'DPOY'),
+      fetch: () =>
+        statCategory(season, 'receivingYards', (v) => v >= 1000, ' YDS'),
     },
     {
-      name: rushing.label,
+      name: `80+ Receptions in ${season}`,
+      difficulty: 'easy',
+      fetch: () => statCategory(season, 'receptions', (v) => v >= 80, ' REC'),
+    },
+    {
+      name: `20+ Passing TDs in ${season}`,
+      difficulty: 'easy',
+      fetch: () =>
+        statCategory(season, 'passingTouchdowns', (v) => v >= 20, ' TD'),
+    },
+
+    // ===== MEDIUM — top-tier season production =====
+    {
+      name: `4,000+ Passing Yards in ${season}`,
       difficulty: 'medium',
-      fetch: () => toPlayerStats(rushing.players, `${season}`),
+      fetch: () =>
+        statCategory(season, 'passingYards', (v) => v >= 4000, ' YDS'),
     },
     {
-      name: receiving.label,
+      name: `1,200+ Rushing Yards in ${season}`,
       difficulty: 'medium',
-      fetch: () => toPlayerStats(receiving.players, `${season}`),
+      fetch: () =>
+        statCategory(season, 'rushingYards', (v) => v >= 1200, ' YDS'),
     },
     {
-      name: 'Offensive Rookie of the Year Winners',
+      name: `1,200+ Receiving Yards in ${season}`,
       difficulty: 'medium',
-      fetch: () => toPlayerStats(OROY_WINNERS, 'OROY'),
+      fetch: () =>
+        statCategory(season, 'receivingYards', (v) => v >= 1200, ' YDS'),
     },
     {
-      name: '5,000+ Passing Yards in a Season',
+      name: `100+ Total Tackles in ${season}`,
+      difficulty: 'medium',
+      fetch: () =>
+        statCategory(season, 'totalTackles', (v) => v >= 100, ' TCK'),
+    },
+    {
+      name: `8+ Rushing TDs in ${season}`,
+      difficulty: 'medium',
+      fetch: () =>
+        statCategory(season, 'rushingTouchdowns', (v) => v >= 8, ' TD'),
+    },
+    {
+      name: `8+ Receiving TDs in ${season}`,
+      difficulty: 'medium',
+      fetch: () =>
+        statCategory(season, 'receivingTouchdowns', (v) => v >= 8, ' TD'),
+    },
+
+    // ===== HARD — elite marks, narrower pools =====
+    {
+      name: `30+ Passing TDs in ${season}`,
       difficulty: 'hard',
-      fetch: () => toPlayerStats(PASS_5000_SEASON, '5000+ pass yds'),
+      fetch: () =>
+        statCategory(season, 'passingTouchdowns', (v) => v >= 30, ' TD'),
     },
     {
-      name: '2,000-Yard Rush Seasons',
+      name: `10+ Sacks in ${season}`,
       difficulty: 'hard',
-      fetch: () => toPlayerStats(TWO_THOUSAND_RUSHERS, '2000 rush yds'),
+      fetch: () => statCategory(season, 'sacks', (v) => v >= 10, ' SACK'),
     },
     {
-      name: 'Comeback Player of the Year Winners',
+      name: `5+ Interceptions in ${season}`,
       difficulty: 'hard',
-      fetch: () => toPlayerStats(COMEBACK_PLAYERS, 'CPOY'),
+      fetch: () =>
+        statCategory(season, 'interceptions', (v) => v >= 5, ' INT'),
     },
     {
-      name: sacks.label,
-      difficulty: 'tricky',
-      fetch: () => toPlayerStats(sacks.players, `${season}`),
+      name: `12+ Rushing TDs in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'rushingTouchdowns', (v) => v >= 12, ' TD'),
     },
     {
-      name: touchdowns.label,
-      difficulty: 'tricky',
-      fetch: () => toPlayerStats(touchdowns.players, `${season}`),
+      name: `12+ Receiving TDs in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'receivingTouchdowns', (v) => v >= 12, ' TD'),
     },
     {
-      name: 'Notable Rookie Quarterbacks',
-      difficulty: 'tricky',
-      fetch: () => toPlayerStats(ROOKIE_QBS, 'rookie QB'),
+      name: `4,500+ Passing Yards in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'passingYards', (v) => v >= 4500, ' YDS'),
     },
     {
-      name: 'Super Bowl MVP Winners',
+      name: `1,400+ Rushing Yards in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'rushingYards', (v) => v >= 1400, ' YDS'),
+    },
+    {
+      name: `1,400+ Receiving Yards in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'receivingYards', (v) => v >= 1400, ' YDS'),
+    },
+    {
+      name: `100+ Receptions in ${season}`,
+      difficulty: 'hard',
+      fetch: () =>
+        statCategory(season, 'receptions', (v) => v >= 100, ' REC'),
+    },
+
+    // ===== TRICKY — rare / elite achievements =====
+    {
+      name: `5,000+ Passing Yards in ${season}`,
       difficulty: 'tricky',
-      fetch: () => toPlayerStats(SUPER_BOWL_MVPS, 'SB MVP'),
+      fetch: () =>
+        statCategory(season, 'passingYards', (v) => v >= 5000, ' YDS'),
+    },
+    {
+      name: `1,600+ Rushing Yards in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'rushingYards', (v) => v >= 1600, ' YDS'),
+    },
+    {
+      name: `1,600+ Receiving Yards in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'receivingYards', (v) => v >= 1600, ' YDS'),
+    },
+    {
+      name: `15+ Sacks in ${season}`,
+      difficulty: 'tricky',
+      fetch: () => statCategory(season, 'sacks', (v) => v >= 15, ' SACK'),
+    },
+    {
+      name: `40+ Passing TDs in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'passingTouchdowns', (v) => v >= 40, ' TD'),
+    },
+    {
+      name: `15+ Rushing TDs in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'rushingTouchdowns', (v) => v >= 15, ' TD'),
+    },
+    {
+      name: `120+ Receptions in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'receptions', (v) => v >= 120, ' REC'),
+    },
+    {
+      name: `130+ Total Tackles in ${season}`,
+      difficulty: 'tricky',
+      fetch: () =>
+        statCategory(season, 'totalTackles', (v) => v >= 130, ' TCK'),
     },
   ];
 }
+
+// ----- Puzzle generation (mirrors MLB generator) -----
 
 async function tryBuildCategory(
   template: CategoryTemplate,
   usedNames: Set<string>,
   existing: BuiltCategory[]
 ): Promise<BuiltCategory | null> {
-  const players = template.fetch(0).filter((player, index, all) =>
-    all.findIndex((candidate) => displayName(candidate.name) === displayName(player.name)) === index
-  );
-  const available = players.filter((player) => !usedNames.has(displayName(player.name)));
+  try {
+    const players = dedupePlayers(await template.fetch());
+    const available = players.filter(
+      (p) => !usedNames.has(displayName(p.name))
+    );
 
-  if (available.length < (template.minPlayers ?? 4)) return null;
+    if (available.length < (template.minPlayers ?? 4)) return null;
 
-  const eligibleKeys = new Set(players.map((player) => playerKey(player)));
-  const attempts = Math.min(10, Math.max(4, available.length * 2));
+    const eligibleKeys = new Set(players.map((p) => playerKey(p)));
+    const attempts = Math.min(12, Math.max(4, available.length * 2));
 
-  for (let attempt = 0; attempt < attempts; attempt++) {
-    const picked = shuffle(available).slice(0, 4);
+    for (let attempt = 0; attempt < attempts; attempt++) {
+      const picked = shuffle(available).slice(0, 4);
+      const pickedKeys = new Set(picked.map((p) => playerKey(p)));
 
-    const isConfusingOverlap = existing.some((other) => {
-      const pickedFitsOther = picked.filter((player) => other.eligibleKeys.has(playerKey(player))).length;
-      const otherFitsPicked = other.players.filter((player) => eligibleKeys.has(playerKey(player))).length;
-      return pickedFitsOther === 4 || otherFitsPicked === 4;
-    });
+      if (pickedKeys.size < 4) continue;
 
-    if (isConfusingOverlap) continue;
+      const isConfusingOverlap = existing.some((other) => {
+        const pickedFitsOther = picked.filter((p) =>
+          other.eligibleKeys.has(playerKey(p))
+        ).length;
+        const otherFitsPicked = other.players.filter((p) =>
+          eligibleKeys.has(playerKey(p))
+        ).length;
+        return pickedFitsOther === 4 || otherFitsPicked === 4;
+      });
 
-    return {
-      cat: {
-        name: template.name,
-        difficulty: template.difficulty,
-        words: picked.map((player) => displayName(player.name)),
-      },
-      players: picked,
-      eligibleKeys,
-    };
+      if (isConfusingOverlap) continue;
+
+      return {
+        cat: {
+          name: template.name,
+          difficulty: template.difficulty,
+          words: picked.map((p) => displayName(p.name)),
+        },
+        players: picked,
+        eligibleKeys,
+        pickedKeys,
+      };
+    }
+
+    return null;
+  } catch (err) {
+    console.warn(`  ⚠ Skipping "${template.name}": ${(err as Error).message}`);
+    return null;
   }
-
-  return null;
 }
 
-async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | null> {
+async function generatePuzzle(
+  id: number,
+  dateStr: string
+): Promise<Puzzle | null> {
   const season = randomSeason();
-  const templates = buildTemplates(season).map((template) => ({
-    ...template,
-    fetch: () => template.fetch(season),
-  }));
+  console.log(`  Featured season: ${season}`);
+  const templates = buildTemplates(season);
   const difficulties: Difficulty[] = ['easy', 'medium', 'hard', 'tricky'];
 
   const usedNames = new Set<string>();
   const builtCategories: BuiltCategory[] = [];
   const categories: PuzzleCategory[] = [];
 
-  for (const difficulty of difficulties) {
-    const candidates = shuffle(templates.filter((template) => template.difficulty === difficulty));
+  for (const diff of difficulties) {
+    const candidates = shuffle(templates.filter((t) => t.difficulty === diff));
     let found = false;
 
     for (const template of candidates) {
-      const result = await tryBuildCategory(template, usedNames, builtCategories);
-      if (!result) continue;
-
-      result.players.forEach((player) => usedNames.add(displayName(player.name)));
-      builtCategories.push(result);
-      categories.push(result.cat);
-      found = true;
-      break;
+      const result = await tryBuildCategory(
+        template,
+        usedNames,
+        builtCategories
+      );
+      if (result) {
+        result.players.forEach((p) => usedNames.add(displayName(p.name)));
+        builtCategories.push(result);
+        categories.push(result.cat);
+        console.log(
+          `  [${diff}] ${template.name}: ${result.players
+            .map((p) => p.name)
+            .join(', ')}`
+        );
+        found = true;
+        break;
+      }
     }
 
-    if (!found) return null;
+    if (!found) {
+      console.warn(
+        `  ✗ Could not find a valid ${diff} category. Puzzle incomplete.`
+      );
+      return null;
+    }
   }
 
-  return {
-    id,
-    date: dateStr,
-    sport: 'nfl',
-    season,
-    categories,
-  };
+  return { id, date: dateStr, sport: 'nfl', season, categories };
 }
+
+// ----- File I/O -----
 
 function readCatalog(): Puzzle[] {
   if (!fs.existsSync(OUT_PATH)) return [];
@@ -302,48 +507,73 @@ function writeCatalog(puzzles: Puzzle[]): void {
   if (!fs.existsSync(OUT_DIR)) {
     fs.mkdirSync(OUT_DIR, { recursive: true });
   }
-
   puzzles.sort((a, b) => a.date.localeCompare(b.date));
   fs.writeFileSync(OUT_PATH, JSON.stringify(puzzles, null, 2));
 }
 
+// ----- Main -----
+
 async function main(): Promise<void> {
   const isAppend = process.argv.includes('--append');
+  const today = new Date();
+  const todayStr = today.toISOString().slice(0, 10);
 
   if (isAppend) {
+    console.log('=== NFL Connections Puzzle Generator (append) ===\n');
     const catalog = readCatalog();
-    const todayStr = new Date().toISOString().slice(0, 10);
-    const existing = catalog.find((p) => p.date === todayStr);
-    if (existing) return;
 
-    const nextId = catalog.length > 0 ? Math.max(...catalog.map((p) => p.id)) + 1 : 1;
-    const puzzle = await generatePuzzle(nextId, todayStr);
-
-    if (!puzzle) {
-      throw new Error('Failed to generate NFL puzzle');
+    if (catalog.some((p) => p.date === todayStr)) {
+      console.log(`Puzzle for ${todayStr} already exists. Nothing to do.`);
+      return;
     }
 
-    catalog.push(puzzle);
-    writeCatalog(catalog);
-    return;
+    const nextId =
+      catalog.reduce((max, p) => Math.max(max, p.id ?? 0), 0) + 1;
+    console.log(`Generating puzzle #${nextId} for ${todayStr}...`);
+
+    // Retry across a few different seasons if the first attempt can't
+    // assemble four non-overlapping categories.
+    let puzzle: Puzzle | null = null;
+    for (let attempt = 0; attempt < 5 && !puzzle; attempt++) {
+      puzzle = await generatePuzzle(nextId, todayStr);
+    }
+
+    if (puzzle) {
+      catalog.push(puzzle);
+      writeCatalog(catalog);
+      console.log(
+        `\n✓ Appended puzzle #${nextId} (${todayStr}) → ${OUT_PATH}`
+      );
+      console.log(`  Catalog now has ${catalog.length} puzzles.`);
+    } else {
+      console.error('✗ Failed to generate a valid puzzle for today.');
+      process.exit(1);
+    }
+  } else {
+    console.log('=== NFL Connections Puzzle Generator (batch) ===\n');
+    const numPuzzles = parseInt(process.argv[2] || '7', 10);
+    const puzzles: Puzzle[] = [];
+    const today = new Date();
+
+    for (let i = 0; i < numPuzzles; i++) {
+      const date = new Date(today);
+      date.setDate(date.getDate() - (numPuzzles - 1 - i));
+      const dateStr = date.toISOString().slice(0, 10);
+
+      console.log(`\nGenerating puzzle #${i + 1} for ${dateStr}...`);
+      let puzzle: Puzzle | null = null;
+      for (let attempt = 0; attempt < 5 && !puzzle; attempt++) {
+        puzzle = await generatePuzzle(i + 1, dateStr);
+      }
+      if (puzzle) puzzles.push(puzzle);
+    }
+
+    writeCatalog(puzzles);
+    console.log(`\n✓ Generated ${puzzles.length} puzzles → ${OUT_PATH}`);
   }
-
-  const numPuzzles = parseInt(process.argv[2] || '7', 10);
-  const puzzles: Puzzle[] = [];
-  const today = new Date();
-
-  for (let i = 0; i < numPuzzles; i++) {
-    const date = new Date(today);
-    date.setDate(date.getDate() - (numPuzzles - 1 - i));
-    const dateStr = date.toISOString().slice(0, 10);
-    const puzzle = await generatePuzzle(i + 1, dateStr);
-    if (puzzle) puzzles.push(puzzle);
-  }
-
-  writeCatalog(puzzles);
 }
 
 main().catch((err) => {
-  console.error(err);
+  console.error('Fatal error:', err);
   process.exit(1);
 });
