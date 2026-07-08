@@ -1,4 +1,5 @@
 export type Difficulty = 'easy' | 'medium' | 'hard' | 'tricky';
+export type Sport = 'mlb' | 'nfl';
 
 export interface Category {
   name: string;
@@ -9,6 +10,7 @@ export interface Category {
 export interface Puzzle {
   id: number;
   date: string;
+  sport?: Sport;
   season?: number;
   categories: Category[];
 }

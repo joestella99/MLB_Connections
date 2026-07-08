@@ -3,20 +3,20 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterLink } from '@angular/router';
 import {
-  BoxScoreGuess,
-  BoxScoreGameState,
-} from '../../models/boxscore.models';
-import { BoxScoreService } from '../../services/boxscore.service';
+  NflBoxScoreGameState,
+  NflBoxScoreGuess,
+} from '../../models/nfl-boxscore.models';
+import { NflBoxscoreService } from '../../services/nfl-boxscore.service';
 
 @Component({
-  selector: 'app-boxscore-game',
+  selector: 'app-nfl-boxscore-game',
   standalone: true,
   imports: [CommonModule, FormsModule, RouterLink],
-  templateUrl: './boxscore-game.component.html',
-  styleUrl: './boxscore-game.component.scss',
+  templateUrl: './nfl-boxscore-game.component.html',
+  styleUrl: './nfl-boxscore-game.component.scss',
 })
-export class BoxScoreGameComponent implements OnInit {
-  state: BoxScoreGameState = {
+export class NflBoxscoreGameComponent implements OnInit {
+  state: NflBoxScoreGameState = {
     game: null,
     actual: null,
     guess: this.emptyGuess(),
@@ -26,9 +26,9 @@ export class BoxScoreGameComponent implements OnInit {
     error: null,
   };
 
-  showLineups = false;
+  showLeaders = false;
 
-  constructor(private boxScoreService: BoxScoreService) {}
+  constructor(private nflBoxscoreService: NflBoxscoreService) {}
 
   ngOnInit() {
     this.loadGame();
@@ -40,14 +40,14 @@ export class BoxScoreGameComponent implements OnInit {
     this.state.submitted = false;
     this.state.breakdown = null;
     this.state.guess = this.emptyGuess();
-    this.showLineups = false;
+    this.showLeaders = false;
 
     try {
-      const { game, actual } = await this.boxScoreService.fetchRandomGame();
+      const { game, actual } = await this.nflBoxscoreService.fetchRandomGame();
       this.state.game = game;
       this.state.actual = actual;
       this.state.loading = false;
-    } catch (e: any) {
+    } catch {
       this.state.error = 'Failed to load game. Try again!';
       this.state.loading = false;
     }
@@ -55,27 +55,21 @@ export class BoxScoreGameComponent implements OnInit {
 
   submitGuess() {
     if (!this.state.actual) return;
-    this.state.breakdown = this.boxScoreService.calculateScore(
-      this.state.guess,
-      this.state.actual
-    );
+    this.state.breakdown = this.nflBoxscoreService.calculateScore(this.state.guess, this.state.actual);
     this.state.submitted = true;
   }
 
-  toggleLineups() {
-    this.showLineups = !this.showLineups;
+  toggleLeaders() {
+    this.showLeaders = !this.showLeaders;
   }
 
   get isGuessComplete(): boolean {
-    const g = this.state.guess;
-    return g.awayRuns !== null && g.homeRuns !== null;
+    return this.state.guess.awayPoints !== null && this.state.guess.homePoints !== null;
   }
 
   get scorePercent(): number {
     if (!this.state.breakdown) return 0;
-    return Math.round(
-      (this.state.breakdown.totalPoints / this.state.breakdown.maxPoints) * 100
-    );
+    return Math.round((this.state.breakdown.totalPoints / this.state.breakdown.maxPoints) * 100);
   }
 
   get scoreGrade(): string {
@@ -99,18 +93,18 @@ export class BoxScoreGameComponent implements OnInit {
     });
   }
 
-  private emptyGuess(): BoxScoreGuess {
+  private emptyGuess(): NflBoxScoreGuess {
     return {
-      awayRuns: null,
-      homeRuns: null,
-      awayHits: null,
-      homeHits: null,
-      awayErrors: null,
-      homeErrors: null,
-      awayHR: null,
-      homeHR: null,
-      awayStrikeouts: null,
-      homeStrikeouts: null,
+      awayPoints: null,
+      homePoints: null,
+      awayTotalYards: null,
+      homeTotalYards: null,
+      awayTurnovers: null,
+      homeTurnovers: null,
+      awayPassYards: null,
+      homePassYards: null,
+      awayRushYards: null,
+      homeRushYards: null,
     };
   }
 }

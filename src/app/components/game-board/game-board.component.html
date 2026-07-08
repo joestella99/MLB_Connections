@@ -1,13 +1,28 @@
-<div class="game-container">
+<div class="board-page">
   @if (loading) {
-    <div class="loading">Loading puzzle...</div>
+    <div class="page-section loading-card">Loading puzzle...</div>
   } @else {
-  <div class="game-header">
-    <h1>MLB Connections</h1>
-    <p class="subtitle">Find four groups of four!</p>
-  </div>
+  <section class="board-hero page-section">
+    <div>
+      <span class="section-eyebrow">Daily puzzle</span>
+      <h1>{{ pageTitle }}</h1>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="label">Puzzle</span>
+        <strong>#{{ state.puzzle.id }}</strong>
+      </div>
+      <div class="hero-stat">
+        <span class="label">Solved</span>
+        <strong>{{ sortedSolvedCategories.length }}/4</strong>
+      </div>
+      <div class="hero-stat">
+        <span class="label">Lives</span>
+        <strong>{{ state.mistakesRemaining }}</strong>
+      </div>
+    </div>
+  </section>
 
-  <!-- Message Banner -->
   <div
     class="message"
     [class.error]="messageType === 'error'"
@@ -17,87 +32,98 @@
     {{ message }}
   </div>
 
-  <!-- Solved Categories -->
-  <div class="solved-categories">
-    @for (cat of sortedSolvedCategories; track trackByCategory($index, cat)) {
-      <div
-        class="solved-row"
-        [style.background-color]="getCategoryColor(cat)"
-        [style.color]="getCategoryTextColor(cat)"
-      >
-        <div class="solved-name">{{ cat.name }}</div>
-        <div class="solved-words">{{ cat.words.join(', ') }}</div>
+  <div class="board-layout">
+    <section class="board-stage page-section">
+      <div class="solved-categories">
+        @for (cat of sortedSolvedCategories; track trackByCategory($index, cat)) {
+          <div
+            class="solved-row"
+            [style.background-color]="getCategoryColor(cat)"
+            [style.color]="getCategoryTextColor(cat)"
+          >
+            <div class="solved-name">{{ cat.name }}</div>
+            <div class="solved-words">{{ cat.words.join(', ') }}</div>
+          </div>
+        }
       </div>
-    }
-  </div>
 
-  <!-- Game Grid (unsolved tiles) -->
-  @if (unsolvedTiles.length > 0) {
-    <div class="grid">
-      @for (tile of unsolvedTiles; track trackByWord($index, tile)) {
-        <button
-          class="tile"
-          [class.selected]="tile.selected"
-          [class.disabled]="state.gameOver"
-          (click)="toggleTile(tile)"
-        >
-          <span class="tile-text">{{ tile.word }}</span>
-        </button>
+      @if (unsolvedTiles.length > 0) {
+        <div class="grid">
+          @for (tile of unsolvedTiles; track trackByWord($index, tile)) {
+            <button
+              class="tile"
+              [class.selected]="tile.selected"
+              [class.disabled]="state.gameOver"
+              (click)="toggleTile(tile)"
+            >
+              <span class="tile-text">{{ tile.word }}</span>
+            </button>
+          }
+        </div>
       }
-    </div>
-  }
 
-  <!-- Mistakes Remaining -->
-  <div class="mistakes">
-    Mistakes remaining:
-    @for (dot of mistakesDots; track $index) {
-      <span class="dot">●</span>
-    }
+      @if (showShare) {
+        <div class="share-section">
+          <pre class="share-text">{{ shareText }}</pre>
+          <button class="btn btn-primary" (click)="copyShare()">Share Results</button>
+        </div>
+      }
+    </section>
+
+    <aside class="control-rail page-section">
+      <div class="rail-card">
+        <span class="section-eyebrow">Status</span>
+        <div class="mistakes">
+          <span>Mistakes remaining</span>
+          <div class="dot-row">
+            @for (dot of mistakesDots; track $index) {
+              <span class="dot">●</span>
+            }
+          </div>
+        </div>
+      </div>
+
+      <div class="rail-card">
+        <span class="section-eyebrow">Hint</span>
+        @if (hasSeason && !state.yearRevealed && !state.gameOver) {
+          <button class="btn btn-secondary btn-hint" (click)="revealYear()">
+            Reveal season year (-1 life)
+          </button>
+        }
+        @if (state.yearRevealed && state.puzzle.season) {
+          <div class="year-badge">
+            <span>Featured season</span>
+            <strong>{{ state.puzzle.season }}</strong>
+          </div>
+        }
+      </div>
+
+      <div class="rail-card">
+        <span class="section-eyebrow">Controls</span>
+        <div class="controls">
+          <button class="btn btn-secondary" (click)="shuffle()" [disabled]="state.gameOver">Shuffle</button>
+          <button
+            class="btn btn-secondary"
+            (click)="deselectAll()"
+            [disabled]="selectedTiles.length === 0 || state.gameOver"
+          >
+            Deselect All
+          </button>
+          <button
+            class="btn btn-primary"
+            (click)="submit()"
+            [disabled]="selectedTiles.length !== 4 || state.gameOver"
+          >
+            Submit Guess
+          </button>
+        </div>
+      </div>
+
+      <div class="rail-links">
+        <a [routerLink]="archiveRoute" class="inline-link">Browse archive</a>
+        <a [routerLink]="secondaryRoute" class="inline-link">{{ secondaryLabel }}</a>
+      </div>
+    </aside>
   </div>
-
-  <!-- Year Reveal -->
-  @if (hasSeason && !state.yearRevealed && !state.gameOver) {
-    <div class="year-reveal">
-      <button class="btn btn-hint" (click)="revealYear()">
-        🗓️ Reveal Season Year (−1 life)
-      </button>
-    </div>
-  }
-  @if (state.yearRevealed && state.puzzle.season) {
-    <div class="year-badge">
-      ⚾ Featured Season: <strong>{{ state.puzzle.season }}</strong>
-    </div>
-  }
-
-  <!-- Controls -->
-  <div class="controls">
-    <button class="btn btn-secondary" (click)="shuffle()" [disabled]="state.gameOver">
-      Shuffle
-    </button>
-    <button
-      class="btn btn-secondary"
-      (click)="deselectAll()"
-      [disabled]="selectedTiles.length === 0 || state.gameOver"
-    >
-      Deselect All
-    </button>
-    <button
-      class="btn btn-primary"
-      (click)="submit()"
-      [disabled]="selectedTiles.length !== 4 || state.gameOver"
-    >
-      Submit
-    </button>
-  </div>
-
-  <!-- Share Section -->
-  @if (showShare) {
-    <div class="share-section">
-      <pre class="share-text">{{ shareText }}</pre>
-      <button class="btn btn-primary" (click)="copyShare()">
-        Share Results
-      </button>
-    </div>
-  }
   }
 </div>

@@ -1,0 +1,88 @@
+import { Puzzle } from '../models/game.models';
+
+export const NFL_PUZZLES: Puzzle[] = [
+  {
+    id: 1,
+    date: '2026-07-06',
+    sport: 'nfl',
+    season: 2020,
+    categories: [
+      {
+        name: 'AP NFL MVP Winners',
+        difficulty: 'easy',
+        words: ['CAM NEWTON', 'ADRIAN PETERSON', 'MATT RYAN', 'TOM BRADY'],
+      },
+      {
+        name: '1,500+ Rushing Yards in 2012',
+        difficulty: 'medium',
+        words: ['ALFRED MORRIS', 'MARSHAWN LYNCH', 'AARIAN FOSTER', 'DOUG MARTIN'],
+      },
+      {
+        name: '5,000+ Passing Yards in a Season',
+        difficulty: 'hard',
+        words: ['PATRICK MAHOMES', 'DREW BREES', 'JAMEIS WINSTON', 'BEN ROETHLISBERGER'],
+      },
+      {
+        name: 'Notable Rookie Quarterbacks',
+        difficulty: 'tricky',
+        words: ['DAK PRESCOTT', 'JUSTIN HERBERT', 'ROBERT GRIFFIN III', 'RUSSELL WILSON'],
+      },
+    ],
+  },
+  {
+    id: 2,
+    date: '2026-07-07',
+    sport: 'nfl',
+    season: 2008,
+    categories: [
+      {
+        name: 'Hall of Fame Quarterbacks',
+        difficulty: 'easy',
+        words: ['STEVE YOUNG', 'JOHN ELWAY', 'JOE MONTANA', 'TROY AIKMAN'],
+      },
+      {
+        name: '1,200+ Receiving Yards in 2018',
+        difficulty: 'medium',
+        words: ['DAVANTE ADAMS', 'JULIO JONES', 'MICHAEL THOMAS', 'DEANDRE HOPKINS'],
+      },
+      {
+        name: 'Comeback Player of the Year Winners',
+        difficulty: 'hard',
+        words: ['CHAD PENNINGTON', 'MATTHEW STAFFORD', 'JOE FLACCO', 'PHILIP RIVERS'],
+      },
+      {
+        name: '10+ Receiving TDs in 2020',
+        difficulty: 'tricky',
+        words: ['ADAM THIELEN', 'TRAVIS KELCE', 'MIKE EVANS', 'TYREEK HILL'],
+      },
+    ],
+  },
+  {
+    id: 3,
+    date: '2026-07-08',
+    sport: 'nfl',
+    season: 2023,
+    categories: [
+      {
+        name: 'Hall of Fame Quarterbacks',
+        difficulty: 'easy',
+        words: ['JOE MONTANA', 'DAN MARINO', 'BRETT FAVRE', 'JOHN ELWAY'],
+      },
+      {
+        name: 'Offensive Rookie of the Year Winners',
+        difficulty: 'medium',
+        words: ['JA\'MARR CHASE', 'PERCY HARVIN', 'DAK PRESCOTT', 'ANQUAN BOLDIN'],
+      },
+      {
+        name: '5,000+ Passing Yards in a Season',
+        difficulty: 'hard',
+        words: ['PATRICK MAHOMES', 'JUSTIN HERBERT', 'PEYTON MANNING', 'BEN ROETHLISBERGER'],
+      },
+      {
+        name: '15+ Sacks in 2018',
+        difficulty: 'tricky',
+        words: ['DEE FORD', 'AARON DONALD', 'CHANDLER JONES', 'DANIELLE HUNTER'],
+      },
+    ],
+  },
+];

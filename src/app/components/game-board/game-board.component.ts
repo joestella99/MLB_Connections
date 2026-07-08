@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import {
   Category,
   DIFFICULTY_COLORS,
-  DIFFICULTY_ORDER,
   GameState,
+  Sport,
   Tile,
 } from '../../models/game.models';
 import { GameService } from '../../services/game.service';
@@ -13,7 +13,7 @@ import { GameService } from '../../services/game.service';
 @Component({
   selector: 'app-game-board',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './game-board.component.html',
   styleUrl: './game-board.component.scss',
 })
@@ -26,6 +26,11 @@ export class GameBoardComponent implements OnInit {
   showShare = false;
 
   loading = true;
+  sport: Sport = 'mlb';
+  pageTitle = 'MLB Connections';
+  archiveRoute = '/puzzles';
+  secondaryRoute = '/boxscore';
+  secondaryLabel = 'Open box score mode';
 
   constructor(
     private gameService: GameService,
@@ -33,11 +38,18 @@ export class GameBoardComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    this.sport = (this.route.snapshot.data['sport'] as Sport | undefined) ?? 'mlb';
+    this.pageTitle = this.route.snapshot.data['title'] ?? 'MLB Connections';
+    this.archiveRoute = this.route.snapshot.data['archiveRoute'] ?? '/puzzles';
+    this.secondaryRoute = this.route.snapshot.data['secondaryRoute'] ?? '/boxscore';
+    this.secondaryLabel = this.route.snapshot.data['secondaryLabel'] ?? 'Open box score mode';
     const idParam = this.route.snapshot.paramMap.get('id');
     const puzzleId = idParam ? parseInt(idParam, 10) : undefined;
 
-    this.gameService.getPuzzleFromApi(puzzleId).subscribe((puzzle) => {
-      this.state = this.gameService.createInitialState(puzzle);
+    this.gameService.getPuzzleFromApi(this.sport, puzzleId).subscribe((puzzle) => {
+      this.state =
+        this.gameService.loadPersistedState(puzzle) ??
+        this.gameService.createInitialState(puzzle);
       this.loading = false;
     });
   }
@@ -77,6 +89,8 @@ export class GameBoardComponent implements OnInit {
       this.revealAll();
       this.generateShareText();
     }
+
+    this.persistState();
   }
 
   toggleTile(tile: Tile): void {
@@ -88,6 +102,7 @@ export class GameBoardComponent implements OnInit {
       tile.selected = true;
     }
     this.message = '';
+    this.persistState();
   }
 
   deselectAll(): void {
@@ -95,10 +110,12 @@ export class GameBoardComponent implements OnInit {
       if (!t.solved) t.selected = false;
     });
     this.message = '';
+    this.persistState();
   }
 
   shuffle(): void {
     this.state = this.gameService.shuffleTiles(this.state);
+    this.persistState();
   }
 
   submit(): void {
@@ -124,6 +141,7 @@ export class GameBoardComponent implements OnInit {
       });
 
       this.state.solvedCategories.push(result.category);
+      this.persistState();
 
       setTimeout(() => {
         this.animatingSolve = false;
@@ -135,6 +153,8 @@ export class GameBoardComponent implements OnInit {
           this.messageType = 'success';
           this.generateShareText();
         }
+
+        this.persistState();
       }, 600);
     } else {
       if (result.offByOne) {
@@ -156,15 +176,19 @@ export class GameBoardComponent implements OnInit {
         this.revealAll();
         this.generateShareText();
       }
+
+      this.persistState();
     }
   }
 
   private revealAll(): void {
     const unsolved = this.state.puzzle.categories.filter(
-      (cat) => !this.state.solvedCategories.includes(cat)
+      (cat) => !this.state.solvedCategories.some((solved) => solved.name === cat.name)
     );
     unsolved.forEach((cat) => {
-      this.state.solvedCategories.push(cat);
+      if (!this.state.solvedCategories.some((solved) => solved.name === cat.name)) {
+        this.state.solvedCategories.push(cat);
+      }
       this.state.tiles.forEach((t) => {
         if (cat.words.includes(t.word)) {
           t.solved = true;
@@ -188,7 +212,7 @@ export class GameBoardComponent implements OnInit {
   }
 
   private generateShareText(): void {
-    const header = `MLB Connections #${this.state.puzzle.id}`;
+    const header = `${this.pageTitle} #${this.state.puzzle.id}`;
     const emojis = { easy: '🟨', medium: '🟩', hard: '🟦', tricky: '🟪' };
 
     // Build a guess history — simplified version showing final state
@@ -213,5 +237,9 @@ export class GameBoardComponent implements OnInit {
 
   trackByCategory(_index: number, cat: Category): string {
     return cat.name;
+  }
+
+  private persistState(): void {
+    this.gameService.saveState(this.state);
   }
 }

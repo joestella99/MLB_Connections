@@ -35,6 +35,13 @@ interface Puzzle {
   categories: PuzzleCategory[];
 }
 
+interface BuiltCategory {
+  cat: PuzzleCategory;
+  players: PlayerStat[];
+  eligibleKeys: Set<string>;
+  pickedKeys: Set<string>;
+}
+
 // ----- API helpers -----
 
 async function fetchJson(url: string): Promise<any> {
@@ -123,6 +130,24 @@ function leaderToStat(leader: any, suffix = ''): PlayerStat {
 
 function displayName(fullName: string): string {
   return fullName.trim().toUpperCase();
+}
+
+function playerKey(player: PlayerStat): string {
+  return player.playerId > 0 ? `id:${player.playerId}` : `name:${displayName(player.name)}`;
+}
+
+function dedupePlayers(players: PlayerStat[]): PlayerStat[] {
+  const seen = new Set<string>();
+  const unique: PlayerStat[] = [];
+
+  for (const player of players) {
+    const key = playerKey(player);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    unique.push(player);
+  }
+
+  return unique;
 }
 
 /** Pick a random year from a range */
@@ -438,24 +463,45 @@ function shuffle<T>(arr: T[]): T[] {
 
 async function tryBuildCategory(
   template: CategoryTemplate,
-  usedNames: Set<string>
-): Promise<{ cat: PuzzleCategory; players: PlayerStat[] } | null> {
+  usedNames: Set<string>,
+  existing: BuiltCategory[]
+): Promise<BuiltCategory | null> {
   try {
-    const players = await template.fetch();
-    // Filter out duplicates (same last name already used)
+    const players = dedupePlayers(await template.fetch());
     const available = players.filter((p) => !usedNames.has(displayName(p.name)));
 
     if (available.length < (template.minPlayers ?? 4)) return null;
 
-    const picked = shuffle(available).slice(0, 4);
-    return {
-      cat: {
-        name: template.name,
-        difficulty: template.difficulty,
-        words: picked.map((p) => displayName(p.name)),
-      },
-      players: picked,
-    };
+    const eligibleKeys = new Set(players.map((player) => playerKey(player)));
+    const attempts = Math.min(12, Math.max(4, available.length * 2));
+
+    for (let attempt = 0; attempt < attempts; attempt++) {
+      const picked = shuffle(available).slice(0, 4);
+      const pickedKeys = new Set(picked.map((player) => playerKey(player)));
+
+      if (pickedKeys.size < 4) continue;
+
+      const isConfusingOverlap = existing.some((other) => {
+        const pickedFitsOther = picked.filter((player) => other.eligibleKeys.has(playerKey(player))).length;
+        const otherFitsPicked = other.players.filter((player) => eligibleKeys.has(playerKey(player))).length;
+        return pickedFitsOther === 4 || otherFitsPicked === 4;
+      });
+
+      if (isConfusingOverlap) continue;
+
+      return {
+        cat: {
+          name: template.name,
+          difficulty: template.difficulty,
+          words: picked.map((p) => displayName(p.name)),
+        },
+        players: picked,
+        eligibleKeys,
+        pickedKeys,
+      };
+    }
+
+    return null;
   } catch (err) {
     console.warn(`  ⚠ Skipping "${template.name}": ${(err as Error).message}`);
     return null;
@@ -471,6 +517,7 @@ async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | nul
   ];
 
   const usedNames = new Set<string>();
+  const builtCategories: BuiltCategory[] = [];
   const categories: PuzzleCategory[] = [];
 
   for (const diff of difficulties) {
@@ -478,9 +525,10 @@ async function generatePuzzle(id: number, dateStr: string): Promise<Puzzle | nul
     let found = false;
 
     for (const template of candidates) {
-      const result = await tryBuildCategory(template, usedNames);
+      const result = await tryBuildCategory(template, usedNames, builtCategories);
       if (result) {
         result.players.forEach((p) => usedNames.add(displayName(p.name)));
+        builtCategories.push(result);
         categories.push(result.cat);
         console.log(
           `  [${diff}] ${template.name}: ${result.players.map((p) => p.name).join(', ')}`

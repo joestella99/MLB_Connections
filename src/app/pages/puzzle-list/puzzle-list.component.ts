@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { GameService } from '../../services/game.service';
+import { Sport } from '../../models/game.models';
 
 @Component({
   selector: 'app-puzzle-list',
@@ -11,15 +12,27 @@ import { GameService } from '../../services/game.service';
   styleUrl: './puzzle-list.component.scss',
 })
 export class PuzzleListComponent implements OnInit {
-  puzzles: { id: number; date: string; title?: string }[] = [];
+  puzzles: Array<{ id: number; date: string; title?: string; complete: boolean; won: boolean }> = [];
   loading = true;
+  sport: Sport = 'mlb';
+  pageTitle = 'MLB Puzzle Archive';
+  playRoutePrefix = '/play';
 
-  constructor(private gameService: GameService) {}
+  constructor(private gameService: GameService, private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    this.gameService.getPuzzleListFromApi().subscribe((list) => {
+    this.sport = (this.route.snapshot.data['sport'] as Sport | undefined) ?? 'mlb';
+    this.pageTitle = this.route.snapshot.data['title'] ?? 'MLB Puzzle Archive';
+    this.playRoutePrefix = this.route.snapshot.data['playRoutePrefix'] ?? '/play';
+
+    this.gameService.getPuzzleListFromApi(this.sport).subscribe((list) => {
       // Sort newest first
-      this.puzzles = list.sort((a, b) => b.date.localeCompare(a.date));
+      this.puzzles = list
+        .sort((a, b) => b.date.localeCompare(a.date))
+        .map((puzzle) => ({
+          ...puzzle,
+          ...this.gameService.getPuzzleCompletion(puzzle),
+        }));
       this.loading = false;
     });
   }
@@ -31,5 +44,14 @@ export class PuzzleListComponent implements OnInit {
 
   isToday(dateStr: string): boolean {
     return dateStr === new Date().toISOString().slice(0, 10);
+  }
+
+  getStatusLabel(puzzle: { complete: boolean; won: boolean }): string | null {
+    if (!puzzle.complete) return null;
+    return puzzle.won ? 'Won' : 'Complete';
+  }
+
+  getPuzzleLink(id: number): string[] {
+    return ['/', ...this.playRoutePrefix.split('/').filter(Boolean), String(id)];
   }
 }

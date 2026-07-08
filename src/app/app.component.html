@@ -1,4 +1,10 @@
-<app-header></app-header>
-<main>
-  <router-outlet></router-outlet>
-</main>
+<div class="app-shell">
+  <div class="app-shell__glow app-shell__glow--left"></div>
+  <div class="app-shell__glow app-shell__glow--right"></div>
+  <app-header></app-header>
+  <main class="app-main">
+    <div class="app-frame">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+</div>

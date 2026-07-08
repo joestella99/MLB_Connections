@@ -1,10 +1,14 @@
 <nav class="navbar">
-  <a class="nav-brand" routerLink="/">⚾ MLB Connections</a>
+  <a class="nav-brand" routerLink="/">
+    <span class="nav-brand__eyebrow">Sports Puzzle Hub</span>
+    <span class="nav-brand__title">Connections Arcade</span>
+  </a>
   <div class="nav-links">
-    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Play</a>
-    <a routerLink="/puzzles" routerLinkActive="active">Puzzles</a>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/daily" routerLinkActive="active">MLB Daily</a>
+    <a routerLink="/puzzles" routerLinkActive="active">Archive</a>
     <a routerLink="/boxscore" routerLinkActive="active">Box Score</a>
-    <a routerLink="/leaderboard" routerLinkActive="active">🏆</a>
+    <a routerLink="/nfl" routerLinkActive="active">NFL</a>
     <a routerLink="/how-to-play" routerLinkActive="active">How to Play</a>
   </div>
 </nav>

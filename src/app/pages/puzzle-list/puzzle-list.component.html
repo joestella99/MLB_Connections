@@ -1,13 +1,19 @@
 <div class="puzzle-list-page">
-  <h1>All Puzzles</h1>
+  <div class="list-header page-section">
+    <span class="section-eyebrow">Archive</span>
+    <h1>{{ pageTitle }}</h1>
+  </div>
   @if (loading) {
     <p class="loading">Loading puzzles...</p>
   } @else {
   <div class="puzzle-grid">
     @for (puzzle of puzzles; track puzzle.id) {
-      <a class="puzzle-card" [routerLink]="['/play', puzzle.id]" [class.today]="isToday(puzzle.date)">
+      <a class="puzzle-card" [routerLink]="getPuzzleLink(puzzle.id)" [class.today]="isToday(puzzle.date)" [class.complete]="puzzle.complete" [class.won]="puzzle.won">
         @if (isToday(puzzle.date)) {
           <span class="today-badge">TODAY</span>
+        }
+        @if (getStatusLabel(puzzle); as status) {
+          <span class="complete-badge">{{ status }}</span>
         }
         <span class="puzzle-number">#{{ puzzle.id }}</span>
         <span class="puzzle-date">{{ formatDate(puzzle.date) }}</span>

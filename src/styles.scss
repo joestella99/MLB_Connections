@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root {
+  --bg-base: #07131f;
+  --bg-elevated: rgba(12, 28, 43, 0.82);
+  --bg-soft: rgba(246, 233, 211, 0.05);
+  --bg-card: rgba(8, 22, 34, 0.92);
+  --border-soft: rgba(246, 233, 211, 0.09);
+  --text-strong: #f6e9d3;
+  --text-muted: rgba(246, 233, 211, 0.72);
+  --accent-gold: #f5c45b;
+  --accent-red: #d04f2f;
+  --accent-green: #198754;
+  --accent-blue: #2d6cdf;
+  --font-display: 'Anton', Impact, sans-serif;
+  --font-body: 'Space Grotesk', 'Segoe UI', sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -9,13 +27,84 @@
 html,
 body {
   height: 100%;
-  font-family: 'Roboto Condensed', 'Segoe UI', system-ui, sans-serif;
-  background: #0a1628;
-  color: #f0e6d3;
+  font-family: var(--font-body);
+  background:
+    radial-gradient(circle at top, rgba(27, 104, 69, 0.18), transparent 26%),
+    linear-gradient(180deg, #0d1d2a 0%, var(--bg-base) 100%);
+  color: var(--text-strong);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  min-height: calc(100vh - 70px);
+body {
+  margin: 0;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  min-height: 2.9rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease, background 140ms ease;
+  cursor: pointer;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #f0b648, #d7652c);
+  color: #131313;
+  box-shadow: 0 10px 24px rgba(208, 79, 47, 0.22);
+}
+
+.btn-secondary {
+  background: rgba(246, 233, 211, 0.04);
+  border-color: rgba(246, 233, 211, 0.16);
+  color: var(--text-strong);
+}
+
+.page-section {
+  padding: 1.35rem;
+  border-radius: 26px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  box-shadow: 0 24px 50px rgba(0, 0, 0, 0.22);
+}
+
+.section-eyebrow {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: var(--accent-gold);
+  font-size: 0.74rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
 }

@@ -44,12 +44,6 @@
     text-transform: uppercase;
     letter-spacing: 2px;
   }
-
-  .subtitle {
-    font-size: 1rem;
-    color: #8a9bc0;
-    margin: 4px 0 0;
-  }
 }
 
 // Matchup Card
@@ -224,13 +218,6 @@
     text-transform: uppercase;
     margin: 0 0 4px;
     text-align: center;
-  }
-
-  .form-hint {
-    font-size: 0.8rem;
-    color: #8a9bc0;
-    text-align: center;
-    margin: 0 0 16px;
   }
 }
 
@@ -474,82 +461,6 @@
   }
 }
 
-// Submit to Leaderboard
-.submit-section {
-  text-align: center;
-  margin-bottom: 16px;
-
-  h3 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1rem;
-    color: #fff;
-    text-transform: uppercase;
-    margin: 0 0 12px;
-  }
-}
-
-.submit-row {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-
-  .name-input {
-    padding: 10px 14px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 6px;
-    background: rgba(255, 255, 255, 0.08);
-    color: #fff;
-    font-size: 0.95rem;
-    width: 160px;
-
-    &:focus {
-      outline: none;
-      border-color: #d4a843;
-    }
-
-    &::placeholder {
-      color: #666;
-    }
-  }
-}
-
-.btn-submit-score {
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #d4a843, #b8912e);
-  color: #0f1d36;
-  border: none;
-  border-radius: 6px;
-  font-weight: 700;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: all 0.2s;
-
-  &:hover:not(:disabled) {
-    background: linear-gradient(135deg, #e4b853, #d4a843);
-  }
-
-  &:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-}
-
-.submitted-msg {
-  text-align: center;
-  padding: 12px;
-  background: rgba(46, 204, 113, 0.15);
-  border: 1px solid rgba(46, 204, 113, 0.3);
-  border-radius: 8px;
-  color: #2ecc71;
-  font-weight: 600;
-  margin-bottom: 16px;
-
-  a {
-    color: #d4a843;
-    margin-left: 4px;
-  }
-}
-
 // Play Again
 .play-again {
   display: flex;
@@ -607,10 +518,5 @@
 
   .stat-row input {
     width: 50px;
-  }
-
-  .submit-row {
-    flex-direction: column;
-    align-items: center;
   }
 }

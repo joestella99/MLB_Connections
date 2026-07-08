@@ -1,76 +1,99 @@
 .puzzle-list-page {
-  max-width: 620px;
-  margin: 0 auto;
-  padding: 32px 20px;
-  font-family: 'Roboto Condensed', 'Segoe UI', system-ui, sans-serif;
+  display: grid;
+  gap: 1rem;
+}
 
-  h1 {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 24px;
-    text-align: center;
-  }
+.list-header h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .puzzle-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 12px;
+  gap: 1rem;
 }
 
 .puzzle-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 20px;
-  background: #1c2e4a;
-  border: 2px solid #2a4060;
-  border-radius: 8px;
+  padding: 1.2rem;
+  min-height: 150px;
+  background: rgba(246, 233, 211, 0.04);
+  border: 1px solid rgba(246, 233, 211, 0.12);
+  border-radius: 22px;
   text-decoration: none;
-  color: #e0d6c2;
+  color: var(--text-strong);
   transition: all 0.15s ease;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16);
 
   &:hover {
-    background: #c0392b;
-    border-color: #e74c3c;
-    color: #fff;
-    transform: scale(1.03);
-    box-shadow: 0 4px 12px rgba(192, 57, 43, 0.4);
+    background: rgba(245, 196, 91, 0.1);
+    border-color: rgba(245, 196, 91, 0.24);
+    transform: translateY(-4px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24);
   }
 
   .puzzle-number {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.4rem;
+    font-family: var(--font-display);
+    font-size: 1.75rem;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 0.05em;
   }
 
   .puzzle-date {
-    font-size: 0.85rem;
-    margin-top: 4px;
-    opacity: 0.7;
+    font-size: 0.9rem;
+    margin-top: 0.35rem;
+    opacity: 0.82;
   }
 
   .today-badge {
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-body);
     font-size: 0.7rem;
     font-weight: 700;
-    background: #c0392b;
-    color: #fff;
-    padding: 2px 8px;
-    border-radius: 4px;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
+    background: rgba(25, 135, 84, 0.18);
+    color: #9af0bf;
+    padding: 0.28rem 0.55rem;
+    border-radius: 999px;
+    letter-spacing: 0.14em;
+    margin-bottom: 0.55rem;
+  }
+
+  .complete-badge {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    font-size: 0.64rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background: rgba(246, 233, 211, 0.1);
+    color: rgba(246, 233, 211, 0.76);
   }
 
   &.today {
-    border-color: #c0392b;
-    box-shadow: 0 0 12px rgba(192, 57, 43, 0.3);
+    border-color: rgba(25, 135, 84, 0.34);
+    box-shadow: 0 0 0 1px rgba(25, 135, 84, 0.16), 0 18px 40px rgba(0, 0, 0, 0.24);
+  }
+
+  &.complete {
+    border-color: rgba(245, 196, 91, 0.24);
+  }
+
+  &.won {
+    border-color: rgba(25, 135, 84, 0.34);
+
+    .complete-badge {
+      background: rgba(25, 135, 84, 0.18);
+      color: #9af0bf;
+    }
   }
 }

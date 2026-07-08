@@ -1,0 +1,46 @@
+.app-shell {
+	position: relative;
+	min-height: 100vh;
+	overflow: hidden;
+}
+
+.app-main {
+	position: relative;
+	z-index: 1;
+	width: min(1180px, calc(100% - 2rem));
+	margin: 0 auto;
+	padding: 1.25rem 0 2.5rem;
+}
+
+.app-frame {
+	padding: 1rem 0 0;
+}
+
+.app-shell__glow {
+	position: fixed;
+	width: 42rem;
+	height: 42rem;
+	border-radius: 999px;
+	filter: blur(90px);
+	opacity: 0.28;
+	pointer-events: none;
+}
+
+.app-shell__glow--left {
+	top: -10rem;
+	left: -14rem;
+	background: rgba(18, 113, 75, 0.35);
+}
+
+.app-shell__glow--right {
+	top: 4rem;
+	right: -18rem;
+	background: rgba(179, 103, 29, 0.26);
+}
+
+@media (max-width: 640px) {
+	.app-main {
+		width: min(100% - 1rem, 1180px);
+		padding-top: 0.85rem;
+	}
+}

@@ -1,0 +1,122 @@
+.hub-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.mode-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mode-card {
+  display: grid;
+  gap: 0.85rem;
+  padding: 1.2rem;
+  border-radius: 24px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid rgba(246, 233, 211, 0.1);
+  min-height: 260px;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.mode-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(246, 233, 211, 0.22);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.22);
+}
+
+.mode-card.mlb {
+  background: linear-gradient(160deg, rgba(15, 64, 44, 0.86), rgba(8, 32, 25, 0.98));
+}
+
+.mode-card.boxscore {
+  background: linear-gradient(160deg, rgba(78, 42, 18, 0.88), rgba(32, 20, 13, 0.98));
+}
+
+.mode-card.nfl {
+  background: linear-gradient(160deg, rgba(43, 32, 79, 0.82), rgba(18, 14, 36, 0.98));
+}
+
+.card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.mode-card h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-strong);
+}
+
+.mode-card p {
+  margin: 0;
+  color: rgba(246, 233, 211, 0.76);
+  line-height: 1.6;
+}
+
+.card-cta,
+.status,
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.74rem;
+  font-weight: 700;
+}
+
+.card-cta {
+  align-self: end;
+  color: var(--text-strong);
+}
+
+.status {
+  padding: 0.3rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(246, 233, 211, 0.12);
+  color: rgba(246, 233, 211, 0.78);
+}
+
+.eyebrow {
+  color: var(--accent-gold);
+}
+
+.roadmap-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border-radius: 22px;
+  background: rgba(246, 233, 211, 0.04);
+  border: 1px solid rgba(246, 233, 211, 0.08);
+}
+
+.roadmap-strip p {
+  margin-top: 0.45rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.inline-link {
+  color: var(--text-strong);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .mode-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .mode-card {
+    min-height: 220px;
+  }
+}

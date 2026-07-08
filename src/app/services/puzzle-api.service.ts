@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, map, catchError, of, switchMap } from 'rxjs';
+import { Observable, map, catchError, of } from 'rxjs';
 import { Category, Puzzle } from '../models/game.models';
 
 interface JsonPuzzle {
   id: number;
   date: string;
+  sport?: 'mlb' | 'nfl';
   season?: number;
   categories: {
     name: string;
@@ -35,21 +36,57 @@ interface ApiPuzzleListItem {
 @Injectable({ providedIn: 'root' })
 export class PuzzleApiService {
   private apiUrl = 'http://localhost:3000/api';
-  private jsonUrl = 'data/puzzles.json'; // generated JSON in public/data/
+  private jsonUrls = {
+    mlb: 'data/puzzles.json',
+    nfl: 'data/nfl-puzzles.json',
+  } as const;
 
-  private jsonCache: JsonPuzzle[] | null = null;
+  private jsonCache: Partial<Record<'mlb' | 'nfl', JsonPuzzle[]>> = {};
 
   constructor(private http: HttpClient) {}
 
   /** Load the static JSON file (generated from MLB API) */
-  private loadJsonPuzzles(): Observable<JsonPuzzle[]> {
-    if (this.jsonCache) return of(this.jsonCache);
-    return this.http.get<JsonPuzzle[]>(this.jsonUrl).pipe(
+  private loadJsonPuzzles(sport: 'mlb' | 'nfl'): Observable<JsonPuzzle[]> {
+    const cached = this.jsonCache[sport];
+    if (cached) return of(cached);
+    return this.http.get<JsonPuzzle[]>(this.jsonUrls[sport]).pipe(
       map((data) => {
-        this.jsonCache = data;
+        this.jsonCache[sport] = data;
         return data;
       }),
       catchError(() => of([]))
+    );
+  }
+
+  getJsonTodayPuzzle(sport: 'mlb' | 'nfl'): Observable<Puzzle | null> {
+    return this.loadJsonPuzzles(sport).pipe(
+      map((puzzles) => {
+        if (puzzles.length === 0) return null;
+        const today = new Date().toISOString().slice(0, 10);
+        const match = puzzles.find((p) => p.date === today) ?? puzzles[puzzles.length - 1] ?? puzzles[0];
+        return this.mapJsonPuzzle(match, sport);
+      })
+    );
+  }
+
+  getJsonPuzzleById(sport: 'mlb' | 'nfl', id: number): Observable<Puzzle | null> {
+    return this.loadJsonPuzzles(sport).pipe(
+      map((puzzles) => {
+        const match = puzzles.find((p) => p.id === id);
+        return match ? this.mapJsonPuzzle(match, sport) : null;
+      })
+    );
+  }
+
+  getJsonPuzzleList(sport: 'mlb' | 'nfl'): Observable<{ id: number; date: string; title: string }[]> {
+    return this.loadJsonPuzzles(sport).pipe(
+      map((puzzles) =>
+        puzzles.map((p) => ({
+          id: p.id,
+          date: p.date,
+          title: `${sport.toUpperCase()} Connections #${p.id}`,
+        }))
+      )
     );
   }
 
@@ -58,12 +95,12 @@ export class PuzzleApiService {
     return this.http.get<ApiPuzzle>(`${this.apiUrl}/puzzles/today`).pipe(
       map((data) => this.mapApiPuzzle(data)),
       catchError(() =>
-        this.loadJsonPuzzles().pipe(
+        this.loadJsonPuzzles('mlb').pipe(
           map((puzzles) => {
             if (puzzles.length === 0) return null;
             const today = new Date().toISOString().slice(0, 10);
             const match = puzzles.find((p) => p.date === today) ?? puzzles[0];
-            return this.mapJsonPuzzle(match);
+            return this.mapJsonPuzzle(match, 'mlb');
           })
         )
       )
@@ -74,10 +111,10 @@ export class PuzzleApiService {
     return this.http.get<ApiPuzzle>(`${this.apiUrl}/puzzles/${id}`).pipe(
       map((data) => this.mapApiPuzzle(data)),
       catchError(() =>
-        this.loadJsonPuzzles().pipe(
+        this.loadJsonPuzzles('mlb').pipe(
           map((puzzles) => {
             const match = puzzles.find((p) => p.id === id);
-            return match ? this.mapJsonPuzzle(match) : null;
+            return match ? this.mapJsonPuzzle(match, 'mlb') : null;
           })
         )
       )
@@ -94,7 +131,7 @@ export class PuzzleApiService {
         }))
       ),
       catchError(() =>
-        this.loadJsonPuzzles().pipe(
+        this.loadJsonPuzzles('mlb').pipe(
           map((puzzles) =>
             puzzles.map((p) => ({
               id: p.id,
@@ -111,6 +148,7 @@ export class PuzzleApiService {
     return {
       id: data.id,
       date: data.date,
+      sport: 'mlb',
       season: (data as any).season,
       categories: data.categories.map(
         (cat): Category => ({
@@ -122,10 +160,11 @@ export class PuzzleApiService {
     };
   }
 
-  private mapJsonPuzzle(data: JsonPuzzle): Puzzle {
+  private mapJsonPuzzle(data: JsonPuzzle, sport: 'mlb' | 'nfl'): Puzzle {
     return {
       id: data.id,
       date: data.date,
+      sport,
       season: data.season,
       categories: data.categories.map(
         (cat): Category => ({

@@ -15,7 +15,6 @@
   <div *ngIf="state.game && !state.loading" class="game-content">
     <div class="game-header">
       <h1>Box Score Challenge</h1>
-      <p class="subtitle">Guess the final box score</p>
     </div>
 
     <!-- Matchup Card -->
@@ -75,7 +74,6 @@
     <!-- Guess Form -->
     <div *ngIf="!state.submitted" class="guess-form">
       <h3>Your Predictions</h3>
-      <p class="form-hint">Runs are required. Other stats earn bonus points!</p>
 
       <div class="stat-table">
         <div class="stat-header">
@@ -222,32 +220,10 @@
         </div>
       </div>
 
-      <!-- Leaderboard Submit -->
-      <div *ngIf="!scoreSubmitted" class="submit-section">
-        <h3>Submit to Leaderboard</h3>
-        <div class="submit-row">
-          <input
-            type="text"
-            [(ngModel)]="playerName"
-            placeholder="Your name"
-            maxlength="20"
-            class="name-input">
-          <button
-            class="btn-submit-score"
-            [disabled]="!playerName.trim()"
-            (click)="submitToLeaderboard()">
-            Submit Score
-          </button>
-        </div>
-      </div>
-      <div *ngIf="scoreSubmitted" class="submitted-msg">
-        ✅ Score submitted! <a routerLink="/leaderboard">View Leaderboard →</a>
-      </div>
-
       <!-- Play Again -->
       <div class="play-again">
         <button class="btn-primary" (click)="loadGame()">🎲 New Game</button>
-        <a routerLink="/leaderboard" class="btn-secondary">🏆 Leaderboard</a>
+        <a routerLink="/" class="btn-secondary">Home</a>
       </div>
     </div>
   </div>

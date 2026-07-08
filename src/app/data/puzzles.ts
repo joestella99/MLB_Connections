@@ -4,6 +4,7 @@ export const PUZZLES: Puzzle[] = [
   {
     id: 1,
     date: '2026-06-29',
+    sport: 'mlb',
     categories: [
       {
         name: 'Yankees Legends',
@@ -30,6 +31,7 @@ export const PUZZLES: Puzzle[] = [
   {
     id: 2,
     date: '2026-06-30',
+    sport: 'mlb',
     categories: [
       {
         name: 'MLB Teams Named After Birds',
@@ -56,6 +58,7 @@ export const PUZZLES: Puzzle[] = [
   {
     id: 3,
     date: '2026-07-01',
+    sport: 'mlb',
     categories: [
       {
         name: 'Positions on the Diamond',
@@ -82,6 +85,7 @@ export const PUZZLES: Puzzle[] = [
   {
     id: 4,
     date: '2026-07-02',
+    sport: 'mlb',
     categories: [
       {
         name: 'Baseball Equipment',
@@ -108,6 +112,7 @@ export const PUZZLES: Puzzle[] = [
   {
     id: 5,
     date: '2026-07-03',
+    sport: 'mlb',
     categories: [
       {
         name: 'Active HR Leaders (2020s)',

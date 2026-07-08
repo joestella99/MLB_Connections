@@ -62,19 +62,6 @@ export interface ScoreBreakdown {
   perfectBonus: number;
 }
 
-export interface LeaderboardEntry {
-  id?: string;
-  playerName: string;
-  score: number;
-  maxScore: number;
-  accuracy: number;
-  correctWinner: boolean;
-  gamePk: number;
-  gameDate: string;
-  matchup: string;
-  submittedAt: string;
-}
-
 export interface BoxScoreGameState {
   game: BoxScoreGame | null;
   actual: BoxScoreActual | null;

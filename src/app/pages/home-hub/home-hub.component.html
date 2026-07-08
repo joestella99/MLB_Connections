@@ -1,0 +1,15 @@
+<section class="hub-page">
+  <div class="mode-grid">
+    @for (mode of modes; track mode.title) {
+      <a class="mode-card {{ mode.accent }}" [routerLink]="mode.route">
+        <div class="card-topline">
+          <span class="eyebrow">{{ mode.eyebrow }}</span>
+          <span class="status">{{ mode.status }}</span>
+        </div>
+        <h2>{{ mode.title }}</h2>
+        <p>{{ mode.description }}</p>
+        <span class="card-cta">{{ mode.cta }}</span>
+      </a>
+    }
+  </div>
+</section>
