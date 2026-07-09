@@ -562,5 +562,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 13,
+    "date": "2026-07-09",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "CHIPPER JONES",
+          "GOOSE GOSLIN",
+          "HARMON KILLEBREW",
+          "WILLIE STARGELL"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TOM GLAVINE",
+          "KID NICHOLS",
+          "LEFTY GROVE",
+          "JOHN CLARKSON"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2011",
+        "difficulty": "hard",
+        "words": [
+          "DANIEL HUDSON",
+          "GIO GONZALEZ",
+          "CLIFF LEE",
+          "ROY HALLADAY"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "MATT CAIN",
+          "JUSTIN VERLANDER",
+          "DOUG FISTER",
+          "JERED WEAVER"
+        ]
+      }
+    ]
   }
 ]

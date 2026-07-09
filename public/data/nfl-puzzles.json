@@ -142,5 +142,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "date": "2026-07-09",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2012",
+        "difficulty": "easy",
+        "words": [
+          "ERIC DECKER",
+          "DEMARYIUS THOMAS",
+          "VICTOR CRUZ",
+          "RODDY WHITE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL CRABTREE",
+          "JULIO JONES",
+          "MIKE WILLIAMS",
+          "MIKE WALLACE"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "MATT RYAN",
+          "PEYTON MANNING",
+          "DREW BREES",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "JERRELL FREEMAN",
+          "LONDON FLETCHER",
+          "JEROD MAYO",
+          "CHAD GREENWAY"
+        ]
+      }
+    ]
   }
 ]
