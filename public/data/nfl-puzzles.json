@@ -190,5 +190,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 5,
+    "date": "2026-07-10",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "MARSHAWN LYNCH",
+          "JUSTIN FORSETT",
+          "JEREMY HILL",
+          "LESEAN MCCOY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2014",
+        "difficulty": "medium",
+        "words": [
+          "ARIAN FOSTER",
+          "C.J. ANDERSON",
+          "LE'VEON BELL",
+          "DEMARCO MURRAY"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2014",
+        "difficulty": "hard",
+        "words": [
+          "MATT RYAN",
+          "DREW BREES",
+          "ANDREW LUCK",
+          "BEN ROETHLISBERGER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "D'QWELL JACKSON",
+          "PAUL WORRILOW",
+          "LAVONTE DAVID",
+          "CURTIS LOFTON"
+        ]
+      }
+    ]
   }
 ]

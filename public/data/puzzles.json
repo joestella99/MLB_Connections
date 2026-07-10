@@ -609,5 +609,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 14,
+    "date": "2026-07-10",
+    "season": 2001,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "DAVE WINFIELD",
+          "VLADIMIR GUERRERO",
+          "JOSÉ CANSECO",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2001",
+        "difficulty": "medium",
+        "words": [
+          "EDGAR MARTINEZ",
+          "CLIFF FLOYD",
+          "ORLANDO CABRERA",
+          "ARAMIS RAMIREZ"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "GREG MADDUX",
+          "FERGIE JENKINS",
+          "TOM GLAVINE",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "All-Star in 2001",
+        "difficulty": "tricky",
+        "words": [
+          "TROY PERCIVAL",
+          "LANCE BERKMAN",
+          "ALBERT PUJOLS",
+          "LARRY WALKER"
+        ]
+      }
+    ]
   }
 ]
