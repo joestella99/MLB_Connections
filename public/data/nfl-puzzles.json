@@ -238,5 +238,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 6,
+    "date": "2026-07-11",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2013",
+        "difficulty": "easy",
+        "words": [
+          "LARRY FITZGERALD",
+          "DEZ BRYANT",
+          "ERIC DECKER",
+          "JORDAN CAMERON"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2013",
+        "difficulty": "medium",
+        "words": [
+          "ALFRED MORRIS",
+          "LESEAN MCCOY",
+          "MATT FORTE",
+          "JAMAAL CHARLES"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2013",
+        "difficulty": "hard",
+        "words": [
+          "ANDY DALTON",
+          "DREW BREES",
+          "PEYTON MANNING",
+          "PHILIP RIVERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "BARRY CHURCH",
+          "PAUL POSLUSZNY",
+          "VONTAZE BURFICT",
+          "D'QWELL JACKSON"
+        ]
+      }
+    ]
   }
 ]

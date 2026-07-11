@@ -656,5 +656,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 15,
+    "date": "2026-07-11",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HANK AARON",
+          "GOOSE GOSLIN",
+          "HAROLD BAINES",
+          "WILLIE STARGELL"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2016",
+        "difficulty": "medium",
+        "words": [
+          "ZACK GREINKE",
+          "MITCH MORELAND",
+          "BUSTER POSEY",
+          "MOOKIE BETTS"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "MIKE FLANAGAN",
+          "CHRIS SALE",
+          "PAUL SKENES",
+          "PETE VUCKOVICH"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "CHRIS CARTER",
+          "NOLAN ARENADO",
+          "BRIAN DOZIER",
+          "MARK TRUMBO"
+        ]
+      }
+    ]
   }
 ]
