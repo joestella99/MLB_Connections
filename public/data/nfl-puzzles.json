@@ -286,5 +286,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 7,
+    "date": "2026-07-12",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2012",
+        "difficulty": "easy",
+        "words": [
+          "AARON RODGERS",
+          "SAM BRADFORD",
+          "ELI MANNING",
+          "ANDREW LUCK"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "JULIO JONES",
+          "SANTANA MOSS",
+          "BRANDON MARSHALL",
+          "KYLE RUDOLPH"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2012",
+        "difficulty": "hard",
+        "words": [
+          "CHARLES L. JOHNSON",
+          "MICHAEL JOHNSON",
+          "CHRIS LONG",
+          "JULIUS PEPPERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "LAVONTE DAVID",
+          "JAMES LAURINAITIS",
+          "JERRELL FREEMAN",
+          "RUSSELL ALLEN"
+        ]
+      }
+    ]
   }
 ]

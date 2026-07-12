@@ -703,5 +703,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 16,
+    "date": "2026-07-12",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JOSÉ CANSECO",
+          "WILLIE STARGELL",
+          "PAUL KONERKO",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JIM KAAT",
+          "MIKE MUSSINA",
+          "JAMIE MOYER",
+          "GUS WEYHING"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "GREG MADDUX",
+          "TOM GLAVINE",
+          "FERNANDO VALENZUELA",
+          "TOM SEAVER"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2004",
+        "difficulty": "tricky",
+        "words": [
+          "JIM EDMONDS",
+          "ADAM DUNN",
+          "ADRIAN BELTRÉ",
+          "ALBERT PUJOLS"
+        ]
+      }
+    ]
   }
 ]
