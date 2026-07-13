@@ -334,5 +334,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 8,
+    "date": "2026-07-13",
+    "sport": "nfl",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2017",
+        "difficulty": "easy",
+        "words": [
+          "JACK DOYLE",
+          "GOLDEN TATE",
+          "JULIO JONES",
+          "LARRY FITZGERALD"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2017",
+        "difficulty": "medium",
+        "words": [
+          "DEANDRE HOPKINS",
+          "A.J. GREEN",
+          "MARVIN JONES JR.",
+          "TRAVIS KELCE"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2017",
+        "difficulty": "hard",
+        "words": [
+          "VON MILLER",
+          "JOEY BOSA",
+          "RYAN KERRIGAN",
+          "TERRELL SUGGS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2017",
+        "difficulty": "tricky",
+        "words": [
+          "C.J. MOSLEY",
+          "BLAKE MARTINEZ",
+          "DEION JONES",
+          "JOE SCHOBERT"
+        ]
+      }
+    ]
   }
 ]

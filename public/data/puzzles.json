@@ -750,5 +750,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 17,
+    "date": "2026-07-13",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "JIM KAAT",
+          "HANK AARON",
+          "JOE MCGINNITY",
+          "BILLY EVANS"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2005",
+        "difficulty": "medium",
+        "words": [
+          "MIGUEL CABRERA",
+          "MORGAN ENSBERG",
+          "CARLOS LEE",
+          "MIGUEL TEJADA"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2005",
+        "difficulty": "hard",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "ADAM DUNN",
+          "TODD HELTON",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHNNY BENCH",
+          "BROOKS ROBINSON",
+          "MIKE LOWELL",
+          "JOSH BECKETT"
+        ]
+      }
+    ]
   }
 ]
