@@ -797,5 +797,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 18,
+    "date": "2026-07-14",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "BILL MCKECHNIE",
+          "POP LLOYD",
+          "RON SANTO",
+          "HONUS WAGNER"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JIM KAAT",
+          "BOB GIBSON",
+          "RED RUFFING",
+          "TOMMY JOHN"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2024",
+        "difficulty": "hard",
+        "words": [
+          "MICHAEL KING",
+          "TARIK SKUBAL",
+          "CHRIS SALE",
+          "ZACK WHEELER"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "SHOHEI OHTANI",
+          "ANTHONY SANTANDER",
+          "JUAN SOTO",
+          "AARON JUDGE"
+        ]
+      }
+    ]
   }
 ]

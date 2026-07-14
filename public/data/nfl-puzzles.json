@@ -382,5 +382,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 9,
+    "date": "2026-07-14",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "RYAN TANNEHILL",
+          "PATRICK MAHOMES",
+          "JIMMY GAROPPOLO",
+          "BEN ROETHLISBERGER"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2021",
+        "difficulty": "medium",
+        "words": [
+          "NICK CHUBB",
+          "NAJEE HARRIS",
+          "JONATHAN TAYLOR",
+          "JOE MIXON"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2021",
+        "difficulty": "hard",
+        "words": [
+          "DIONTAE JOHNSON",
+          "COOPER KUPP",
+          "TYREEK HILL",
+          "DAVANTE ADAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "COLE HOLCOMB",
+          "ROQUAN SMITH",
+          "FOYESADE OLUOKUN",
+          "T.J. EDWARDS"
+        ]
+      }
+    ]
   }
 ]
