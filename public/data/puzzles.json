@@ -844,5 +844,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 19,
+    "date": "2026-07-15",
+    "season": 2020,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE MAYS",
+          "MARK MCGWIRE",
+          "TED WILLIAMS",
+          "MIGUEL CABRERA"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2020",
+        "difficulty": "medium",
+        "words": [
+          "TRENT GRISHAM",
+          "ANTHONY RIZZO",
+          "J.P. CRAWFORD",
+          "ALEX GORDON"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "BRYCE HARPER",
+          "RONALD ACUÑA JR.",
+          "JOSE ALTUVE",
+          "VLADIMIR GUERRERO"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY KOUFAX",
+          "BROOKS ROBINSON",
+          "JOSE RIJO",
+          "PAUL MOLITOR"
+        ]
+      }
+    ]
   }
 ]

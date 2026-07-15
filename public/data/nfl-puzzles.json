@@ -430,5 +430,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 10,
+    "date": "2026-07-15",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2006",
+        "difficulty": "easy",
+        "words": [
+          "ANDRE JOHNSON",
+          "TORRY HOLT",
+          "CHAD JOHNSON",
+          "KELLEN WINSLOW"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "MARQUES COLSTON",
+          "STEVE SMITH SR.",
+          "DARRELL JACKSON",
+          "MARVIN HARRISON"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2006",
+        "difficulty": "hard",
+        "words": [
+          "STEVEN JACKSON",
+          "LARRY JOHNSON",
+          "LADAINIAN TOMLINSON",
+          "WILLIE PARKER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "ZACH THOMAS",
+          "LANCE BRIGGS",
+          "CATO JUNE",
+          "LONDON FLETCHER"
+        ]
+      }
+    ]
   }
 ]
