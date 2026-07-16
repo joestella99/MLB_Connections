@@ -891,5 +891,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 20,
+    "date": "2026-07-16",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "ERNIE BANKS",
+          "FRED MCGRIFF",
+          "ALEX RODRIGUEZ",
+          "AL SIMMONS"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2024",
+        "difficulty": "medium",
+        "words": [
+          "SHOHEI OHTANI",
+          "ANTHONY SANTANDER",
+          "JACKSON MERRILL",
+          "SALVADOR PEREZ"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2024",
+        "difficulty": "hard",
+        "words": [
+          "PABLO LÓPEZ",
+          "CHRIS SALE",
+          "CORBIN BURNES",
+          "JOSÉ BERRÍOS"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "WILLIE STARGELL",
+          "DONN CLENDENON",
+          "BOB TURLEY",
+          "PETE ROSE"
+        ]
+      }
+    ]
   }
 ]

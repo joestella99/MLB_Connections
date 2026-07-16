@@ -478,5 +478,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 11,
+    "date": "2026-07-16",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "FRED JACKSON",
+          "JAMAAL CHARLES",
+          "RAY RICE",
+          "MAURICE JONES-DREW"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2009",
+        "difficulty": "medium",
+        "words": [
+          "LARRY FITZGERALD",
+          "DESEAN JACKSON",
+          "BRENT CELEK",
+          "ROBERT MEACHEM"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2009",
+        "difficulty": "hard",
+        "words": [
+          "BRANDON FLOWERS",
+          "MIKE JENKINS",
+          "NICK COLLINS",
+          "ASANTE SAMUEL"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "RAY LEWIS",
+          "BRIAN CUSHING",
+          "PATRICK WILLIS",
+          "BARRETT RUUD"
+        ]
+      }
+    ]
   }
 ]
