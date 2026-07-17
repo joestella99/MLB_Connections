@@ -526,5 +526,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 12,
+    "date": "2026-07-17",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2024",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "BAKER MAYFIELD",
+          "JAYDEN DANIELS",
+          "BO NIX"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2024",
+        "difficulty": "medium",
+        "words": [
+          "DRAKE LONDON",
+          "JA'MARR CHASE",
+          "JUSTIN JEFFERSON",
+          "JERRY JEUDY"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2024",
+        "difficulty": "hard",
+        "words": [
+          "MALIK NABERS",
+          "JAXON SMITH-NJIGBA",
+          "TREY MCBRIDE",
+          "AMON-RA ST. BROWN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "ZACK BAUN",
+          "KADEN ELLISS",
+          "ROQUAN SMITH",
+          "JAMIEN SHERWOOD"
+        ]
+      }
+    ]
   }
 ]

@@ -938,5 +938,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 21,
+    "date": "2026-07-17",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "GABBY HARTNETT",
+          "BILL FOSTER",
+          "YOGI BERRA",
+          "MIKE SCHMIDT"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2007",
+        "difficulty": "medium",
+        "words": [
+          "ADAM DUNN",
+          "CARLOS PENA",
+          "MATT HOLLIDAY",
+          "JIM THOME"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "STEVE BEDROSIAN",
+          "JACK MCDOWELL",
+          "FÉLIX HERNÁNDEZ",
+          "DENNIS ECKERSLEY"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHNNY BENCH",
+          "MADISON BUMGARNER",
+          "DONN CLENDENON",
+          "TOM GLAVINE"
+        ]
+      }
+    ]
   }
 ]
