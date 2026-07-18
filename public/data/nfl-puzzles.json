@@ -574,5 +574,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 13,
+    "date": "2026-07-18",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "NICK CHUBB",
+          "JOE MIXON",
+          "JONATHAN TAYLOR",
+          "EZEKIEL ELLIOTT"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2021",
+        "difficulty": "medium",
+        "words": [
+          "MATTHEW STAFFORD",
+          "PATRICK MAHOMES",
+          "JOSH ALLEN",
+          "JUSTIN HERBERT"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2021",
+        "difficulty": "hard",
+        "words": [
+          "JUSTIN JEFFERSON",
+          "DAVANTE ADAMS",
+          "JA'MARR CHASE",
+          "DEEBO SAMUEL"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "T.J. WATT",
+          "ROBERT QUINN",
+          "MYLES GARRETT",
+          "NICK BOSA"
+        ]
+      }
+    ]
   }
 ]
