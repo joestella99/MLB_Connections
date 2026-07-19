@@ -622,5 +622,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 14,
+    "date": "2026-07-19",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2008",
+        "difficulty": "easy",
+        "words": [
+          "ANDRE JOHNSON",
+          "DERRICK MASON",
+          "ANQUAN BOLDIN",
+          "WES WELKER"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2008",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL TURNER",
+          "RYAN GRANT",
+          "ADRIAN PETERSON",
+          "STEVE SLATON"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2008",
+        "difficulty": "hard",
+        "words": [
+          "CHARLES WOODSON",
+          "ED REED",
+          "JASON DAVID",
+          "BRANDON MCDONALD"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "JON BEASON",
+          "PATRICK WILLIS",
+          "BARRETT RUUD"
+        ]
+      }
+    ]
   }
 ]

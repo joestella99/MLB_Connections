@@ -1032,5 +1032,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 23,
+    "date": "2026-07-19",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ALBERT PUJOLS",
+          "MEL OTT",
+          "WILLIE MAYS",
+          "DAVID ORTIZ"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "CHRISTY MATHEWSON",
+          "GROVER ALEXANDER",
+          "LEFTY GROVE",
+          "DON SUTTON"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2009",
+        "difficulty": "hard",
+        "words": [
+          "CLAYTON KERSHAW",
+          "FÉLIX HERNÁNDEZ",
+          "J.A. HAPP",
+          "CHRIS CARPENTER"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "TOMMY HELMS",
+          "DAVE RIGHETTI",
+          "EVAN LONGORIA",
+          "JOHN CASTINO"
+        ]
+      }
+    ]
   }
 ]
