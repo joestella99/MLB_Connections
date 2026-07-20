@@ -1079,5 +1079,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 24,
+    "date": "2026-07-20",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "WADE BOGGS",
+          "STAN MUSIAL",
+          "TONY GWYNN"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "MORGAN ENSBERG",
+          "MARK TEIXEIRA",
+          "PAUL KONERKO",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "PHIL NIEKRO",
+          "BOB FELLER",
+          "A.J. BURNETT",
+          "JIM BUNNING"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "RANDY AROZARENA",
+          "YORDAN ALVAREZ",
+          "CORBIN CARROLL",
+          "DONTRELLE WILLIS"
+        ]
+      }
+    ]
   }
 ]

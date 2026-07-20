@@ -670,5 +670,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 15,
+    "date": "2026-07-20",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JAKOBI MEYERS",
+          "MALIK NABERS",
+          "COURTLAND SUTTON",
+          "WAN'DALE ROBINSON"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JAHMYR GIBBS",
+          "DERRICK HENRY",
+          "SAQUON BARKLEY",
+          "BIJAN ROBINSON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2024",
+        "difficulty": "hard",
+        "words": [
+          "ODAFE OWEH",
+          "JONATHON COOPER",
+          "NIK BONITTO",
+          "T.J. WATT"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "ZACK BAUN",
+          "CHRISTIAN ROZEBOOM",
+          "GERMAINE PRATT",
+          "DEMARIO DAVIS"
+        ]
+      }
+    ]
   }
 ]
