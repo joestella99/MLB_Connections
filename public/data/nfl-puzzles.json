@@ -718,5 +718,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 16,
+    "date": "2026-07-21",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2022",
+        "difficulty": "easy",
+        "words": [
+          "BRANDON AIYUK",
+          "TEE HIGGINS",
+          "CHRISTIAN KIRK",
+          "MIKE EVANS"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2022",
+        "difficulty": "medium",
+        "words": [
+          "MILES SANDERS",
+          "JOSH JACOBS",
+          "DERRICK HENRY",
+          "NICK CHUBB"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2022",
+        "difficulty": "hard",
+        "words": [
+          "AUSTIN EKELER",
+          "JALEN HURTS",
+          "EZEKIEL ELLIOTT",
+          "JAMAAL WILLIAMS"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BOSA",
+          "CHRIS JONES",
+          "MATTHEW JUDON",
+          "MYLES GARRETT"
+        ]
+      }
+    ]
   }
 ]
