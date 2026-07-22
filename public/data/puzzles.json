@@ -1173,5 +1173,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 26,
+    "date": "2026-07-22",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ERNIE BANKS",
+          "MARK MCGWIRE",
+          "RAFAEL PALMEIRO",
+          "ALEX RODRIGUEZ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2025",
+        "difficulty": "medium",
+        "words": [
+          "RILEY GREENE",
+          "JUAN SOTO",
+          "MANNY MACHADO",
+          "GERALDO PERDOMO"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2025",
+        "difficulty": "hard",
+        "words": [
+          "BRYAN WOO",
+          "FREDDY PERALTA",
+          "GARRETT CROCHET",
+          "MAX FRIED"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "REGGIE JACKSON",
+          "LARRY SHERRY",
+          "RON CEY",
+          "FRANK VIOLA"
+        ]
+      }
+    ]
   }
 ]

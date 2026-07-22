@@ -766,5 +766,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 17,
+    "date": "2026-07-22",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "DEREK CARR",
+          "BEN ROETHLISBERGER",
+          "MAC JONES",
+          "JOSH ALLEN"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2021",
+        "difficulty": "medium",
+        "words": [
+          "JOE MIXON",
+          "JAMES CONNER",
+          "EZEKIEL ELLIOTT",
+          "JONATHAN TAYLOR"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2021",
+        "difficulty": "hard",
+        "words": [
+          "XAVIEN HOWARD",
+          "JORDAN POYER",
+          "KEVIN BYARD",
+          "QUANDRE DIGGS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "FOYESADE OLUOKUN",
+          "BOBBY OKEREKE",
+          "ROQUAN SMITH",
+          "COLE HOLCOMB"
+        ]
+      }
+    ]
   }
 ]
