@@ -814,5 +814,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 18,
+    "date": "2026-07-23",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "PHILLIP LINDSAY",
+          "EZEKIEL ELLIOTT",
+          "JOSH JACOBS",
+          "DALVIN COOK"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "JARED COOK",
+          "AUSTIN EKELER",
+          "COOPER KUPP",
+          "DJ CHARK"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2019",
+        "difficulty": "hard",
+        "words": [
+          "JAMEIS WINSTON",
+          "LAMAR JACKSON",
+          "RUSSELL WILSON",
+          "DAK PRESCOTT"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "BUDDA BAKER",
+          "JAYLON SMITH",
+          "BLAKE MARTINEZ"
+        ]
+      }
+    ]
   }
 ]

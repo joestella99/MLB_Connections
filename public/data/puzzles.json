@@ -1220,5 +1220,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 27,
+    "date": "2026-07-23",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "NAP LAJOIE",
+          "PETE ROSE",
+          "LOU GEHRIG"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2022",
+        "difficulty": "medium",
+        "words": [
+          "PAUL GOLDSCHMIDT",
+          "JOSÉ RAMÍREZ",
+          "KYLE SCHWARBER",
+          "RAFAEL DEVERS"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2022",
+        "difficulty": "hard",
+        "words": [
+          "SHANE BIEBER",
+          "TRISTON MCKENZIE",
+          "LOGAN WEBB",
+          "MAX FRIED"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "JULIO URÍAS",
+          "GERRIT COLE",
+          "SANDY ALCANTARA",
+          "JORDAN MONTGOMERY"
+        ]
+      }
+    ]
   }
 ]
