@@ -862,5 +862,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 19,
+    "date": "2026-07-24",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JOSH ALLEN",
+          "KYLER MURRAY",
+          "C.J. STROUD",
+          "JORDAN LOVE"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JAHMYR GIBBS",
+          "JONATHAN TAYLOR",
+          "BRIAN ROBINSON JR.",
+          "J.K. DOBBINS"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2024",
+        "difficulty": "hard",
+        "words": [
+          "TRAVON WALKER",
+          "T.J. WATT",
+          "TREY HENDRICKSON",
+          "LEONARD WILLIAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "CHRISTIAN ROZEBOOM",
+          "ROBERT SPILLANE",
+          "JACK CAMPBELL",
+          "ZAIRE FRANKLIN"
+        ]
+      }
+    ]
   }
 ]

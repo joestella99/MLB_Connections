@@ -1267,5 +1267,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 28,
+    "date": "2026-07-24",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "MEL OTT",
+          "HANK AARON",
+          "MIGUEL CABRERA",
+          "RAFAEL PALMEIRO"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TIM KEEFE",
+          "CHRISTY MATHEWSON",
+          "PUD GALVIN",
+          "NOLAN RYAN JR."
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "MIKE CUELLAR",
+          "PEDRO MARTÍNEZ",
+          "MIKE SCOTT",
+          "GERRIT COLE"
+        ]
+      },
+      {
+        "name": "All-Star in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "JOE CREDE",
+          "MANNY RAMIREZ",
+          "CARLOS GUILLÉN",
+          "BRAD LIDGE"
+        ]
+      }
+    ]
   }
 ]
