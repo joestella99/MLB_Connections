@@ -910,5 +910,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 20,
+    "date": "2026-07-25",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "MARSHAWN LYNCH",
+          "DEMARCO MURRAY",
+          "EDDIE LACY",
+          "LAMAR MILLER"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2014",
+        "difficulty": "medium",
+        "words": [
+          "BEN ROETHLISBERGER",
+          "PEYTON MANNING",
+          "MATT RYAN",
+          "ANDREW LUCK"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2014",
+        "difficulty": "hard",
+        "words": [
+          "DEMARYIUS THOMAS",
+          "JORDY NELSON",
+          "ANTONIO BROWN",
+          "EMMANUEL SANDERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "PAUL WORRILOW",
+          "D'QWELL JACKSON",
+          "LAWRENCE TIMMONS",
+          "DEANDRE LEVY"
+        ]
+      }
+    ]
   }
 ]

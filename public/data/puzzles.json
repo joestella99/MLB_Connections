@@ -1314,5 +1314,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 29,
+    "date": "2026-07-25",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "NELSON CRUZ",
+          "CARL YASTRZEMSKI",
+          "DAVE KINGMAN",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2006",
+        "difficulty": "medium",
+        "words": [
+          "PAUL KONERKO",
+          "JASON GIAMBI",
+          "JERMAINE DYE",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2006",
+        "difficulty": "hard",
+        "words": [
+          "AARON HARANG",
+          "JOHAN SANTANA",
+          "JAKE PEAVY",
+          "JOHN SMOLTZ"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "JIM THOME",
+          "LANCE BERKMAN",
+          "ADAM DUNN",
+          "RYAN HOWARD"
+        ]
+      }
+    ]
   }
 ]
