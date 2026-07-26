@@ -1361,5 +1361,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 30,
+    "date": "2026-07-26",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "JOHN WARD",
+          "WAITE HOYT",
+          "BUD SELIG",
+          "BILLY HERMAN"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JIM PALMER",
+          "BOB FELLER",
+          "JUSTIN VERLANDER",
+          "GUS WEYHING"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "RANDY JOHNSON",
+          "CHRIS CARPENTER",
+          "STEVE STONE",
+          "DAVID CONE"
+        ]
+      },
+      {
+        "name": "All-Star in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "ANDRUW JONES",
+          "GARRET ANDERSON",
+          "ODALIS PEREZ",
+          "LUIS GONZALEZ"
+        ]
+      }
+    ]
   }
 ]

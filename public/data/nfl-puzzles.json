@@ -958,5 +958,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 21,
+    "date": "2026-07-26",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JAKOBI MEYERS",
+          "AMON-RA ST. BROWN",
+          "A.J. BROWN",
+          "NICO COLLINS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "J.K. DOBBINS",
+          "JOSH JACOBS",
+          "KYREN WILLIAMS",
+          "JAMES COOK III"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2024",
+        "difficulty": "hard",
+        "words": [
+          "DEREK STINGLEY JR.",
+          "XAVIER MCKINNEY",
+          "MARLON HUMPHREY",
+          "C.J. GARDNER-JOHNSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "CHRISTIAN ROZEBOOM",
+          "ZAIRE FRANKLIN",
+          "ROBERT SPILLANE",
+          "ZACK BAUN"
+        ]
+      }
+    ]
   }
 ]
