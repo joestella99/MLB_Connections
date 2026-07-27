@@ -1006,5 +1006,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 22,
+    "date": "2026-07-27",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "DREW BREES",
+          "DAK PRESCOTT",
+          "MATTHEW STAFFORD",
+          "KIRK COUSINS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "SAQUON BARKLEY",
+          "DERRICK HENRY",
+          "JOSH ALLEN",
+          "JORDAN HOWARD"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2018",
+        "difficulty": "hard",
+        "words": [
+          "ERIC EBRON",
+          "DAVANTE ADAMS",
+          "ANTONIO BROWN",
+          "TYREEK HILL"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "BLAKE MARTINEZ",
+          "SHAQUILLE LEONARD",
+          "LEIGHTON VANDER ESCH",
+          "ANTHONY HITCHENS"
+        ]
+      }
+    ]
   }
 ]

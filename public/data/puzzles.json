@@ -1408,5 +1408,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 31,
+    "date": "2026-07-27",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "BARRY BONDS",
+          "STAN MUSIAL",
+          "AL KALINE",
+          "TONY PEREZ"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2016",
+        "difficulty": "medium",
+        "words": [
+          "NELSON CRUZ",
+          "DANIEL MURPHY",
+          "ANTHONY RIZZO",
+          "ALBERT PUJOLS"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "JUSTIN MORNEAU",
+          "CODY BELLINGER",
+          "JEFF BURROUGHS",
+          "VLADIMIR GUERRERO"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "MIKE TROUT",
+          "KEN HUBBS",
+          "JOSÉ FERNÁNDEZ",
+          "JIM LEFEBVRE"
+        ]
+      }
+    ]
   }
 ]
