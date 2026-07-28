@@ -1054,5 +1054,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 23,
+    "date": "2026-07-28",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "JULIO JONES",
+          "JEREMY MACLIN",
+          "STEVE SMITH SR.",
+          "KELVIN BENJAMIN"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2014",
+        "difficulty": "medium",
+        "words": [
+          "PHILIP RIVERS",
+          "MATTHEW STAFFORD",
+          "ELI MANNING",
+          "AARON RODGERS"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2014",
+        "difficulty": "hard",
+        "words": [
+          "ANTONIO BROWN",
+          "EMMANUEL SANDERS",
+          "MATT FORTE",
+          "DEMARYIUS THOMAS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "LAWRENCE TIMMONS",
+          "CURTIS LOFTON",
+          "D'QWELL JACKSON"
+        ]
+      }
+    ]
   }
 ]

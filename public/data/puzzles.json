@@ -1455,5 +1455,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 32,
+    "date": "2026-07-28",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "TONY GWYNN",
+          "BARRY BONDS",
+          "TY COBB",
+          "PAUL MOLITOR"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2013",
+        "difficulty": "medium",
+        "words": [
+          "PAUL GOLDSCHMIDT",
+          "CHRIS DAVIS",
+          "JAY BRUCE",
+          "EVAN LONGORIA"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "JACOB DEGROM",
+          "JUSTIN VERLANDER",
+          "CLIFF LEE",
+          "CORBIN BURNES"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "WILLIE STARGELL",
+          "OREL HERSHISER",
+          "JOHNNY BENCH",
+          "MANNY RAMIREZ"
+        ]
+      }
+    ]
   }
 ]
