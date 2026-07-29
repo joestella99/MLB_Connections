@@ -1502,5 +1502,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 33,
+    "date": "2026-07-29",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "MARK MCGWIRE",
+          "JIMMIE FOXX",
+          "EDDIE MATHEWS"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2002",
+        "difficulty": "medium",
+        "words": [
+          "MANNY RAMIREZ",
+          "LUIS GONZALEZ",
+          "RAUL IBANEZ",
+          "GARRET ANDERSON"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2002",
+        "difficulty": "hard",
+        "words": [
+          "UGUETH URBINA",
+          "KELVIM ESCOBAR",
+          "KAZUHIRO SASAKI",
+          "JOSE JIMENEZ"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "DEREK LOWE",
+          "TIM WAKEFIELD",
+          "PEDRO MARTÍNEZ",
+          "JAMIE MOYER"
+        ]
+      }
+    ]
   }
 ]

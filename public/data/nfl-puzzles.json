@@ -1102,5 +1102,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 24,
+    "date": "2026-07-29",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "TREY MCBRIDE",
+          "JA'MARR CHASE",
+          "PUKA NACUA",
+          "CEEDEE LAMB"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2025",
+        "difficulty": "medium",
+        "words": [
+          "TREVOR LAWRENCE",
+          "SAM DARNOLD",
+          "DAK PRESCOTT",
+          "DRAKE MAYE"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2025",
+        "difficulty": "hard",
+        "words": [
+          "JOSH ALLEN",
+          "DERRICK HENRY",
+          "JOSH JACOBS",
+          "JAMES COOK III"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY OKEREKE",
+          "DEVIN WHITE",
+          "JAMIEN SHERWOOD",
+          "BLAKE CASHMAN"
+        ]
+      }
+    ]
   }
 ]
