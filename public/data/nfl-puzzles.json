@@ -1150,5 +1150,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 25,
+    "date": "2026-07-30",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2018",
+        "difficulty": "easy",
+        "words": [
+          "BEN ROETHLISBERGER",
+          "TOM BRADY",
+          "DAK PRESCOTT",
+          "ANDREW LUCK"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "ALVIN KAMARA",
+          "MARLON MACK",
+          "JOE MIXON",
+          "MELVIN GORDON III"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2018",
+        "difficulty": "hard",
+        "words": [
+          "KYLE FULLER",
+          "DAMONTAE KAZEE",
+          "EDDIE JACKSON",
+          "ALEC OGLETREE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "LEIGHTON VANDER ESCH",
+          "BLAKE MARTINEZ",
+          "TELVIN SMITH",
+          "BOBBY WAGNER"
+        ]
+      }
+    ]
   }
 ]

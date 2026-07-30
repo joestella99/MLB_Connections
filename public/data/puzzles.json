@@ -1549,5 +1549,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 34,
+    "date": "2026-07-30",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "CHIPPER JONES",
+          "CARL YASTRZEMSKI",
+          "ADAM DUNN",
+          "GIANCARLO STANTON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2021",
+        "difficulty": "medium",
+        "words": [
+          "AARON JUDGE",
+          "FERNANDO TATIS JR.",
+          "BRANDON LOWE",
+          "JOSÉ RAMÍREZ"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2021",
+        "difficulty": "hard",
+        "words": [
+          "TREA TURNER",
+          "BRYAN REYNOLDS",
+          "MATT OLSON",
+          "VLADIMIR GUERRERO JR."
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "SALVADOR PEREZ",
+          "EDGAR RENTERIA",
+          "COREY SEAGER",
+          "RON CEY"
+        ]
+      }
+    ]
   }
 ]
