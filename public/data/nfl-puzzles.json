@@ -1198,5 +1198,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 26,
+    "date": "2026-07-31",
+    "sport": "nfl",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2010",
+        "difficulty": "easy",
+        "words": [
+          "AARON RODGERS",
+          "JOE FLACCO",
+          "PHILIP RIVERS",
+          "CARSON PALMER"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2010",
+        "difficulty": "medium",
+        "words": [
+          "ANDRE JOHNSON",
+          "MIKE WALLACE",
+          "RODDY WHITE",
+          "BRANDON LLOYD"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2010",
+        "difficulty": "hard",
+        "words": [
+          "RASHARD MENDENHALL",
+          "BENJARVUS GREEN-ELLIS",
+          "MICHAEL TURNER",
+          "ARIAN FOSTER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2010",
+        "difficulty": "tricky",
+        "words": [
+          "JAMES ANDERSON",
+          "STEPHEN TULLOCH",
+          "LAWRENCE TIMMONS",
+          "PAUL POSLUSZNY"
+        ]
+      }
+    ]
   }
 ]

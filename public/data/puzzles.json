@@ -1596,5 +1596,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 35,
+    "date": "2026-07-31",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "JEFF KENT",
+          "ALBERT PUJOLS",
+          "EDDIE MURRAY",
+          "TODD HELTON"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2011",
+        "difficulty": "medium",
+        "words": [
+          "BRANDON PHILLIPS",
+          "PLACIDO POLANCO",
+          "NICK MARKAKIS",
+          "ADRIÁN GONZÁLEZ"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2011",
+        "difficulty": "hard",
+        "words": [
+          "ZACK GREINKE",
+          "CLIFF LEE",
+          "C.J. WILSON",
+          "CLAYTON KERSHAW"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "DOUG FISTER",
+          "IAN KENNEDY",
+          "JERED WEAVER",
+          "DAN HAREN"
+        ]
+      }
+    ]
   }
 ]
