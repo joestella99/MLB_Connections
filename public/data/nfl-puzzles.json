@@ -1246,5 +1246,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 27,
+    "date": "2026-08-01",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2006",
+        "difficulty": "easy",
+        "words": [
+          "TOM BRADY",
+          "REX GROSSMAN",
+          "PHILIP RIVERS",
+          "DREW BREES"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2006",
+        "difficulty": "medium",
+        "words": [
+          "MARVIN HARRISON",
+          "LEE EVANS",
+          "CHAD JOHNSON",
+          "DONALD DRIVER"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2006",
+        "difficulty": "hard",
+        "words": [
+          "RUDI JOHNSON",
+          "COREY DILLON",
+          "LADAINIAN TOMLINSON",
+          "STEVEN JACKSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "DEMECO RYANS",
+          "CATO JUNE",
+          "KEITH BULLUCK",
+          "ZACH THOMAS"
+        ]
+      }
+    ]
   }
 ]

@@ -1643,5 +1643,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 36,
+    "date": "2026-08-01",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "GEORGE BRETT",
+          "GOOSE GOSLIN",
+          "TONY PEREZ",
+          "WILLIE STARGELL"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "GUS WEYHING",
+          "RED RUFFING",
+          "JIM MCCORMICK",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "FÉLIX HERNÁNDEZ",
+          "CY YOUNG",
+          "NOLAN RYAN JR.",
+          "ZACK GREINKE"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2017",
+        "difficulty": "tricky",
+        "words": [
+          "CLAYTON KERSHAW",
+          "CHRIS SALE",
+          "STEPHEN STRASBURG",
+          "LUIS SEVERINO"
+        ]
+      }
+    ]
   }
 ]
