@@ -1294,5 +1294,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 28,
+    "date": "2026-08-02",
+    "sport": "nfl",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2023",
+        "difficulty": "easy",
+        "words": [
+          "TYREEK HILL",
+          "AMARI COOPER",
+          "MICHAEL PITTMAN JR.",
+          "DK METCALF"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2023",
+        "difficulty": "medium",
+        "words": [
+          "DAVANTE ADAMS",
+          "JAYDEN REED",
+          "CALVIN RIDLEY",
+          "DJ MOORE"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2023",
+        "difficulty": "hard",
+        "words": [
+          "JESSIE BATES III",
+          "DARON BLAND",
+          "DEREK STINGLEY JR.",
+          "CHARVARIUS WARD"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "FRED WARNER",
+          "ALEX SINGLETON",
+          "PATRICK QUEEN",
+          "BOBBY WAGNER"
+        ]
+      }
+    ]
   }
 ]

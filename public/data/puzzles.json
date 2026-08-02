@@ -1690,5 +1690,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 37,
+    "date": "2026-08-02",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JASON GIAMBI",
+          "PAUL KONERKO",
+          "FRED MCGRIFF",
+          "NELSON CRUZ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2005",
+        "difficulty": "medium",
+        "words": [
+          "MARK TEIXEIRA",
+          "MIGUEL CABRERA",
+          "MANNY RAMIREZ",
+          "GARY SHEFFIELD"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "TOM SEAVER",
+          "COLE HAMELS",
+          "MAX SCHERZER",
+          "PEDRO MARTÍNEZ"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "ANDRUW JONES",
+          "DAVID ORTIZ",
+          "RICHIE SEXSON",
+          "ALEX RODRIGUEZ"
+        ]
+      }
+    ]
   }
 ]
