@@ -1342,5 +1342,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 29,
+    "date": "2026-08-03",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2008",
+        "difficulty": "easy",
+        "words": [
+          "RODDY WHITE",
+          "JASON WITTEN",
+          "EDDIE ROYAL",
+          "WES WELKER"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2008",
+        "difficulty": "medium",
+        "words": [
+          "RONNIE BROWN",
+          "DEANGELO WILLIAMS",
+          "CHRIS JOHNSON",
+          "BRANDON JACOBS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2008",
+        "difficulty": "hard",
+        "words": [
+          "ED REED",
+          "CORTLAND FINNEGAN",
+          "JASON DAVID",
+          "TRAMON WILLIAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "D'QWELL JACKSON",
+          "PATRICK WILLIS",
+          "BARRETT RUUD"
+        ]
+      }
+    ]
   }
 ]

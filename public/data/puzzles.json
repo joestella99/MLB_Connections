@@ -1737,5 +1737,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 38,
+    "date": "2026-08-03",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JIM THOME",
+          "WILLIE MCCOVEY",
+          "KEN GRIFFEY JR.",
+          "FRANK ROBINSON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "JOSH WILLINGHAM",
+          "ADRIAN BELTRÉ",
+          "JOSH HAMILTON",
+          "RYAN BRAUN"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2012",
+        "difficulty": "hard",
+        "words": [
+          "JERED WEAVER",
+          "KYLE LOHSE",
+          "STEPHEN STRASBURG",
+          "ZACK GREINKE"
+        ]
+      },
+      {
+        "name": "All-Star in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "JOEL HANRAHAN",
+          "PRINCE FIELDER",
+          "DAVID PRICE",
+          "FÉLIX HERNÁNDEZ"
+        ]
+      }
+    ]
   }
 ]
