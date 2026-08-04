@@ -1784,5 +1784,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 39,
+    "date": "2026-08-04",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "MANNY RAMIREZ",
+          "DAVID ORTIZ",
+          "FRANK THOMAS",
+          "SAMMY SOSA"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2013",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL CUDDYER",
+          "MIGUEL CABRERA",
+          "J.J. HARDY",
+          "ROBINSON CANÓ"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2013",
+        "difficulty": "hard",
+        "words": [
+          "JEFF SAMARDZIJA",
+          "CHRIS SALE",
+          "ADAM WAINWRIGHT",
+          "A.J. BURNETT"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JEREMY PEÑA",
+          "TROY GLAUS",
+          "DON LARSEN",
+          "GEORGE SPRINGER"
+        ]
+      }
+    ]
   }
 ]

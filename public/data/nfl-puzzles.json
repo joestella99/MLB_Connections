@@ -1390,5 +1390,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 30,
+    "date": "2026-08-04",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "DEREK CARR",
+          "AARON RODGERS",
+          "MATTHEW STAFFORD",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2021",
+        "difficulty": "medium",
+        "words": [
+          "NAJEE HARRIS",
+          "JOE MIXON",
+          "JONATHAN TAYLOR",
+          "NICK CHUBB"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2021",
+        "difficulty": "hard",
+        "words": [
+          "JA'MARR CHASE",
+          "COOPER KUPP",
+          "MIKE EVANS",
+          "DK METCALF"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "MYLES GARRETT",
+          "ROBERT QUINN",
+          "T.J. WATT",
+          "NICK BOSA"
+        ]
+      }
+    ]
   }
 ]
