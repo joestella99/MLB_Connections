@@ -1438,5 +1438,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 31,
+    "date": "2026-08-05",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE PARKER",
+          "MIKE VICK",
+          "RUDI JOHNSON",
+          "BRIAN WESTBROOK"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2006",
+        "difficulty": "medium",
+        "words": [
+          "ANQUAN BOLDIN",
+          "CHAD JOHNSON",
+          "ROY WILLIAMS",
+          "DONALD DRIVER"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2006",
+        "difficulty": "hard",
+        "words": [
+          "KAMERION WIMBLEY",
+          "JULIAN PETERSON",
+          "DEMARCUS WARE",
+          "SHAWNE MERRIMAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "KEITH BULLUCK",
+          "DEMECO RYANS",
+          "KEITH BROOKING",
+          "CATO JUNE"
+        ]
+      }
+    ]
   }
 ]

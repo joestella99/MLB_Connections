@@ -1831,5 +1831,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 40,
+    "date": "2026-08-05",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRED MCGRIFF",
+          "ADAM DUNN",
+          "CARLOS DELGADO",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "WARREN SPAHN",
+          "JOHN CLARKSON",
+          "MICKEY WELCH",
+          "CHRISTY MATHEWSON"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2009",
+        "difficulty": "hard",
+        "words": [
+          "BRAD LIDGE",
+          "FRANCISCO RODRÍGUEZ",
+          "HUSTON STREET",
+          "JOE NATHAN"
+        ]
+      },
+      {
+        "name": "All-Star in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "JAYSON WERTH",
+          "KEVIN YOUKILIS",
+          "ORLANDO HUDSON",
+          "MICHAEL YOUNG"
+        ]
+      }
+    ]
   }
 ]
