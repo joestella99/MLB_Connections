@@ -1486,5 +1486,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 32,
+    "date": "2026-08-06",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "ALFRED MORRIS",
+          "JEREMY HILL",
+          "JUSTIN FORSETT",
+          "MATT FORTE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2014",
+        "difficulty": "medium",
+        "words": [
+          "KELVIN BENJAMIN",
+          "BRANDON MARSHALL",
+          "RANDALL COBB",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2014",
+        "difficulty": "hard",
+        "words": [
+          "PHILIP RIVERS",
+          "ELI MANNING",
+          "DREW BREES",
+          "AARON RODGERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "LAWRENCE TIMMONS",
+          "LUKE KUECHLY",
+          "CURTIS LOFTON",
+          "C.J. MOSLEY"
+        ]
+      }
+    ]
   }
 ]

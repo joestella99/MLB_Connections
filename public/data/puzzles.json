@@ -1878,5 +1878,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 41,
+    "date": "2026-08-06",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "MIKE SCHMIDT",
+          "MIGUEL CABRERA",
+          "HARMON KILLEBREW",
+          "SAMMY SOSA"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2018",
+        "difficulty": "medium",
+        "words": [
+          "JOSÉ RAMÍREZ",
+          "MANNY MACHADO",
+          "KHRIS DAVIS",
+          "MATT CARPENTER"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "BARTOLO COLON",
+          "CLAYTON KERSHAW",
+          "TOM GLAVINE",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "AARON NOLA",
+          "COREY KLUBER",
+          "MAX SCHERZER",
+          "PATRICK CORBIN"
+        ]
+      }
+    ]
   }
 ]
