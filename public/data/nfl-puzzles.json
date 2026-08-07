@@ -1534,5 +1534,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 33,
+    "date": "2026-08-07",
+    "sport": "nfl",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2015",
+        "difficulty": "easy",
+        "words": [
+          "JARVIS LANDRY",
+          "DEANDRE HOPKINS",
+          "BRANDON MARSHALL",
+          "A.J. GREEN"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2015",
+        "difficulty": "medium",
+        "words": [
+          "PHILIP RIVERS",
+          "DREW BREES",
+          "TOM BRADY",
+          "RUSSELL WILSON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2015",
+        "difficulty": "hard",
+        "words": [
+          "JULIUS PEPPERS",
+          "AARON DONALD",
+          "J.J. WATT",
+          "CHANDLER JONES"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "LAVONTE DAVID",
+          "RESHAD JONES",
+          "PAUL POSLUSZNY",
+          "D'QWELL JACKSON"
+        ]
+      }
+    ]
   }
 ]

@@ -1925,5 +1925,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 42,
+    "date": "2026-08-07",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "MANNY RAMIREZ",
+          "HARMON KILLEBREW",
+          "ADRIAN BELTRÉ",
+          "WILLIE STARGELL"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2017",
+        "difficulty": "medium",
+        "words": [
+          "GIANCARLO STANTON",
+          "JAY BRUCE",
+          "TRAVIS SHAW",
+          "CHARLIE BLACKMON"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "AARON JUDGE",
+          "FRANKIE FRISCH",
+          "SANDY KOUFAX",
+          "BROOKS ROBINSON"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "NEFTALÍ FELIZ",
+          "HERB SCORE",
+          "EDDIE MURRAY",
+          "SAM JETHROE"
+        ]
+      }
+    ]
   }
 ]
