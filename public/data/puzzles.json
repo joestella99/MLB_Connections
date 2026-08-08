@@ -1972,5 +1972,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 43,
+    "date": "2026-08-08",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HARRY HEILMANN",
+          "SAMMY SOSA",
+          "MANNY RAMIREZ",
+          "JIM THOME"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2000",
+        "difficulty": "medium",
+        "words": [
+          "JEFF KENT",
+          "DARIN ERSTAD",
+          "MIKE PIAZZA",
+          "FRANK THOMAS"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2000",
+        "difficulty": "hard",
+        "words": [
+          "KAZUHIRO SASAKI",
+          "ROBB NEN",
+          "BILLY KOCH",
+          "JOHN WETTELAND"
+        ]
+      },
+      {
+        "name": "All-Star in 2000",
+        "difficulty": "tricky",
+        "words": [
+          "DANNY GRAVES",
+          "JAMES BALDWIN",
+          "JERMAINE DYE",
+          "BARRY BONDS"
+        ]
+      }
+    ]
   }
 ]

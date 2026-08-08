@@ -1582,5 +1582,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 34,
+    "date": "2026-08-08",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2007",
+        "difficulty": "easy",
+        "words": [
+          "LARRY FITZGERALD",
+          "CHAD JOHNSON",
+          "BRIAN WESTBROOK",
+          "T.J. HOUSHMANDZADEH"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2007",
+        "difficulty": "medium",
+        "words": [
+          "TERRELL OWENS",
+          "PLAXICO BURRESS",
+          "GREG JENNINGS",
+          "CHRIS COOLEY"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2007",
+        "difficulty": "hard",
+        "words": [
+          "PEYTON MANNING",
+          "TOM BRADY",
+          "TONY ROMO",
+          "BEN ROETHLISBERGER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "PATRICK WILLIS",
+          "D.J. WILLIAMS",
+          "JON BEASON",
+          "ERNIE SIMS"
+        ]
+      }
+    ]
   }
 ]
