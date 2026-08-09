@@ -2019,5 +2019,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 44,
+    "date": "2026-08-09",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "JIM THOME",
+          "EDDIE MURRAY",
+          "RAFAEL PALMEIRO"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2015",
+        "difficulty": "medium",
+        "words": [
+          "NOLAN ARENADO",
+          "CARLOS GONZÁLEZ",
+          "DEE STRANGE-GORDON",
+          "BRYCE HARPER"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2015",
+        "difficulty": "hard",
+        "words": [
+          "DAVID ORTIZ",
+          "JOSH DONALDSON",
+          "MIGUEL CABRERA",
+          "JOSÉ BAUTISTA"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "DALLAS KEUCHEL",
+          "DAVID PRICE",
+          "JACOB DEGROM",
+          "CARLOS CARRASCO"
+        ]
+      }
+    ]
   }
 ]

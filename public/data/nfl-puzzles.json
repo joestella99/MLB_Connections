@@ -1630,5 +1630,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 35,
+    "date": "2026-08-09",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2018",
+        "difficulty": "easy",
+        "words": [
+          "PATRICK MAHOMES",
+          "MATTHEW STAFFORD",
+          "DESHAUN WATSON",
+          "MITCHELL TRUBISKY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "PHILLIP LINDSAY",
+          "AARON JONES SR.",
+          "MELVIN GORDON III",
+          "JAMES CONNER"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2018",
+        "difficulty": "hard",
+        "words": [
+          "EDDIE JACKSON",
+          "DAMONTAE KAZEE",
+          "KYLE FULLER",
+          "SHAWN WILLIAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "ANTHONY HITCHENS",
+          "BOBBY WAGNER",
+          "LEIGHTON VANDER ESCH",
+          "LUKE KUECHLY"
+        ]
+      }
+    ]
   }
 ]
