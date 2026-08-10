@@ -1678,5 +1678,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 36,
+    "date": "2026-08-10",
+    "sport": "nfl",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2023",
+        "difficulty": "easy",
+        "words": [
+          "DAVID NJOKU",
+          "CEEDEE LAMB",
+          "AMON-RA ST. BROWN",
+          "TREY MCBRIDE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2023",
+        "difficulty": "medium",
+        "words": [
+          "COURTLAND SUTTON",
+          "JAYDEN REED",
+          "TYREEK HILL",
+          "JAKOBI MEYERS"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2023",
+        "difficulty": "hard",
+        "words": [
+          "KYREN WILLIAMS",
+          "DAVID MONTGOMERY",
+          "RAHEEM MOSTERT",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "ROBERT SPILLANE",
+          "LAVONTE DAVID",
+          "C.J. MOSLEY",
+          "BOBBY OKEREKE"
+        ]
+      }
+    ]
   }
 ]

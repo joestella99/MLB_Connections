@@ -2066,5 +2066,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 45,
+    "date": "2026-08-10",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "HANK AARON",
+          "EDDIE MURRAY",
+          "TONY GWYNN",
+          "ROBIN YOUNT"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2015",
+        "difficulty": "medium",
+        "words": [
+          "TODD FRAZIER",
+          "JASON KIPNIS",
+          "YOENIS CESPEDES",
+          "JOSH DONALDSON"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "BOBBY SHANTZ",
+          "MO VAUGHN",
+          "DALE MURPHY",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "MARCO ESTRADA",
+          "DALLAS KEUCHEL",
+          "CHRIS SALE",
+          "GERRIT COLE"
+        ]
+      }
+    ]
   }
 ]
