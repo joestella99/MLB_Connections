@@ -1726,5 +1726,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 37,
+    "date": "2026-08-11",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2013",
+        "difficulty": "easy",
+        "words": [
+          "JORDY NELSON",
+          "BRIAN HARTLINE",
+          "DEZ BRYANT",
+          "A.J. GREEN"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2013",
+        "difficulty": "medium",
+        "words": [
+          "EDDIE ROYAL",
+          "ERIC DECKER",
+          "VERNON DAVIS",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2013",
+        "difficulty": "hard",
+        "words": [
+          "MATTHEW STAFFORD",
+          "DREW BREES",
+          "PEYTON MANNING",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "LAVONTE DAVID",
+          "CHAD GREENWAY",
+          "D'QWELL JACKSON"
+        ]
+      }
+    ]
   }
 ]
