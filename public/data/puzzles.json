@@ -2160,5 +2160,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 47,
+    "date": "2026-08-12",
+    "season": 2020,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "TURKEY STEARNES",
+          "CASEY STENGEL",
+          "WILLIE KEELER",
+          "NESTOR CHYLAK"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "EPPA RIXEY",
+          "TONY MULLANE",
+          "RED RUFFING",
+          "TOMMY JOHN"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2020",
+        "difficulty": "hard",
+        "words": [
+          "JUAN SOTO",
+          "MANNY MACHADO",
+          "MARCELL OZUNA",
+          "NELSON CRUZ"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "HARVEY KUENN",
+          "KYLE LEWIS",
+          "DRAKE BALDWIN",
+          "TOMMY HELMS"
+        ]
+      }
+    ]
   }
 ]

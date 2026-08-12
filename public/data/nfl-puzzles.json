@@ -1774,5 +1774,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 38,
+    "date": "2026-08-12",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2019",
+        "difficulty": "easy",
+        "words": [
+          "KIRK COUSINS",
+          "DANIEL JONES",
+          "GARDNER MINSHEW II",
+          "DEREK CARR"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "KENYAN DRAKE",
+          "CHRISTIAN MCCAFFREY",
+          "NICK CHUBB",
+          "MELVIN GORDON III"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2019",
+        "difficulty": "hard",
+        "words": [
+          "DEANDRE HOPKINS",
+          "MICHAEL THOMAS",
+          "JULIAN EDELMAN",
+          "KEENAN ALLEN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "K.J. WRIGHT",
+          "BOBBY WAGNER",
+          "CORY LITTLETON",
+          "TODD DAVIS"
+        ]
+      }
+    ]
   }
 ]
