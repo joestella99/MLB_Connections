@@ -2207,5 +2207,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 48,
+    "date": "2026-08-13",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "MEL OTT",
+          "ALBERT PUJOLS",
+          "KEN GRIFFEY JR.",
+          "TED WILLIAMS"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2016",
+        "difficulty": "medium",
+        "words": [
+          "COREY SEAGER",
+          "DANIEL MURPHY",
+          "JOSE ALTUVE",
+          "JOSÉ RAMÍREZ"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "HUSTON STREET",
+          "JOE NATHAN",
+          "JOSE MESA",
+          "RICK AGUILERA"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "JON LESTER",
+          "KYLE HENDRICKS",
+          "JUSTIN VERLANDER",
+          "MASAHIRO TANAKA"
+        ]
+      }
+    ]
   }
 ]
