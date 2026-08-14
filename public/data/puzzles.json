@@ -2254,5 +2254,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 49,
+    "date": "2026-08-14",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "TONY PEREZ",
+          "FRANK ROBINSON",
+          "GOOSE GOSLIN",
+          "JIMMIE FOXX"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2000",
+        "difficulty": "medium",
+        "words": [
+          "EDGAR RENTERIA",
+          "TROY GLAUS",
+          "MAGGLIO ORDONEZ",
+          "TODD HELTON"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2000",
+        "difficulty": "hard",
+        "words": [
+          "TOM GLAVINE",
+          "PEDRO MARTÍNEZ",
+          "ANDY PETTITTE",
+          "CHAN HO PARK"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "BUCKY DENT",
+          "WILLIE STARGELL",
+          "STEPHEN STRASBURG",
+          "DEREK JETER"
+        ]
+      }
+    ]
   }
 ]

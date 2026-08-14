@@ -1870,5 +1870,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 40,
+    "date": "2026-08-14",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2007",
+        "difficulty": "easy",
+        "words": [
+          "TORRY HOLT",
+          "WES WELKER",
+          "JERRICHO COTCHERY",
+          "PLAXICO BURRESS"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2007",
+        "difficulty": "medium",
+        "words": [
+          "ANTONIO GATES",
+          "SANTONIO HOLMES",
+          "DALLAS CLARK",
+          "REGGIE WILLIAMS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2007",
+        "difficulty": "hard",
+        "words": [
+          "MARCUS TRUFANT",
+          "DEANGELO HALL",
+          "REGGIE NELSON",
+          "KERRY RHODES"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BARNETT",
+          "D.J. WILLIAMS",
+          "ERNIE SIMS",
+          "PATRICK WILLIS"
+        ]
+      }
+    ]
   }
 ]
