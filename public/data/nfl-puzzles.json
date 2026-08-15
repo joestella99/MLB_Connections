@@ -1918,5 +1918,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 41,
+    "date": "2026-08-15",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2008",
+        "difficulty": "easy",
+        "words": [
+          "DWAYNE BOWE",
+          "REGGIE WAYNE",
+          "ANTONIO BRYANT",
+          "DERRICK MASON"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2008",
+        "difficulty": "medium",
+        "words": [
+          "RANDY MOSS",
+          "ANTONIO GATES",
+          "ANQUAN BOLDIN",
+          "GREG JENNINGS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2008",
+        "difficulty": "hard",
+        "words": [
+          "OSHIOMOGHO ATOGWE",
+          "NICK COLLINS",
+          "TRAMON WILLIAMS",
+          "JASON DAVID"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "DEMARCUS WARE",
+          "JOHN ABRAHAM",
+          "JAMES HARRISON",
+          "JOEY PORTER"
+        ]
+      }
+    ]
   }
 ]

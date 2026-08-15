@@ -2301,5 +2301,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 50,
+    "date": "2026-08-15",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE STARGELL",
+          "ADRIAN BELTRÉ",
+          "LOU GEHRIG",
+          "ANDRUW JONES"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "MIKE MUSSINA",
+          "RED FABER",
+          "TED LYONS",
+          "JAMIE MOYER"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "CHUCK FINLEY",
+          "CHRISTY MATHEWSON",
+          "WARREN SPAHN",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "JEFF BAGWELL",
+          "RYAN HOWARD",
+          "JIM GILLIAM",
+          "PAT ZACHRY"
+        ]
+      }
+    ]
   }
 ]
