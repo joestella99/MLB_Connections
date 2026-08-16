@@ -1966,5 +1966,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 42,
+    "date": "2026-08-16",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "BREECE HALL",
+          "CHASE BROWN",
+          "JAHMYR GIBBS",
+          "TRAVIS ETIENNE JR."
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2025",
+        "difficulty": "medium",
+        "words": [
+          "JALEN HURTS",
+          "JAXSON DART",
+          "TREVEYON HENDERSON",
+          "TREVOR LAWRENCE"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2025",
+        "difficulty": "hard",
+        "words": [
+          "JA'MARR CHASE",
+          "CHRISTIAN MCCAFFREY",
+          "PUKA NACUA",
+          "CHRIS OLAVE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "DEVIN WHITE",
+          "BOBBY OKEREKE",
+          "ROQUAN SMITH"
+        ]
+      }
+    ]
   }
 ]

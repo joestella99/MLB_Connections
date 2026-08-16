@@ -2348,5 +2348,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 51,
+    "date": "2026-08-16",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JIM THOME",
+          "ALBERT PUJOLS",
+          "ALEX RODRIGUEZ",
+          "TED WILLIAMS"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2010",
+        "difficulty": "medium",
+        "words": [
+          "JOSÉ BAUTISTA",
+          "MIGUEL CABRERA",
+          "JOSH HAMILTON",
+          "RYAN BRAUN"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2010",
+        "difficulty": "hard",
+        "words": [
+          "HEATH BELL",
+          "FRANCISCO CORDERO",
+          "BILLY WAGNER",
+          "NEFTALÍ FELIZ"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "ALFREDO GRIFFIN",
+          "JEROME WALTON",
+          "PETE ROSE",
+          "BAKE MCBRIDE"
+        ]
+      }
+    ]
   }
 ]
