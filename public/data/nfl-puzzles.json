@@ -2014,5 +2014,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 43,
+    "date": "2026-08-17",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2008",
+        "difficulty": "easy",
+        "words": [
+          "ELI MANNING",
+          "DONOVAN MCNABB",
+          "TONY ROMO",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2008",
+        "difficulty": "medium",
+        "words": [
+          "CHRIS JOHNSON",
+          "CLINTON PORTIS",
+          "MATT FORTE",
+          "THOMAS JONES"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2008",
+        "difficulty": "hard",
+        "words": [
+          "LENDALE WHITE",
+          "MAURICE JONES-DREW",
+          "DEANGELO WILLIAMS",
+          "MICHAEL TURNER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "BARRETT RUUD",
+          "KIRK MORRISON",
+          "PATRICK WILLIS",
+          "JON BEASON"
+        ]
+      }
+    ]
   }
 ]

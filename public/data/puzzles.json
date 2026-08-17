@@ -2395,5 +2395,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 52,
+    "date": "2026-08-17",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "EDDIE MURRAY",
+          "DAVE WINFIELD",
+          "WILLIE MAYS",
+          "CAP ANSON"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ROBINSON CANÓ",
+          "BILLY BUTLER",
+          "PRINCE FIELDER",
+          "ADAM LAROCHE"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2012",
+        "difficulty": "hard",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "ARAMIS RAMIREZ",
+          "BUSTER POSEY",
+          "MIGUEL CABRERA"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "EDWIN ENCARNACIÓN",
+          "JOSH HAMILTON",
+          "CURTIS GRANDERSON",
+          "ADAM DUNN"
+        ]
+      }
+    ]
   }
 ]
