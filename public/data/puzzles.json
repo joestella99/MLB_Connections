@@ -2442,5 +2442,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 53,
+    "date": "2026-08-18",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "BILL MAZEROSKI",
+          "MARTIN DIHIGO",
+          "SATCHEL PAIGE",
+          "EARLE COMBS"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TOMMY JOHN",
+          "JIM PALMER",
+          "CARL HUBBELL",
+          "CC SABATHIA"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "GAYLORD PERRY",
+          "STEVE CARLTON",
+          "LAMARR HOYT",
+          "JOHN SMOLTZ"
+        ]
+      },
+      {
+        "name": "All-Star in 2017",
+        "difficulty": "tricky",
+        "words": [
+          "AVISAÍL GARCÍA",
+          "ROBINSON CANÓ",
+          "JOSÉ RAMÍREZ",
+          "GARY SÁNCHEZ"
+        ]
+      }
+    ]
   }
 ]

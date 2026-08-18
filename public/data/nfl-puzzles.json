@@ -2062,5 +2062,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 44,
+    "date": "2026-08-18",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "PHILIP RIVERS",
+          "KYLER MURRAY",
+          "DEREK CARR",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "AMARI COOPER",
+          "AUSTIN EKELER",
+          "MARK ANDREWS",
+          "DJ CHARK"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2019",
+        "difficulty": "hard",
+        "words": [
+          "EZEKIEL ELLIOTT",
+          "TODD GURLEY",
+          "CHRISTIAN MCCAFFREY",
+          "DERRICK HENRY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "JOE SCHOBERT",
+          "JAYLON SMITH",
+          "ZACH CUNNINGHAM",
+          "BUDDA BAKER"
+        ]
+      }
+    ]
   }
 ]
