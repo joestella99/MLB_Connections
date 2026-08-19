@@ -2110,5 +2110,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 45,
+    "date": "2026-08-19",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "MATT SCHAUB",
+          "AARON RODGERS",
+          "DONOVAN MCNABB",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2009",
+        "difficulty": "medium",
+        "words": [
+          "VERNON DAVIS",
+          "SIDNEY RICE",
+          "MILES AUSTIN",
+          "ANDRE JOHNSON"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2009",
+        "difficulty": "hard",
+        "words": [
+          "LADAINIAN TOMLINSON",
+          "THOMAS JONES",
+          "ADRIAN PETERSON",
+          "MAURICE JONES-DREW"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "PATRICK WILLIS",
+          "KIRK MORRISON",
+          "BARRETT RUUD",
+          "CURTIS LOFTON"
+        ]
+      }
+    ]
   }
 ]
