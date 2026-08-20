@@ -2536,5 +2536,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 55,
+    "date": "2026-08-20",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "REGGIE JACKSON",
+          "JIM THOME",
+          "RAFAEL PALMEIRO",
+          "CARL YASTRZEMSKI"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "RED RUFFING",
+          "JIM KAAT",
+          "FERGIE JENKINS",
+          "JIM PALMER"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "BOB WELCH",
+          "JOHAN SANTANA",
+          "MIKE CUELLAR",
+          "JAKE PEAVY"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHNNY BENCH",
+          "WILLIE STARGELL",
+          "SCOTT BROSIUS",
+          "ROBERTO CLEMENTE"
+        ]
+      }
+    ]
   }
 ]

@@ -2158,5 +2158,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 46,
+    "date": "2026-08-20",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "BO NIX",
+          "BAKER MAYFIELD",
+          "SAM DARNOLD"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2025",
+        "difficulty": "medium",
+        "words": [
+          "AMON-RA ST. BROWN",
+          "TEE HIGGINS",
+          "PUKA NACUA",
+          "COLBY PARKINSON"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2025",
+        "difficulty": "hard",
+        "words": [
+          "JONATHAN TAYLOR",
+          "JAHMYR GIBBS",
+          "ZACH CHARBONNET",
+          "DERRICK HENRY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "CEDRIC GRAY",
+          "DEMARIO DAVIS",
+          "ROQUAN SMITH",
+          "JACK CAMPBELL"
+        ]
+      }
+    ]
   }
 ]
