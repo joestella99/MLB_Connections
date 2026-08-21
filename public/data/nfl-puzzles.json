@@ -2206,5 +2206,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 47,
+    "date": "2026-08-21",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2022",
+        "difficulty": "easy",
+        "words": [
+          "NICK CHUBB",
+          "KENNETH WALKER III",
+          "CHRISTIAN MCCAFFREY",
+          "MILES SANDERS"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2022",
+        "difficulty": "medium",
+        "words": [
+          "BOBBY OKEREKE",
+          "ERNEST JONES IV",
+          "DEVIN WHITE",
+          "BUDDA BAKER"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2022",
+        "difficulty": "hard",
+        "words": [
+          "JOE BURROW",
+          "PATRICK MAHOMES",
+          "JOSH ALLEN",
+          "GENO SMITH"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "MATTHEW JUDON",
+          "CHRIS JONES",
+          "NICK BOSA",
+          "MYLES GARRETT"
+        ]
+      }
+    ]
   }
 ]

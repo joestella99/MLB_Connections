@@ -2583,5 +2583,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 56,
+    "date": "2026-08-21",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "MICKEY MANTLE",
+          "HANK AARON",
+          "TED WILLIAMS",
+          "MARK MCGWIRE"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2010",
+        "difficulty": "medium",
+        "words": [
+          "RYAN BRAUN",
+          "ADRIAN BELTRÉ",
+          "EVAN LONGORIA",
+          "JOEY VOTTO"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "DENNIS ECKERSLEY",
+          "JOSE MESA",
+          "JOE NATHAN",
+          "JONATHAN PAPELBON"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JEREMY PEÑA",
+          "REGGIE JACKSON",
+          "DARRELL PORTER",
+          "SCOTT BROSIUS"
+        ]
+      }
+    ]
   }
 ]
