@@ -2254,5 +2254,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 48,
+    "date": "2026-08-22",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2012",
+        "difficulty": "easy",
+        "words": [
+          "CAM NEWTON",
+          "DREW BREES",
+          "MATTHEW STAFFORD",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "MARSHAWN LYNCH",
+          "MIKEL LESHOURE",
+          "ALFRED MORRIS",
+          "ARIAN FOSTER"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "ANDRE JOHNSON",
+          "DEMARYIUS THOMAS",
+          "CALVIN JOHNSON",
+          "BRANDON MARSHALL"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "J.J. WATT",
+          "CAMERON WAKE",
+          "VON MILLER",
+          "ALDON SMITH"
+        ]
+      }
+    ]
   }
 ]

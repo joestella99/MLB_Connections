@@ -2630,5 +2630,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 57,
+    "date": "2026-08-22",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "WILLIE MAYS",
+          "GARRET ANDERSON",
+          "ROBINSON CANÓ"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2008",
+        "difficulty": "medium",
+        "words": [
+          "JERMAINE DYE",
+          "LANCE BERKMAN",
+          "JOSÉ REYES",
+          "GRADY SIZEMORE"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "ROGER CLEMENS",
+          "BARTOLO COLON",
+          "LAMARR HOYT",
+          "R.A. DICKEY"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "FRED LYNN",
+          "SAM JETHROE",
+          "JACOB DEGROM",
+          "RONALD ACUÑA JR."
+        ]
+      }
+    ]
   }
 ]
