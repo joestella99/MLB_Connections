@@ -2677,5 +2677,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 58,
+    "date": "2026-08-23",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "CARLOS BELTRÁN",
+          "AL KALINE",
+          "FRED MCGRIFF",
+          "JIM THOME"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2003",
+        "difficulty": "medium",
+        "words": [
+          "BARRY BONDS",
+          "JAVY LOPEZ",
+          "MANNY RAMIREZ",
+          "JASON GIAMBI"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2003",
+        "difficulty": "hard",
+        "words": [
+          "ROY HALLADAY",
+          "JAVIER VAZQUEZ",
+          "MARK PRIOR",
+          "ESTEBAN LOAIZA"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "TOMMY HELMS",
+          "ROY SIEVERS",
+          "FERNANDO VALENZUELA",
+          "DUSTIN PEDROIA"
+        ]
+      }
+    ]
   }
 ]

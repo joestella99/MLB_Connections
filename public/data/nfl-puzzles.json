@@ -2302,5 +2302,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 49,
+    "date": "2026-08-23",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2018",
+        "difficulty": "easy",
+        "words": [
+          "DEANDRE HOPKINS",
+          "KEENAN ALLEN",
+          "BRANDIN COOKS",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "JULIO JONES",
+          "TYREEK HILL",
+          "MIKE WILLIAMS",
+          "DAVANTE ADAMS"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2018",
+        "difficulty": "hard",
+        "words": [
+          "CAMERON JORDAN",
+          "MYLES GARRETT",
+          "CHANDLER JONES",
+          "DEMARCUS LAWRENCE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "TELVIN SMITH",
+          "MASON FOSTER",
+          "BOBBY WAGNER",
+          "BLAKE MARTINEZ"
+        ]
+      }
+    ]
   }
 ]
