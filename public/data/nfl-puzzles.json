@@ -2350,5 +2350,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 50,
+    "date": "2026-08-24",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "JULIUS JONES",
+          "BRIAN WESTBROOK",
+          "TATUM BELL",
+          "AHMAN GREEN"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2006",
+        "difficulty": "medium",
+        "words": [
+          "CARSON PALMER",
+          "DREW BREES",
+          "MARC BULGER",
+          "JON KITNA"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2006",
+        "difficulty": "hard",
+        "words": [
+          "BOBBY MCCRAY",
+          "MARK ANDERSON",
+          "TREVOR PRYCE",
+          "JULIUS PEPPERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "KEITH BULLUCK",
+          "DONNIE EDWARDS",
+          "LONDON FLETCHER",
+          "ANTONIO PIERCE"
+        ]
+      }
+    ]
   }
 ]

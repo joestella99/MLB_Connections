@@ -2724,5 +2724,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 59,
+    "date": "2026-08-24",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "BARRY BONDS",
+          "FRANK THOMAS",
+          "DAVID ORTIZ",
+          "WILLIE STARGELL"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2016",
+        "difficulty": "medium",
+        "words": [
+          "CHARLIE BLACKMON",
+          "CHRISTIAN YELICH",
+          "JAKE ARRIETA",
+          "MIKE TROUT"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2016",
+        "difficulty": "hard",
+        "words": [
+          "HISASHI IWAKUMA",
+          "CHRIS SALE",
+          "JOHNNY CUETO",
+          "JON LESTER"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "BRIAN DOZIER",
+          "CHRIS CARTER",
+          "NELSON CRUZ",
+          "TODD FRAZIER"
+        ]
+      }
+    ]
   }
 ]
