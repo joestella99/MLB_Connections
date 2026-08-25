@@ -2771,5 +2771,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 60,
+    "date": "2026-08-25",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "CARL YASTRZEMSKI",
+          "HONUS WAGNER",
+          "SAMMY SOSA",
+          "ERNIE BANKS"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "WALTER JOHNSON",
+          "CHRISTY MATHEWSON",
+          "TOM GLAVINE",
+          "GREG MADDUX"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2002",
+        "difficulty": "hard",
+        "words": [
+          "TROY PERCIVAL",
+          "JASON ISRINGHAUSEN",
+          "BYUNG-HYUN KIM",
+          "TREVOR HOFFMAN"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "LANCE BERKMAN",
+          "ALEX RODRIGUEZ",
+          "JIM THOME",
+          "JASON GIAMBI"
+        ]
+      }
+    ]
   }
 ]

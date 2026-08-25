@@ -2398,5 +2398,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 51,
+    "date": "2026-08-25",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2013",
+        "difficulty": "easy",
+        "words": [
+          "DEMARCO MURRAY",
+          "KNOWSHON MORENO",
+          "MATT FORTE",
+          "EDDIE LACY"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2013",
+        "difficulty": "medium",
+        "words": [
+          "CALVIN JOHNSON",
+          "WES WELKER",
+          "BRANDON MARSHALL",
+          "ERIC DECKER"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2013",
+        "difficulty": "hard",
+        "words": [
+          "ANDRE JOHNSON",
+          "JULIAN EDELMAN",
+          "PIERRE GARCON",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "BARRY CHURCH",
+          "CHAD GREENWAY",
+          "LUKE KUECHLY",
+          "KIKO ALONSO"
+        ]
+      }
+    ]
   }
 ]
