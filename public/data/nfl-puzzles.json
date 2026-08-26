@@ -2446,5 +2446,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 52,
+    "date": "2026-08-26",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2013",
+        "difficulty": "easy",
+        "words": [
+          "PHILIP RIVERS",
+          "RYAN TANNEHILL",
+          "ANDY DALTON",
+          "TONY ROMO"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2013",
+        "difficulty": "medium",
+        "words": [
+          "RILEY COOPER",
+          "DEMARYIUS THOMAS",
+          "LARRY FITZGERALD",
+          "CALVIN JOHNSON"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2013",
+        "difficulty": "hard",
+        "words": [
+          "ALSHON JEFFERY",
+          "A.J. GREEN",
+          "JOSH GORDON",
+          "ANDRE JOHNSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "CHAD GREENWAY",
+          "PAUL POSLUSZNY",
+          "KIKO ALONSO",
+          "LUKE KUECHLY"
+        ]
+      }
+    ]
   }
 ]

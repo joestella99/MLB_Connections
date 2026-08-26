@@ -2818,5 +2818,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 61,
+    "date": "2026-08-26",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "CARLOS BELTRÁN",
+          "DAVE WINFIELD",
+          "GOOSE GOSLIN"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JOHN CLARKSON",
+          "KID NICHOLS",
+          "CHRISTY MATHEWSON",
+          "RANDY JOHNSON"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2016",
+        "difficulty": "hard",
+        "words": [
+          "MAX SCHERZER",
+          "CARLOS MARTINEZ",
+          "DAVID PRICE",
+          "JOSÉ FERNÁNDEZ"
+        ]
+      },
+      {
+        "name": "All-Star in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "JONATHAN LUCROY",
+          "DEXTER FOWLER",
+          "ANDREW MILLER",
+          "MADISON BUMGARNER"
+        ]
+      }
+    ]
   }
 ]
