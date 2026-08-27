@@ -2865,5 +2865,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 62,
+    "date": "2026-08-27",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "FRANK THOMAS",
+          "BABE RUTH",
+          "WILLIE MAYS"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "ALFONSO SORIANO",
+          "KEN GRIFFEY JR.",
+          "DERREK LEE",
+          "PAUL KONERKO"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "BILLY WAGNER",
+          "RICH GOSSAGE",
+          "TREVOR HOFFMAN",
+          "JASON ISRINGHAUSEN"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "MARK TEIXEIRA",
+          "GARY SHEFFIELD",
+          "ANDRUW JONES",
+          "RICHIE SEXSON"
+        ]
+      }
+    ]
   }
 ]

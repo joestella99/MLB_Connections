@@ -2494,5 +2494,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 53,
+    "date": "2026-08-27",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "WILLIS MCGAHEE",
+          "REUBEN DROUGHNS",
+          "LAMONT JORDAN",
+          "WARRICK DUNN"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "TATUM BELL",
+          "EDGERRIN JAMES",
+          "T.J. DUCKETT",
+          "RUDI JOHNSON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2005",
+        "difficulty": "hard",
+        "words": [
+          "SHAWNE MERRIMAN",
+          "DERRICK BURGESS",
+          "KYLE VANDEN BOSCH",
+          "MICHAEL STRAHAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BARNETT",
+          "ZACH THOMAS",
+          "MIKE PETERSON",
+          "JONATHAN VILMA"
+        ]
+      }
+    ]
   }
 ]
