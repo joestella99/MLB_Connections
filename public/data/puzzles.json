@@ -2912,5 +2912,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 63,
+    "date": "2026-08-28",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "GIANCARLO STANTON",
+          "LOU GEHRIG",
+          "DAVE WINFIELD",
+          "FRED MCGRIFF"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ARAMIS RAMIREZ",
+          "BUSTER POSEY",
+          "MIGUEL CABRERA",
+          "PRINCE FIELDER"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2012",
+        "difficulty": "hard",
+        "words": [
+          "JONATHAN PAPELBON",
+          "JOHN AXFORD",
+          "J.J. PUTZ",
+          "JOE NATHAN"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHN WETTELAND",
+          "BOBBY RICHARDSON",
+          "STEVE PEARCE",
+          "PAT BORDERS"
+        ]
+      }
+    ]
   }
 ]

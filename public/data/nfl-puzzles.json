@@ -2542,5 +2542,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 54,
+    "date": "2026-08-28",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "BRETT FAVRE",
+          "JON KITNA",
+          "BEN ROETHLISBERGER",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "JAMAL LEWIS",
+          "LADAINIAN TOMLINSON",
+          "MIKE BELL",
+          "RUDI JOHNSON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2006",
+        "difficulty": "hard",
+        "words": [
+          "JASON TAYLOR",
+          "JULIUS PEPPERS",
+          "AARON KAMPMAN",
+          "BOBBY MCCRAY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "DEMECO RYANS",
+          "ZACH THOMAS",
+          "CATO JUNE",
+          "KEITH BROOKING"
+        ]
+      }
+    ]
   }
 ]
