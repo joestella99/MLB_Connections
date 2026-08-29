@@ -2959,5 +2959,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 64,
+    "date": "2026-08-29",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "KEN GRIFFEY JR.",
+          "SAMMY SOSA",
+          "MICKEY MANTLE",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2010",
+        "difficulty": "medium",
+        "words": [
+          "EVAN LONGORIA",
+          "ICHIRO SUZUKI",
+          "JOE MAUER",
+          "SHANE VICTORINO"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2010",
+        "difficulty": "hard",
+        "words": [
+          "UBALDO JIMÉNEZ",
+          "JON LESTER",
+          "CLAYTON KERSHAW",
+          "JERED WEAVER"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2010",
+        "difficulty": "tricky",
+        "words": [
+          "CLIFF LEE",
+          "ROY HALLADAY",
+          "ADAM WAINWRIGHT",
+          "FÉLIX HERNÁNDEZ"
+        ]
+      }
+    ]
   }
 ]

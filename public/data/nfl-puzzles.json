@@ -2590,5 +2590,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 55,
+    "date": "2026-08-29",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "TODD GURLEY",
+          "DERRICK HENRY",
+          "JOE MIXON",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2018",
+        "difficulty": "medium",
+        "words": [
+          "DEANDRE HOPKINS",
+          "JUJU SMITH-SCHUSTER",
+          "BRANDIN COOKS",
+          "T.Y. HILTON"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2018",
+        "difficulty": "hard",
+        "words": [
+          "PATRICK MAHOMES",
+          "JARED GOFF",
+          "BEN ROETHLISBERGER",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "MASON FOSTER",
+          "LEIGHTON VANDER ESCH",
+          "TELVIN SMITH",
+          "SHAQUILLE LEONARD"
+        ]
+      }
+    ]
   }
 ]
