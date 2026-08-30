@@ -2638,5 +2638,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 56,
+    "date": "2026-08-30",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2013",
+        "difficulty": "easy",
+        "words": [
+          "PEYTON MANNING",
+          "PHILIP RIVERS",
+          "MATTHEW STAFFORD",
+          "ELI MANNING"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2013",
+        "difficulty": "medium",
+        "words": [
+          "EDDIE ROYAL",
+          "JULIUS THOMAS",
+          "LARRY FITZGERALD",
+          "JOSH GORDON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2013",
+        "difficulty": "hard",
+        "words": [
+          "MUHAMMAD WILKERSON",
+          "JUSTIN TUCK",
+          "OLIVIER VERNON",
+          "JURRELL CASEY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "PAUL POSLUSZNY",
+          "LUKE KUECHLY",
+          "STEPHEN TULLOCH",
+          "D'QWELL JACKSON"
+        ]
+      }
+    ]
   }
 ]
