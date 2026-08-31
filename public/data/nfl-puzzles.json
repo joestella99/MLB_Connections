@@ -2686,5 +2686,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 57,
+    "date": "2026-08-31",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "DRAKE MAYE",
+          "TREVOR LAWRENCE",
+          "SAM DARNOLD",
+          "CALEB WILLIAMS"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2025",
+        "difficulty": "medium",
+        "words": [
+          "BIJAN ROBINSON",
+          "JONATHAN TAYLOR",
+          "CHRISTIAN MCCAFFREY",
+          "JAMES COOK III"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2025",
+        "difficulty": "hard",
+        "words": [
+          "NAHSHON WRIGHT",
+          "ERNEST JONES IV",
+          "DEVIN LLOYD",
+          "XAVIER WATTS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "JAMIEN SHERWOOD",
+          "BOBBY OKEREKE",
+          "ROQUAN SMITH"
+        ]
+      }
+    ]
   }
 ]

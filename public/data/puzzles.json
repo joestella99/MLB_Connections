@@ -3053,5 +3053,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 66,
+    "date": "2026-08-31",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HARRY HEILMANN",
+          "GARY SHEFFIELD",
+          "SAMMY SOSA",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "CARLOS DELGADO",
+          "NICK SWISHER",
+          "ALFONSO SORIANO",
+          "ARAMIS RAMIREZ"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2006",
+        "difficulty": "hard",
+        "words": [
+          "BILLY WAGNER",
+          "BOB WICKMAN",
+          "TODD JONES",
+          "MARIANO RIVERA"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "RAUL IBANEZ",
+          "ALEX RODRIGUEZ",
+          "JUSTIN MORNEAU",
+          "ALBERT PUJOLS"
+        ]
+      }
+    ]
   }
 ]
