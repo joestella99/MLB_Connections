@@ -3100,5 +3100,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 67,
+    "date": "2026-09-01",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "DAVE WINFIELD",
+          "LOU GEHRIG",
+          "FRED MCGRIFF",
+          "NELSON CRUZ"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2000",
+        "difficulty": "medium",
+        "words": [
+          "JERMAINE DYE",
+          "ANDRUW JONES",
+          "MIKE MATHENY",
+          "J.T. SNOW"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "FERNANDO RODNEY",
+          "CRAIG KIMBREL",
+          "JOHN WETTELAND",
+          "AROLDIS CHAPMAN"
+        ]
+      },
+      {
+        "name": "All-Star in 2000",
+        "difficulty": "tricky",
+        "words": [
+          "JEFF KENT",
+          "TODD JONES",
+          "CARL EVERETT",
+          "IVAN RODRIGUEZ"
+        ]
+      }
+    ]
   }
 ]

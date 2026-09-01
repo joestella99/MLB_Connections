@@ -2734,5 +2734,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 58,
+    "date": "2026-09-01",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2013",
+        "difficulty": "easy",
+        "words": [
+          "FRANK GORE",
+          "REGGIE BUSH",
+          "ALFRED MORRIS",
+          "RYAN MATHEWS"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2013",
+        "difficulty": "medium",
+        "words": [
+          "JORDY NELSON",
+          "ERIC DECKER",
+          "DEZ BRYANT",
+          "DESEAN JACKSON"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2013",
+        "difficulty": "hard",
+        "words": [
+          "PEYTON MANNING",
+          "MATTHEW STAFFORD",
+          "DREW BREES",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "LAVONTE DAVID",
+          "CHAD GREENWAY",
+          "NAVORRO BOWMAN",
+          "VONTAZE BURFICT"
+        ]
+      }
+    ]
   }
 ]
