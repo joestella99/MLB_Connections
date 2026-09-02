@@ -3147,5 +3147,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 68,
+    "date": "2026-09-02",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "PAUL WANER",
+          "LUIS GONZALEZ",
+          "STAN MUSIAL",
+          "TED WILLIAMS"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2005",
+        "difficulty": "medium",
+        "words": [
+          "DAVID ORTIZ",
+          "ADAM DUNN",
+          "JASON BAY",
+          "CARLOS DELGADO"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "WILLIE HERNANDEZ",
+          "MO VAUGHN",
+          "JIM RICE",
+          "SPUD CHANDLER"
+        ]
+      },
+      {
+        "name": "All-Star in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "JOHAN SANTANA",
+          "MARK BUEHRLE",
+          "JIMMY ROLLINS",
+          "MIGUEL TEJADA"
+        ]
+      }
+    ]
   }
 ]

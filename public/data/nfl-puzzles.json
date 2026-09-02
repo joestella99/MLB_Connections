@@ -2782,5 +2782,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 59,
+    "date": "2026-09-02",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2011",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "JOSH FREEMAN",
+          "TOM BRADY",
+          "MATT HASSELBECK"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2011",
+        "difficulty": "medium",
+        "words": [
+          "JIMMY GRAHAM",
+          "JERMICHAEL FINLEY",
+          "CALVIN JOHNSON",
+          "ROB GRONKOWSKI"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2011",
+        "difficulty": "hard",
+        "words": [
+          "ADRIAN PETERSON",
+          "CAM NEWTON",
+          "MARSHAWN LYNCH",
+          "LESEAN MCCOY"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "JASON BABIN",
+          "JARED ALLEN",
+          "DEMARCUS WARE",
+          "JASON PIERRE-PAUL"
+        ]
+      }
+    ]
   }
 ]
