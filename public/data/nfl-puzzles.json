@@ -2830,5 +2830,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 60,
+    "date": "2026-09-03",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "TRENT GREEN",
+          "DREW BREES",
+          "DREW BLEDSOE",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2005",
+        "difficulty": "medium",
+        "words": [
+          "WARRICK DUNN",
+          "WILLIE PARKER",
+          "CLINTON PORTIS",
+          "REUBEN DROUGHNS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2005",
+        "difficulty": "hard",
+        "words": [
+          "CATO JUNE",
+          "CHAMP BAILEY",
+          "NICK FERGUSON",
+          "TORY JAMES"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "ZACH THOMAS",
+          "MIKE PETERSON",
+          "JONATHAN VILMA"
+        ]
+      }
+    ]
   }
 ]

@@ -3194,5 +3194,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 69,
+    "date": "2026-09-03",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "EDDIE MATHEWS",
+          "DAVID ORTIZ",
+          "MEL OTT"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2021",
+        "difficulty": "medium",
+        "words": [
+          "XANDER BOGAERTS",
+          "FERNANDO TATIS JR.",
+          "MAX FRIED",
+          "OZZIE ALBIES"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "JAVIER VAZQUEZ",
+          "JUSTIN VERLANDER",
+          "TOM GLAVINE",
+          "ROGER CLEMENS"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "ZACK WHEELER",
+          "BRANDON WOODRUFF",
+          "JOE MUSGROVE",
+          "WALKER BUEHLER"
+        ]
+      }
+    ]
   }
 ]
