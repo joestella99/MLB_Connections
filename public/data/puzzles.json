@@ -3241,5 +3241,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 70,
+    "date": "2026-09-04",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "FRANK ROBINSON",
+          "TODD HELTON",
+          "BARRY BONDS",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2011",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL YOUNG",
+          "JOSÉ BAUTISTA",
+          "RYAN BRAUN",
+          "CURTIS GRANDERSON"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2011",
+        "difficulty": "hard",
+        "words": [
+          "C.J. WILSON",
+          "IAN KENNEDY",
+          "MATT CAIN",
+          "COLE HAMELS"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "JAMES SHIELDS",
+          "DOUG FISTER",
+          "JOSH TOMLIN",
+          "CLAYTON KERSHAW"
+        ]
+      }
+    ]
   }
 ]
