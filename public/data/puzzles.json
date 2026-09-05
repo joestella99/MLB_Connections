@@ -3288,5 +3288,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 71,
+    "date": "2026-09-05",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "AL SIMMONS",
+          "CARL YASTRZEMSKI",
+          "FRED MCGRIFF",
+          "RAFAEL PALMEIRO"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2017",
+        "difficulty": "medium",
+        "words": [
+          "GIANCARLO STANTON",
+          "KHRIS DAVIS",
+          "PAUL GOLDSCHMIDT",
+          "CODY BELLINGER"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "MIKE MUSSINA",
+          "NOLAN RYAN JR.",
+          "DON SUTTON",
+          "TOM GLAVINE"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "YOSHINOBU YAMAMOTO",
+          "JEREMY PEÑA",
+          "PAT BORDERS",
+          "JOSE RIJO"
+        ]
+      }
+    ]
   }
 ]

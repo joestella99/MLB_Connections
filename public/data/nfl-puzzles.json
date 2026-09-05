@@ -2926,5 +2926,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 62,
+    "date": "2026-09-05",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2018",
+        "difficulty": "easy",
+        "words": [
+          "MICHAEL THOMAS",
+          "ANTONIO BROWN",
+          "ALVIN KAMARA",
+          "STEFON DIGGS"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "DEANDRE HOPKINS",
+          "ADAM THIELEN",
+          "TYLER LOCKETT",
+          "MIKE EVANS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2018",
+        "difficulty": "hard",
+        "words": [
+          "ALEC OGLETREE",
+          "KYLE FULLER",
+          "XAVIEN HOWARD",
+          "EDDIE JACKSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "LEIGHTON VANDER ESCH",
+          "TELVIN SMITH",
+          "SHAQUILLE LEONARD",
+          "ANTHONY HITCHENS"
+        ]
+      }
+    ]
   }
 ]
