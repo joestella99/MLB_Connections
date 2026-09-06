@@ -2974,5 +2974,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 63,
+    "date": "2026-09-06",
+    "sport": "nfl",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2013",
+        "difficulty": "easy",
+        "words": [
+          "FRANK GORE",
+          "LESEAN MCCOY",
+          "MATT FORTE",
+          "CHRIS JOHNSON"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2013",
+        "difficulty": "medium",
+        "words": [
+          "EDDIE LACY",
+          "MARSHAWN LYNCH",
+          "ADRIAN PETERSON",
+          "JOIQUE BELL"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2013",
+        "difficulty": "hard",
+        "words": [
+          "JOSH GORDON",
+          "DEMARYIUS THOMAS",
+          "ALSHON JEFFERY",
+          "ANDRE JOHNSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "KIKO ALONSO",
+          "CHAD GREENWAY",
+          "PAUL POSLUSZNY",
+          "VONTAZE BURFICT"
+        ]
+      }
+    ]
   }
 ]

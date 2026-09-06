@@ -3335,5 +3335,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 72,
+    "date": "2026-09-06",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "WADE BOGGS",
+          "FRANK ROBINSON",
+          "TRISTRAM SPEAKER"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2005",
+        "difficulty": "medium",
+        "words": [
+          "JASON VARITEK",
+          "GARY SHEFFIELD",
+          "CARLOS LEE",
+          "MIGUEL TEJADA"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "CC SABATHIA",
+          "ROGER CLEMENS",
+          "JERRY KOOSMAN",
+          "GAYLORD PERRY"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "RICHIE SEXSON",
+          "MANNY RAMIREZ",
+          "DAVID ORTIZ",
+          "MARK TEIXEIRA"
+        ]
+      }
+    ]
   }
 ]
