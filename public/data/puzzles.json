@@ -3382,5 +3382,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 73,
+    "date": "2026-09-07",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "HARRY WRIGHT",
+          "JIM BOTTOMLEY",
+          "BUCKY HARRIS",
+          "ANDRUW JONES"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "KYLE SCHWARBER",
+          "JUAN SOTO",
+          "JOSÉ RAMÍREZ",
+          "SHOHEI OHTANI"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "GREG MADDUX",
+          "A.J. BURNETT",
+          "JOHN SMOLTZ",
+          "ZACK GREINKE"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "TARIK SKUBAL",
+          "GEORGE KIRBY",
+          "LOGAN GILBERT",
+          "SHOTA IMANAGA"
+        ]
+      }
+    ]
   }
 ]

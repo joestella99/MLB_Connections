@@ -3022,5 +3022,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 64,
+    "date": "2026-09-07",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2014",
+        "difficulty": "easy",
+        "words": [
+          "RANDALL COBB",
+          "JARVIS LANDRY",
+          "JULIAN EDELMAN",
+          "ROB GRONKOWSKI"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2014",
+        "difficulty": "medium",
+        "words": [
+          "MARSHAWN LYNCH",
+          "LE'VEON BELL",
+          "JUSTIN FORSETT",
+          "LESEAN MCCOY"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2014",
+        "difficulty": "hard",
+        "words": [
+          "TOM BRADY",
+          "BEN ROETHLISBERGER",
+          "PHILIP RIVERS",
+          "ANDREW LUCK"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "DEANDRE LEVY",
+          "C.J. MOSLEY",
+          "LAVONTE DAVID",
+          "CURTIS LOFTON"
+        ]
+      }
+    ]
   }
 ]
