@@ -3476,5 +3476,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 75,
+    "date": "2026-09-09",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "WILLARD BROWN",
+          "RANDY JOHNSON",
+          "JOHN CLARKSON",
+          "PAUL MOLITOR"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2014",
+        "difficulty": "medium",
+        "words": [
+          "YOENIS CESPEDES",
+          "MIKE TROUT",
+          "ADRIÁN GONZÁLEZ",
+          "JOSÉ BAUTISTA"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "TIM LINCECUM",
+          "DENNY MCLAIN",
+          "ROGER CLEMENS",
+          "BOB WELCH"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "ANDRE DAWSON",
+          "GEOVANY SOTO",
+          "GARY MATTHEWS SR.",
+          "TODD HOLLANDSWORTH"
+        ]
+      }
+    ]
   }
 ]

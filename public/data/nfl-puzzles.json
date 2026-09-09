@@ -3118,5 +3118,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 66,
+    "date": "2026-09-09",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "TERRY GLENN",
+          "CHAD JOHNSON",
+          "STEVE SMITH SR.",
+          "JAVON WALKER"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2006",
+        "difficulty": "medium",
+        "words": [
+          "TIKI BARBER",
+          "FRANK GORE",
+          "LADAINIAN TOMLINSON",
+          "WILLIE PARKER"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2006",
+        "difficulty": "hard",
+        "words": [
+          "WARREN SAPP",
+          "AARON SCHOBEL",
+          "SHAWNE MERRIMAN",
+          "MARK ANDERSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "LANCE BRIGGS",
+          "CATO JUNE",
+          "BRIAN URLACHER",
+          "KEITH BROOKING"
+        ]
+      }
+    ]
   }
 ]
