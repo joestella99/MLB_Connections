@@ -3166,5 +3166,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 67,
+    "date": "2026-09-10",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2011",
+        "difficulty": "easy",
+        "words": [
+          "HAKEEM NICKS",
+          "STEVIE JOHNSON",
+          "A.J. GREEN",
+          "JIMMY GRAHAM"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2011",
+        "difficulty": "medium",
+        "words": [
+          "MAURICE JONES-DREW",
+          "MARSHAWN LYNCH",
+          "MICHAEL TURNER",
+          "ARIAN FOSTER"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2011",
+        "difficulty": "hard",
+        "words": [
+          "CONNOR BARWIN",
+          "ANTWAN BARNES",
+          "ALDON SMITH",
+          "JULIUS PEPPERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "JAMES LAURINAITIS",
+          "ANTOINE BETHEA",
+          "JAMES ANDERSON"
+        ]
+      }
+    ]
   }
 ]

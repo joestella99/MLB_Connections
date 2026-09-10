@@ -3523,5 +3523,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 76,
+    "date": "2026-09-10",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "REGGIE JACKSON",
+          "KEN GRIFFEY JR.",
+          "JIMMIE FOXX"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "PAUL KONERKO",
+          "LANCE BERKMAN",
+          "ARAMIS RAMIREZ",
+          "TROY GLAUS"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2006",
+        "difficulty": "hard",
+        "words": [
+          "FREDDY GARCIA",
+          "TOM GLAVINE",
+          "DEREK LOWE",
+          "GREG MADDUX"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "PETE ROSE",
+          "YOSHINOBU YAMAMOTO",
+          "JERMAINE DYE",
+          "BROOKS ROBINSON"
+        ]
+      }
+    ]
   }
 ]
