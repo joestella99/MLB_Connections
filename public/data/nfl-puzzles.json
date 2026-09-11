@@ -3214,5 +3214,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 68,
+    "date": "2026-09-11",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2007",
+        "difficulty": "easy",
+        "words": [
+          "KEVIN CURTIS",
+          "CHAD JOHNSON",
+          "PLAXICO BURRESS",
+          "DONALD DRIVER"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2007",
+        "difficulty": "medium",
+        "words": [
+          "MAURICE JONES-DREW",
+          "RYAN GRANT",
+          "MARION BARBER",
+          "KEVIN JONES"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2007",
+        "difficulty": "hard",
+        "words": [
+          "GREG JENNINGS",
+          "RANDY MOSS",
+          "T.J. HOUSHMANDZADEH",
+          "TERRELL OWENS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BARNETT",
+          "PATRICK WILLIS",
+          "D.J. WILLIAMS",
+          "JON BEASON"
+        ]
+      }
+    ]
   }
 ]

@@ -3570,5 +3570,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 77,
+    "date": "2026-09-11",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "NELSON CRUZ",
+          "CARLOS DELGADO",
+          "JEFF BAGWELL",
+          "JASON GIAMBI"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2000",
+        "difficulty": "medium",
+        "words": [
+          "SHANNON STEWART",
+          "JEFF KENT",
+          "RICHARD HIDALGO",
+          "JERMAINE DYE"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2000",
+        "difficulty": "hard",
+        "words": [
+          "PEDRO MARTÍNEZ",
+          "JEFF D'AMICO",
+          "KEVIN BROWN",
+          "RANDY JOHNSON"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY ALOMAR JR.",
+          "KRIS BRYANT",
+          "COREY SEAGER",
+          "WILLIE MCCOVEY"
+        ]
+      }
+    ]
   }
 ]
