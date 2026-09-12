@@ -3262,5 +3262,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 69,
+    "date": "2026-09-12",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "EZEKIEL ELLIOTT",
+          "ADRIAN PETERSON",
+          "DERRICK HENRY",
+          "CHRIS CARSON"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "ANTONIO BROWN",
+          "ERIC EBRON",
+          "TRAVIS KELCE",
+          "ADAM THIELEN"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2018",
+        "difficulty": "hard",
+        "words": [
+          "PATRICK MAHOMES",
+          "RUSSELL WILSON",
+          "KIRK COUSINS",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "LEIGHTON VANDER ESCH",
+          "ANTHONY HITCHENS",
+          "BOBBY WAGNER",
+          "MASON FOSTER"
+        ]
+      }
+    ]
   }
 ]

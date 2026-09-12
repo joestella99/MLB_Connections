@@ -3617,5 +3617,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 78,
+    "date": "2026-09-12",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JUAN GONZALEZ",
+          "CARLOS BELTRÁN",
+          "DAVE KINGMAN",
+          "LOU GEHRIG"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "CC SABATHIA",
+          "ANDY PETTITTE",
+          "FERGIE JENKINS",
+          "ROBIN ROBERTS"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "GAYLORD PERRY",
+          "MICKEY LOLICH",
+          "GREG MADDUX",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "BILLY WILLIAMS",
+          "CHRIS COGHLAN",
+          "TONY KUBEK",
+          "THURMAN MUNSON"
+        ]
+      }
+    ]
   }
 ]
