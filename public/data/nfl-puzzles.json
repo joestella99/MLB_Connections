@@ -3310,5 +3310,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 70,
+    "date": "2026-09-13",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2018",
+        "difficulty": "easy",
+        "words": [
+          "MITCHELL TRUBISKY",
+          "ANDY DALTON",
+          "TOM BRADY",
+          "CARSON WENTZ"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "MIKE WILLIAMS",
+          "JULIO JONES",
+          "TYREEK HILL",
+          "TRAVIS KELCE"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2018",
+        "difficulty": "hard",
+        "words": [
+          "CHRISTIAN MCCAFFREY",
+          "STEFON DIGGS",
+          "DAVANTE ADAMS",
+          "JUJU SMITH-SCHUSTER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "SHAQUILLE LEONARD",
+          "BLAKE MARTINEZ",
+          "BOBBY WAGNER"
+        ]
+      }
+    ]
   }
 ]

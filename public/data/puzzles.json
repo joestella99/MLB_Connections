@@ -3664,5 +3664,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 79,
+    "date": "2026-09-13",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "HARMON KILLEBREW",
+          "SAMMY SOSA",
+          "JIMMIE FOXX",
+          "MARK MCGWIRE"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2007",
+        "difficulty": "medium",
+        "words": [
+          "CARLOS PENA",
+          "BRAD HAWPE",
+          "ARAMIS RAMIREZ",
+          "ALEX RODRIGUEZ"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2007",
+        "difficulty": "hard",
+        "words": [
+          "TODD HELTON",
+          "MARK TEIXEIRA",
+          "VLADIMIR GUERRERO",
+          "RYAN HOWARD"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "BUSTER POSEY",
+          "EVAN LONGORIA",
+          "DAVID JUSTICE",
+          "WILLIE MAYS"
+        ]
+      }
+    ]
   }
 ]
