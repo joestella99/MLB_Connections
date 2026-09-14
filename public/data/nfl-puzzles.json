@@ -3358,5 +3358,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 71,
+    "date": "2026-09-14",
+    "sport": "nfl",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2023",
+        "difficulty": "easy",
+        "words": [
+          "GENO SMITH",
+          "RUSSELL WILSON",
+          "LAMAR JACKSON",
+          "MATTHEW STAFFORD"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2023",
+        "difficulty": "medium",
+        "words": [
+          "JA'WHAUN BENTLEY",
+          "BOBBY OKEREKE",
+          "C.J. MOSLEY",
+          "GERMAINE PRATT"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2023",
+        "difficulty": "hard",
+        "words": [
+          "GENO STONE",
+          "DEREK STINGLEY JR.",
+          "JESSIE BATES III",
+          "CHARVARIUS WARD"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "T.J. WATT",
+          "TREY HENDRICKSON",
+          "KHALIL MACK",
+          "JOSH HINES-ALLEN"
+        ]
+      }
+    ]
   }
 ]
