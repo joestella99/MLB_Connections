@@ -3758,5 +3758,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 81,
+    "date": "2026-09-15",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "CARL YASTRZEMSKI",
+          "DAVE KINGMAN",
+          "WILLIE STARGELL",
+          "DAVE WINFIELD"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2014",
+        "difficulty": "medium",
+        "words": [
+          "BUSTER POSEY",
+          "JOSÉ BAUTISTA",
+          "MADISON BUMGARNER",
+          "JUSTIN UPTON"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2014",
+        "difficulty": "hard",
+        "words": [
+          "ANDREW MCCUTCHEN",
+          "ANTHONY RIZZO",
+          "EDWIN ENCARNACIÓN",
+          "VICTOR MARTINEZ"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY KOUFAX",
+          "REGGIE JACKSON",
+          "ROLLIE FINGERS",
+          "ALAN TRAMMELL"
+        ]
+      }
+    ]
   }
 ]

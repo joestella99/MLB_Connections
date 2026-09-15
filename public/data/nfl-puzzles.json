@@ -3406,5 +3406,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 72,
+    "date": "2026-09-15",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "ROD SMITH",
+          "SANTANA MOSS",
+          "DONALD DRIVER",
+          "REGGIE WAYNE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "LARRY FITZGERALD",
+          "STEVE SMITH SR.",
+          "KEENAN MCCARDELL",
+          "ROY WILLIAMS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2005",
+        "difficulty": "hard",
+        "words": [
+          "RONDE BARBER",
+          "DARREN SHARPER",
+          "TY LAW",
+          "DELTHA O'NEAL"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "ANDRA DAVIS",
+          "ZACH THOMAS",
+          "MIKE PETERSON",
+          "KEITH BULLUCK"
+        ]
+      }
+    ]
   }
 ]
