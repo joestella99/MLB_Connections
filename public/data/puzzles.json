@@ -3805,5 +3805,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 82,
+    "date": "2026-09-16",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRANK ROBINSON",
+          "FRANK THOMAS",
+          "MEL OTT",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2000",
+        "difficulty": "medium",
+        "words": [
+          "TONY BATISTA",
+          "RAFAEL PALMEIRO",
+          "DAVID JUSTICE",
+          "BARRY BONDS"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2000",
+        "difficulty": "hard",
+        "words": [
+          "NOMAR GARCIAPARRA",
+          "ALEX RODRIGUEZ",
+          "MOISES ALOU",
+          "JEFF BAGWELL"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2000",
+        "difficulty": "tricky",
+        "words": [
+          "CARLOS DELGADO",
+          "SAMMY SOSA",
+          "JEFF KENT",
+          "MIKE SWEENEY"
+        ]
+      }
+    ]
   }
 ]
