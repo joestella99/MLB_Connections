@@ -3852,5 +3852,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 83,
+    "date": "2026-09-17",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ANDRUW JONES",
+          "CARL YASTRZEMSKI",
+          "NELSON CRUZ",
+          "CARLOS DELGADO"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2018",
+        "difficulty": "medium",
+        "words": [
+          "JOSE ALTUVE",
+          "MIKE TROUT",
+          "J.T. REALMUTO",
+          "TREVOR STORY"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2018",
+        "difficulty": "hard",
+        "words": [
+          "GERRIT COLE",
+          "MIKE FOLTYNEWICZ",
+          "LUIS SEVERINO",
+          "CHRIS SALE"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JACK MORRIS",
+          "LARRY SHERRY",
+          "CURT SCHILLING",
+          "JOSH BECKETT"
+        ]
+      }
+    ]
   }
 ]

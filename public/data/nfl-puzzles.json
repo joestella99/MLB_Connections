@@ -3502,5 +3502,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 74,
+    "date": "2026-09-17",
+    "sport": "nfl",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2015",
+        "difficulty": "easy",
+        "words": [
+          "KIRK COUSINS",
+          "JAMEIS WINSTON",
+          "PHILIP RIVERS",
+          "ELI MANNING"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2015",
+        "difficulty": "medium",
+        "words": [
+          "CAM NEWTON",
+          "ADRIAN PETERSON",
+          "TODD GURLEY",
+          "JEREMY HILL"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2015",
+        "difficulty": "hard",
+        "words": [
+          "ERIC DECKER",
+          "ODELL BECKHAM JR.",
+          "ALLEN ROBINSON",
+          "DOUG BALDWIN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "PAUL POSLUSZNY",
+          "D'QWELL JACKSON",
+          "RESHAD JONES",
+          "LAVONTE DAVID"
+        ]
+      }
+    ]
   }
 ]
