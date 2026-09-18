@@ -3550,5 +3550,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 75,
+    "date": "2026-09-18",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JARED GOFF",
+          "BO NIX",
+          "KYLER MURRAY",
+          "CALEB WILLIAMS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JAHMYR GIBBS",
+          "CHUBA HUBBARD",
+          "JOE MIXON",
+          "JALEN HURTS"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2024",
+        "difficulty": "hard",
+        "words": [
+          "DRAKE LONDON",
+          "JA'MARR CHASE",
+          "TREY MCBRIDE",
+          "JAXON SMITH-NJIGBA"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "CHRISTIAN ROZEBOOM",
+          "KADEN ELLISS",
+          "ZAIRE FRANKLIN",
+          "FRED WARNER"
+        ]
+      }
+    ]
   }
 ]

@@ -3899,5 +3899,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 84,
+    "date": "2026-09-18",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "EARL WEAVER",
+          "DON SUTTON",
+          "ORLANDO CEPEDA",
+          "GIL HODGES"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2009",
+        "difficulty": "medium",
+        "words": [
+          "RYAN BRAUN",
+          "JASON KUBEL",
+          "JORGE CANTU",
+          "MARK TEIXEIRA"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2009",
+        "difficulty": "hard",
+        "words": [
+          "JASON BAY",
+          "KENDRYS MORALES",
+          "PABLO SANDOVAL",
+          "ALBERT PUJOLS"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "DAN HAREN",
+          "TIM LINCECUM",
+          "ZACK GREINKE",
+          "CHRIS CARPENTER"
+        ]
+      }
+    ]
   }
 ]
