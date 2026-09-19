@@ -3598,5 +3598,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 76,
+    "date": "2026-09-19",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "REGGIE WAYNE",
+          "ANTONIO BRYANT",
+          "JIMMY SMITH",
+          "ROD SMITH"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "STEVEN JACKSON",
+          "MIKE ANDERSON",
+          "SHAUN ALEXANDER",
+          "EDGERRIN JAMES"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2005",
+        "difficulty": "hard",
+        "words": [
+          "JOEY PORTER",
+          "KYLE VANDEN BOSCH",
+          "MICHAEL STRAHAN",
+          "ROD COLEMAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "KEITH BULLUCK",
+          "ANDRA DAVIS",
+          "LONDON FLETCHER",
+          "DONNIE EDWARDS"
+        ]
+      }
+    ]
   }
 ]

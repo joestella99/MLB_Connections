@@ -3946,5 +3946,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 85,
+    "date": "2026-09-19",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "WHITEY FORD",
+          "LEE SMITH",
+          "ELMER FLICK",
+          "JESSE BURKETT"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2009",
+        "difficulty": "medium",
+        "words": [
+          "BRIAN MCCANN",
+          "ANDRE ETHIER",
+          "RYAN ZIMMERMAN",
+          "ICHIRO SUZUKI"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2009",
+        "difficulty": "hard",
+        "words": [
+          "DAN HAREN",
+          "JON LESTER",
+          "ZACK GREINKE",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "RYAN HOWARD",
+          "PRINCE FIELDER",
+          "ALBERT PUJOLS",
+          "ADRIÁN GONZÁLEZ"
+        ]
+      }
+    ]
   }
 ]
