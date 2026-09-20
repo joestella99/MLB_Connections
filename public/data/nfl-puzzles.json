@@ -3646,5 +3646,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 77,
+    "date": "2026-09-20",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "TOM BRADY",
+          "DAK PRESCOTT",
+          "BAKER MAYFIELD",
+          "JARED GOFF"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "MELVIN GORDON III",
+          "TODD GURLEY",
+          "MARLON MACK",
+          "JAMES CONNER"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2018",
+        "difficulty": "hard",
+        "words": [
+          "SHAWN WILLIAMS",
+          "XAVIEN HOWARD",
+          "EDDIE JACKSON",
+          "KYLE FULLER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "ANTHONY HITCHENS",
+          "BOBBY WAGNER",
+          "BLAKE MARTINEZ"
+        ]
+      }
+    ]
   }
 ]

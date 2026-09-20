@@ -3993,5 +3993,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 86,
+    "date": "2026-09-20",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "LOU GEHRIG",
+          "STAN MUSIAL",
+          "ADRIAN BELTRÉ",
+          "ADAM DUNN"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "MIKE MUSSINA",
+          "JACK MORRIS",
+          "TOMMY JOHN",
+          "ANDY PETTITTE"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2021",
+        "difficulty": "hard",
+        "words": [
+          "MAX SCHERZER",
+          "JULIO URÍAS",
+          "WALKER BUEHLER",
+          "ADAM WAINWRIGHT"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "LIVAN HERNANDEZ",
+          "CURT SCHILLING",
+          "MARIANO RIVERA",
+          "GENE TENACE"
+        ]
+      }
+    ]
   }
 ]
