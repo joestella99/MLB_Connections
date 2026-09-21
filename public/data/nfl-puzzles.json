@@ -3694,5 +3694,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 78,
+    "date": "2026-09-21",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2008",
+        "difficulty": "easy",
+        "words": [
+          "PHILIP RIVERS",
+          "AARON RODGERS",
+          "MATT CASSEL",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2008",
+        "difficulty": "medium",
+        "words": [
+          "PARIS LENON",
+          "JONATHAN VILMA",
+          "DHANI JONES",
+          "DEMECO RYANS"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2008",
+        "difficulty": "hard",
+        "words": [
+          "ED REED",
+          "JASON DAVID",
+          "NICK COLLINS",
+          "CHARLES WOODSON"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "JOHN ABRAHAM",
+          "DEMARCUS WARE",
+          "JOEY PORTER",
+          "JAMES HARRISON"
+        ]
+      }
+    ]
   }
 ]

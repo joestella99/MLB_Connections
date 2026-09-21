@@ -4040,5 +4040,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 87,
+    "date": "2026-09-21",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "PEE WEE REESE",
+          "RED SCHOENDIENST",
+          "WAITE HOYT",
+          "LOU GEHRIG"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2006",
+        "difficulty": "medium",
+        "words": [
+          "RICHIE SEXSON",
+          "CHASE UTLEY",
+          "ADAM LAROCHE",
+          "VERNON WELLS"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2006",
+        "difficulty": "hard",
+        "words": [
+          "JONATHAN PAPELBON",
+          "JOE NATHAN",
+          "TREVOR HOFFMAN",
+          "BILLY WAGNER"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "JUSTIN MORNEAU",
+          "JERMAINE DYE",
+          "LANCE BERKMAN",
+          "ALEX RODRIGUEZ"
+        ]
+      }
+    ]
   }
 ]
