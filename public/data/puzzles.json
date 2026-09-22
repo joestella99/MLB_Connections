@@ -4087,5 +4087,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 88,
+    "date": "2026-09-22",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "FRANK THOMAS",
+          "COOL PAPA BELL",
+          "TOMMY LASORDA",
+          "EDDIE PLANK"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ARAMIS RAMIREZ",
+          "AARON HILL",
+          "ADRIAN BELTRÉ",
+          "ALEX RIOS"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "COLE HAMELS",
+          "ZACK GREINKE",
+          "CC SABATHIA",
+          "STEVE CARLTON"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "JUSTIN VERLANDER",
+          "R.A. DICKEY",
+          "MATT CAIN",
+          "JERED WEAVER"
+        ]
+      }
+    ]
   }
 ]

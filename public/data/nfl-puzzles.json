@@ -3742,5 +3742,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 79,
+    "date": "2026-09-22",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "PATRICK MAHOMES",
+          "BAKER MAYFIELD",
+          "DAK PRESCOTT",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2018",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL THOMAS",
+          "ROBERT WOODS",
+          "T.Y. HILTON",
+          "JULIO JONES"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2018",
+        "difficulty": "hard",
+        "words": [
+          "TODD GURLEY",
+          "DERRICK HENRY",
+          "JAMES CONNER",
+          "ALVIN KAMARA"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "ANTHONY HITCHENS",
+          "LUKE KUECHLY",
+          "TELVIN SMITH"
+        ]
+      }
+    ]
   }
 ]
