@@ -4134,5 +4134,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 89,
+    "date": "2026-09-23",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HARRY HEILMANN",
+          "SAMMY SOSA",
+          "STAN MUSIAL",
+          "DAVID ORTIZ"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "LEFTY GROVE",
+          "TOM SEAVER",
+          "CHRISTY MATHEWSON",
+          "PHIL NIEKRO"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "JOHAN SANTANA",
+          "PAT HENTGEN",
+          "DENNY MCLAIN",
+          "BRET SABERHAGEN"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "STEVE HOWE",
+          "PAT ZACHRY",
+          "RYAN HOWARD",
+          "EARL WILLIAMS"
+        ]
+      }
+    ]
   }
 ]
