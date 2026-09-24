@@ -3838,5 +3838,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 81,
+    "date": "2026-09-24",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "MIKE EVANS",
+          "MICHAEL THOMAS",
+          "DJ MOORE",
+          "MIKE WILLIAMS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "MELVIN GORDON III",
+          "JOSH ALLEN",
+          "TODD GURLEY",
+          "AARON JONES SR."
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2019",
+        "difficulty": "hard",
+        "words": [
+          "ZA'DARIUS SMITH",
+          "PRESTON SMITH",
+          "MARKUS GOLDEN",
+          "CAMERON JORDAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "JAYLON SMITH",
+          "TODD DAVIS",
+          "BLAKE MARTINEZ",
+          "ERIC REID"
+        ]
+      }
+    ]
   }
 ]

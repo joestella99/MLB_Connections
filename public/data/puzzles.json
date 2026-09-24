@@ -4181,5 +4181,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 90,
+    "date": "2026-09-24",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "NOLAN RYAN JR.",
+          "BUD FOWLER",
+          "RICKEY HENDERSON",
+          "MONTE IRVIN"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2002",
+        "difficulty": "medium",
+        "words": [
+          "JEFF KENT",
+          "ALFONSO SORIANO",
+          "VLADIMIR GUERRERO",
+          "GARRET ANDERSON"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "MARIANO RIVERA",
+          "RANDY MYERS",
+          "JONATHAN PAPELBON",
+          "KENLEY JANSEN"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "CURT SCHILLING",
+          "ODALIS PEREZ",
+          "PEDRO MARTÍNEZ",
+          "JAMIE MOYER"
+        ]
+      }
+    ]
   }
 ]
