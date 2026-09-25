@@ -3886,5 +3886,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 82,
+    "date": "2026-09-25",
+    "sport": "nfl",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2016",
+        "difficulty": "easy",
+        "words": [
+          "LAMAR MILLER",
+          "LE'VEON BELL",
+          "JORDAN HOWARD",
+          "LESEAN MCCOY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2016",
+        "difficulty": "medium",
+        "words": [
+          "DAVID JOHNSON",
+          "DEVONTA FREEMAN",
+          "EZEKIEL ELLIOTT",
+          "TEVIN COLEMAN"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2016",
+        "difficulty": "hard",
+        "words": [
+          "JORDY NELSON",
+          "DAVANTE ADAMS",
+          "ANTONIO BROWN",
+          "MIKE EVANS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "PAUL POSLUSZNY",
+          "PRESTON BROWN",
+          "TAHIR WHITEHEAD",
+          "SEAN LEE"
+        ]
+      }
+    ]
   }
 ]

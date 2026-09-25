@@ -4228,5 +4228,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 91,
+    "date": "2026-09-25",
+    "season": 2026,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "CHIPPER JONES",
+          "JIMMIE FOXX",
+          "JOE DIMAGGIO"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2026",
+        "difficulty": "medium",
+        "words": [
+          "YORDAN ALVAREZ",
+          "PETE CROW-ARMSTRONG",
+          "PETE ALONSO",
+          "CJ ABRAMS"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2026",
+        "difficulty": "hard",
+        "words": [
+          "TAJ BRADLEY",
+          "PAUL SKENES",
+          "CHRIS SALE",
+          "CRISTOPHER SÁNCHEZ"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHNNY PODRES",
+          "WILLIE STARGELL",
+          "TROY GLAUS",
+          "STEVE YEAGER"
+        ]
+      }
+    ]
   }
 ]
