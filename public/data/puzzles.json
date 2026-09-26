@@ -4275,5 +4275,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 92,
+    "date": "2026-09-26",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "CAP ANSON",
+          "LUIS GONZALEZ",
+          "RAFAEL PALMEIRO",
+          "JOHNNY DAMON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2023",
+        "difficulty": "medium",
+        "words": [
+          "MARCELL OZUNA",
+          "AUSTIN RILEY",
+          "MATT OLSON",
+          "JORGE SOLER"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2023",
+        "difficulty": "hard",
+        "words": [
+          "BLAKE SNELL",
+          "FREDDY PERALTA",
+          "SPENCER STRIDER",
+          "LUCAS GIOLITO"
+        ]
+      },
+      {
+        "name": "All-Star in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "VLADIMIR GUERRERO JR.",
+          "WILL SMITH",
+          "CAMILO DOVAL",
+          "CRAIG KIMBREL"
+        ]
+      }
+    ]
   }
 ]

@@ -3934,5 +3934,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 83,
+    "date": "2026-09-26",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "PHILIP RIVERS",
+          "BAKER MAYFIELD",
+          "CARSON WENTZ",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2019",
+        "difficulty": "medium",
+        "words": [
+          "CHRIS GODWIN JR.",
+          "MICHAEL THOMAS",
+          "JULIO JONES",
+          "DEVANTE PARKER"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2019",
+        "difficulty": "hard",
+        "words": [
+          "CHRISTIAN MCCAFFREY",
+          "KEENAN ALLEN",
+          "JULIAN EDELMAN",
+          "DEANDRE HOPKINS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "JOE SCHOBERT",
+          "JAYLON SMITH",
+          "CORY LITTLETON",
+          "ZACH CUNNINGHAM"
+        ]
+      }
+    ]
   }
 ]
