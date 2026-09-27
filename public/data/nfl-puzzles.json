@@ -3982,5 +3982,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 84,
+    "date": "2026-09-27",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "KYREN WILLIAMS",
+          "JONATHAN TAYLOR",
+          "JAHMYR GIBBS",
+          "TONY POLLARD"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2025",
+        "difficulty": "medium",
+        "words": [
+          "DAVANTE ADAMS",
+          "GEORGE PICKENS",
+          "JAUAN JENNINGS",
+          "PUKA NACUA"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2025",
+        "difficulty": "hard",
+        "words": [
+          "KEVIN BYARD",
+          "DEVIN LLOYD",
+          "XAVIER WATTS",
+          "JAYCEE HORN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "CARSON SCHWESINGER",
+          "JACK CAMPBELL",
+          "BOBBY OKEREKE",
+          "BLAKE CASHMAN"
+        ]
+      }
+    ]
   }
 ]

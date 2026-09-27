@@ -4322,5 +4322,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 93,
+    "date": "2026-09-27",
+    "season": 2026,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "JUAN MARICHAL",
+          "HEINIE MANUSH",
+          "RUBE WADDELL",
+          "WILLARD BROWN"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "GREG MADDUX",
+          "ROGER CLEMENS",
+          "MICKEY WELCH",
+          "WALTER JOHNSON"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "FRANK TANANA",
+          "MAX SCHERZER",
+          "CLAYTON KERSHAW",
+          "BERT BLYLEVEN"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "JOHN WETTELAND",
+          "RAY KNIGHT",
+          "PAT BORDERS",
+          "DONN CLENDENON"
+        ]
+      }
+    ]
   }
 ]
