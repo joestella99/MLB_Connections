@@ -4369,5 +4369,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 94,
+    "date": "2026-09-28",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRANK ROBINSON",
+          "HANK AARON",
+          "WILLIE MAYS",
+          "BABE RUTH"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2011",
+        "difficulty": "medium",
+        "words": [
+          "ROBINSON CANÓ",
+          "MATT KEMP",
+          "JOEY VOTTO",
+          "MIGUEL CABRERA"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2011",
+        "difficulty": "hard",
+        "words": [
+          "RYAN BRAUN",
+          "PRINCE FIELDER",
+          "TROY TULOWITZKI",
+          "MATT HOLLIDAY"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "TODD WORRELL",
+          "PETE ALONSO",
+          "CORBIN CARROLL",
+          "TONY OLIVA"
+        ]
+      }
+    ]
   }
 ]

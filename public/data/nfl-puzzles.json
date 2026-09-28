@@ -4030,5 +4030,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 85,
+    "date": "2026-09-28",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2008",
+        "difficulty": "easy",
+        "words": [
+          "TONY GONZALEZ",
+          "HINES WARD",
+          "RANDY MOSS",
+          "RODDY WHITE"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2008",
+        "difficulty": "medium",
+        "words": [
+          "PAUL POSLUSZNY",
+          "RAY LEWIS",
+          "KIRK MORRISON",
+          "CHAD GREENWAY"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2008",
+        "difficulty": "hard",
+        "words": [
+          "BRANDON JACOBS",
+          "MICHAEL TURNER",
+          "MAURICE JONES-DREW",
+          "LENDALE WHITE"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "JAMES HARRISON",
+          "DEMARCUS WARE",
+          "JOEY PORTER",
+          "JOHN ABRAHAM"
+        ]
+      }
+    ]
   }
 ]
