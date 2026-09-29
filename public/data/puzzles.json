@@ -4416,5 +4416,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 95,
+    "date": "2026-09-29",
+    "season": 2015,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE MCCOVEY",
+          "MEL OTT",
+          "MIKE SCHMIDT",
+          "ALBERT PUJOLS"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2015",
+        "difficulty": "medium",
+        "words": [
+          "JASON KIPNIS",
+          "KENDRYS MORALES",
+          "TODD FRAZIER",
+          "MATT CARPENTER"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "KIRK GIBSON",
+          "ROGER MARIS",
+          "DICK GROAT",
+          "NELLIE FOX"
+        ]
+      },
+      {
+        "name": "All-Star in 2015",
+        "difficulty": "tricky",
+        "words": [
+          "HÉCTOR SANTIAGO",
+          "SHELBY MILLER",
+          "YASMANI GRANDAL",
+          "BRAD BOXBERGER"
+        ]
+      }
+    ]
   }
 ]
