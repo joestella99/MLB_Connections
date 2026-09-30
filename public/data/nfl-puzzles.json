@@ -4126,5 +4126,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 87,
+    "date": "2026-09-30",
+    "sport": "nfl",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2017",
+        "difficulty": "easy",
+        "words": [
+          "CASE KEENUM",
+          "MATT RYAN",
+          "JARED GOFF",
+          "DREW BREES"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2017",
+        "difficulty": "medium",
+        "words": [
+          "TRAVIS KELCE",
+          "DOUG BALDWIN",
+          "ROB GRONKOWSKI",
+          "ALSHON JEFFERY"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2017",
+        "difficulty": "hard",
+        "words": [
+          "CALAIS CAMPBELL",
+          "AARON DONALD",
+          "CAMERON WAKE",
+          "EVERSON GRIFFEN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2017",
+        "difficulty": "tricky",
+        "words": [
+          "DEION JONES",
+          "CHRISTIAN KIRKSEY",
+          "BOBBY WAGNER",
+          "JOE SCHOBERT"
+        ]
+      }
+    ]
   }
 ]
