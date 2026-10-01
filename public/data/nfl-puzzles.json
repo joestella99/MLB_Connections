@@ -4174,5 +4174,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 88,
+    "date": "2026-10-01",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2012",
+        "difficulty": "easy",
+        "words": [
+          "DOUG MARTIN",
+          "AHMAD BRADSHAW",
+          "MATT FORTE",
+          "BENJARVUS GREEN-ELLIS"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ERIC DECKER",
+          "DEMARYIUS THOMAS",
+          "MICHAEL CRABTREE",
+          "VICTOR CRUZ"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2012",
+        "difficulty": "hard",
+        "words": [
+          "AARON RODGERS",
+          "MATT RYAN",
+          "TOM BRADY",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "JAMES LAURINAITIS",
+          "CHAD GREENWAY",
+          "DARYL WASHINGTON"
+        ]
+      }
+    ]
   }
 ]

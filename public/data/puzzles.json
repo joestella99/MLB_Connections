@@ -4510,5 +4510,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 97,
+    "date": "2026-10-01",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ROGERS HORNSBY",
+          "HARRY HEILMANN",
+          "CHARLIE GEHRINGER",
+          "TY COBB"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "GREG MADDUX",
+          "LEFTY GROVE",
+          "NOLAN RYAN JR.",
+          "STEVE CARLTON"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "R.A. DICKEY",
+          "MIKE MARSHALL",
+          "CC SABATHIA",
+          "BARTOLO COLON"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "MARK TEIXEIRA",
+          "MANNY RAMIREZ",
+          "MIGUEL CABRERA",
+          "DAVID WRIGHT"
+        ]
+      }
+    ]
   }
 ]
