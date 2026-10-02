@@ -4557,5 +4557,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 98,
+    "date": "2026-10-02",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "VLADIMIR GUERRERO",
+          "CARLOS BELTRÁN",
+          "PAUL KONERKO",
+          "STAN MUSIAL"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2018",
+        "difficulty": "medium",
+        "words": [
+          "NOLAN ARENADO",
+          "FREDDIE FREEMAN",
+          "MOOKIE BETTS",
+          "DALLAS KEUCHEL"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2018",
+        "difficulty": "hard",
+        "words": [
+          "BRAD HAND",
+          "KENLEY JANSEN",
+          "WADE DAVIS",
+          "AROLDIS CHAPMAN"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "BRET SABERHAGEN",
+          "DON LARSEN",
+          "PEDRO GUERRERO",
+          "ROLLIE FINGERS"
+        ]
+      }
+    ]
   }
 ]

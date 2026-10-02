@@ -4222,5 +4222,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 89,
+    "date": "2026-10-02",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2011",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "BEN ROETHLISBERGER",
+          "RYAN FITZPATRICK",
+          "PHILIP RIVERS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2011",
+        "difficulty": "medium",
+        "words": [
+          "MICHAEL TURNER",
+          "MIKE TOLBERT",
+          "LESEAN MCCOY",
+          "CAM NEWTON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2011",
+        "difficulty": "hard",
+        "words": [
+          "CHRIS LONG",
+          "CONNOR BARWIN",
+          "JARED ALLEN",
+          "ANDRE CARTER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BARNETT",
+          "CURTIS LOFTON",
+          "NAVORRO BOWMAN",
+          "LONDON FLETCHER"
+        ]
+      }
+    ]
   }
 ]
