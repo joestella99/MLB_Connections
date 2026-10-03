@@ -4270,5 +4270,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 90,
+    "date": "2026-10-03",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "TORRY HOLT",
+          "CHAD JOHNSON",
+          "STEVE SMITH SR.",
+          "ISAAC BRUCE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "REGGIE BROWN",
+          "JAVON WALKER",
+          "ALGE CRUMPLER",
+          "CHRIS HENRY"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2006",
+        "difficulty": "hard",
+        "words": [
+          "WILLIE PARKER",
+          "TIKI BARBER",
+          "LARRY JOHNSON",
+          "FRANK GORE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "KEITH BULLUCK",
+          "BRIAN URLACHER",
+          "LANCE BRIGGS",
+          "ANTONIO PIERCE"
+        ]
+      }
+    ]
   }
 ]

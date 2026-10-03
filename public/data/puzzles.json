@@ -4604,5 +4604,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 99,
+    "date": "2026-10-03",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "HANK AARON",
+          "TY COBB",
+          "AL KALINE",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2018",
+        "difficulty": "medium",
+        "words": [
+          "TREVOR STORY",
+          "J.T. REALMUTO",
+          "J.D. MARTINEZ",
+          "NOLAN ARENADO"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2018",
+        "difficulty": "hard",
+        "words": [
+          "MILES MIKOLAS",
+          "TREVOR BAUER",
+          "KYLE FREELAND",
+          "COREY KLUBER"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY KOUFAX",
+          "STEVE YEAGER",
+          "TROY GLAUS",
+          "MICKEY LOLICH"
+        ]
+      }
+    ]
   }
 ]
