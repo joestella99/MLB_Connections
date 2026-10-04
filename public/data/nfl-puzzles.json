@@ -4318,5 +4318,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 91,
+    "date": "2026-10-04",
+    "sport": "nfl",
+    "season": 2020,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2020",
+        "difficulty": "easy",
+        "words": [
+          "DESHAUN WATSON",
+          "JUSTIN HERBERT",
+          "JARED GOFF",
+          "AARON RODGERS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2020",
+        "difficulty": "medium",
+        "words": [
+          "D'ANDRE SWIFT",
+          "JONATHAN TAYLOR",
+          "KENYAN DRAKE",
+          "JOSH ALLEN"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2020",
+        "difficulty": "hard",
+        "words": [
+          "STEPHON TUITT",
+          "TREY HENDRICKSON",
+          "AARON DONALD",
+          "LEONARD WILLIAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2020",
+        "difficulty": "tricky",
+        "words": [
+          "SHAQUILLE LEONARD",
+          "JAYLON SMITH",
+          "DEVIN WHITE",
+          "JOE SCHOBERT"
+        ]
+      }
+    ]
   }
 ]

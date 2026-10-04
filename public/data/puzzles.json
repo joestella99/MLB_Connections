@@ -4651,5 +4651,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 100,
+    "date": "2026-10-04",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "RAFAEL PALMEIRO",
+          "BARRY BONDS",
+          "TED WILLIAMS",
+          "GARY SHEFFIELD"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2011",
+        "difficulty": "medium",
+        "words": [
+          "YADIER MOLINA",
+          "DUSTIN PEDROIA",
+          "JACOBY ELLSBURY",
+          "MATT KEMP"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2011",
+        "difficulty": "hard",
+        "words": [
+          "SERGIO SANTOS",
+          "DREW STOREN",
+          "BRANDON LEAGUE",
+          "CRAIG KIMBREL"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "JUSTIN VERLANDER",
+          "COLE HAMELS",
+          "ROY HALLADAY",
+          "CLIFF LEE"
+        ]
+      }
+    ]
   }
 ]
