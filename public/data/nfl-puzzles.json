@@ -4366,5 +4366,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 92,
+    "date": "2026-10-05",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2025",
+        "difficulty": "easy",
+        "words": [
+          "TREVOR LAWRENCE",
+          "JARED GOFF",
+          "PATRICK MAHOMES",
+          "JALEN HURTS"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2025",
+        "difficulty": "medium",
+        "words": [
+          "DE'VON ACHANE",
+          "DAVID MONTGOMERY",
+          "DERRICK HENRY",
+          "TREVEYON HENDERSON"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2025",
+        "difficulty": "hard",
+        "words": [
+          "TREY MCBRIDE",
+          "AMON-RA ST. BROWN",
+          "JA'MARR CHASE",
+          "PUKA NACUA"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "CARSON SCHWESINGER",
+          "CEDRIC GRAY",
+          "JAMIEN SHERWOOD",
+          "ROQUAN SMITH"
+        ]
+      }
+    ]
   }
 ]
