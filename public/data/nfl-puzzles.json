@@ -4414,5 +4414,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 93,
+    "date": "2026-10-06",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "SAQUON BARKLEY",
+          "PHILLIP LINDSAY",
+          "CARLOS HYDE",
+          "MARK INGRAM II"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2019",
+        "difficulty": "medium",
+        "words": [
+          "CHRIS GODWIN JR.",
+          "DEVANTE PARKER",
+          "JULIO JONES",
+          "MICHAEL THOMAS"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2019",
+        "difficulty": "hard",
+        "words": [
+          "JULIAN EDELMAN",
+          "KEENAN ALLEN",
+          "DEANDRE HOPKINS",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "K.J. WRIGHT",
+          "BOBBY WAGNER",
+          "TODD DAVIS",
+          "JORDAN HICKS"
+        ]
+      }
+    ]
   }
 ]

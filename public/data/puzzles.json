@@ -4745,5 +4745,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 102,
+    "date": "2026-10-06",
+    "season": 2001,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ADAM DUNN",
+          "CHIPPER JONES",
+          "LOU GEHRIG",
+          "ANDRE DAWSON"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2001",
+        "difficulty": "medium",
+        "words": [
+          "JASON GIAMBI",
+          "ALBERT PUJOLS",
+          "JEFF BAGWELL",
+          "JEFF KENT"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2001",
+        "difficulty": "hard",
+        "words": [
+          "DARRYL KILE",
+          "MARK MULDER",
+          "RUSS ORTIZ",
+          "ROBERT PERSON"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2001",
+        "difficulty": "tricky",
+        "words": [
+          "TROY GLAUS",
+          "ALEX RODRIGUEZ",
+          "BARRY BONDS",
+          "SAMMY SOSA"
+        ]
+      }
+    ]
   }
 ]
