@@ -4792,5 +4792,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 103,
+    "date": "2026-10-07",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "CAP ANSON",
+          "CRAIG BIGGIO",
+          "ALBERT PUJOLS",
+          "FRANK ROBINSON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2002",
+        "difficulty": "medium",
+        "words": [
+          "PAT BURRELL",
+          "SHAWN GREEN",
+          "JEFF KENT",
+          "SAMMY SOSA"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "BARTOLO COLON",
+          "JIM PERRY",
+          "JACOB DEGROM",
+          "WILLIE HERNANDEZ"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "YORDAN ALVAREZ",
+          "DAVID JUSTICE",
+          "CODY BELLINGER",
+          "BOBBY CROSBY"
+        ]
+      }
+    ]
   }
 ]

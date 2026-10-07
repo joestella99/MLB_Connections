@@ -4462,5 +4462,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 94,
+    "date": "2026-10-07",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "SAQUON BARKLEY",
+          "JONATHAN TAYLOR",
+          "CHASE BROWN",
+          "RICO DOWDLE"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2025",
+        "difficulty": "medium",
+        "words": [
+          "DAK PRESCOTT",
+          "MATTHEW STAFFORD",
+          "TREVOR LAWRENCE",
+          "SAM DARNOLD"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2025",
+        "difficulty": "hard",
+        "words": [
+          "ANTONIO JOHNSON",
+          "XAVIER WATTS",
+          "DEVIN LLOYD",
+          "ERNEST JONES IV"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "JACK CAMPBELL",
+          "NATE LANDMAN",
+          "CARSON SCHWESINGER",
+          "BOBBY OKEREKE"
+        ]
+      }
+    ]
   }
 ]
