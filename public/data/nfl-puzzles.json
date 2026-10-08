@@ -4510,5 +4510,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 95,
+    "date": "2026-10-08",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2008",
+        "difficulty": "easy",
+        "words": [
+          "JASON WITTEN",
+          "LARRY FITZGERALD",
+          "ANQUAN BOLDIN",
+          "REGGIE WAYNE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2008",
+        "difficulty": "medium",
+        "words": [
+          "ANTONIO GATES",
+          "TONY GONZALEZ",
+          "LANCE MOORE",
+          "GREG JENNINGS"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2008",
+        "difficulty": "hard",
+        "words": [
+          "ADRIAN PETERSON",
+          "CLINTON PORTIS",
+          "DEANGELO WILLIAMS",
+          "MICHAEL TURNER"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "DEMARCUS WARE",
+          "JOEY PORTER",
+          "JOHN ABRAHAM",
+          "JAMES HARRISON"
+        ]
+      }
+    ]
   }
 ]
