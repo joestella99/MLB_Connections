@@ -4558,5 +4558,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 96,
+    "date": "2026-10-09",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "ANQUAN BOLDIN",
+          "SIDNEY RICE",
+          "DERRICK MASON",
+          "WES WELKER"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2009",
+        "difficulty": "medium",
+        "words": [
+          "ROBERT MEACHEM",
+          "MARQUES COLSTON",
+          "MILES AUSTIN",
+          "LARRY FITZGERALD"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2009",
+        "difficulty": "hard",
+        "words": [
+          "BRENT GRIMES",
+          "ANDRE' GOODMAN",
+          "TANARD JACKSON",
+          "BRANDON MERIWEATHER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "CURTIS LOFTON",
+          "BRIAN CUSHING",
+          "RAY LEWIS",
+          "KIRK MORRISON"
+        ]
+      }
+    ]
   }
 ]

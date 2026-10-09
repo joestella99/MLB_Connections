@@ -4886,5 +4886,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 105,
+    "date": "2026-10-09",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "JOE TORRE",
+          "JIMMY COLLINS",
+          "JOHNNY EVERS",
+          "BOWIE KUHN"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2011",
+        "difficulty": "medium",
+        "words": [
+          "ROBINSON CANÓ",
+          "DAVID ORTIZ",
+          "BILLY BUTLER",
+          "JOEY VOTTO"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "JOE NATHAN",
+          "TROY PERCIVAL",
+          "BILLY WAGNER",
+          "JEFF REARDON"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "FRANK ROBINSON",
+          "BENITO SANTIAGO",
+          "DONTRELLE WILLIS",
+          "SAM JETHROE"
+        ]
+      }
+    ]
   }
 ]
