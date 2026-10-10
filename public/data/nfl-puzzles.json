@@ -4606,5 +4606,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 97,
+    "date": "2026-10-10",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JAXON SMITH-NJIGBA",
+          "CALVIN RIDLEY",
+          "CEEDEE LAMB",
+          "BRIAN THOMAS JR."
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "BRIAN ROBINSON JR.",
+          "SAQUON BARKLEY",
+          "JAMES COOK III",
+          "JOE MIXON"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2024",
+        "difficulty": "hard",
+        "words": [
+          "KERBY JOSEPH",
+          "DEREK STINGLEY JR.",
+          "BYRON MURPHY JR.",
+          "MARLON HUMPHREY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "KYZIR WHITE",
+          "JACK CAMPBELL",
+          "FRED WARNER",
+          "KADEN ELLISS"
+        ]
+      }
+    ]
   }
 ]

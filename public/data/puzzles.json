@@ -4933,5 +4933,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 106,
+    "date": "2026-10-10",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "ED DELAHANTY",
+          "LOU GEHRIG",
+          "DEREK JETER"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2011",
+        "difficulty": "medium",
+        "words": [
+          "JOEY VOTTO",
+          "PRINCE FIELDER",
+          "MIGUEL CABRERA",
+          "JEFF FRANCOEUR"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2011",
+        "difficulty": "hard",
+        "words": [
+          "DAVID PRICE",
+          "JUSTIN VERLANDER",
+          "TIM LINCECUM",
+          "BRANDON MORROW"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "JAMES SHIELDS",
+          "IAN KENNEDY",
+          "COLE HAMELS",
+          "CLIFF LEE"
+        ]
+      }
+    ]
   }
 ]
