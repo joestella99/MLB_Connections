@@ -4654,5 +4654,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 98,
+    "date": "2026-10-11",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2007",
+        "difficulty": "easy",
+        "words": [
+          "FRED TAYLOR",
+          "BRANDON JACOBS",
+          "FRANK GORE",
+          "ADRIAN PETERSON"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2007",
+        "difficulty": "medium",
+        "words": [
+          "BRETT FAVRE",
+          "JON KITNA",
+          "PEYTON MANNING",
+          "CARSON PALMER"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2007",
+        "difficulty": "hard",
+        "words": [
+          "JARED ALLEN",
+          "TRENT COLE",
+          "JASON TAYLOR",
+          "JUSTIN TUCK"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "PATRICK WILLIS",
+          "ERNIE SIMS",
+          "D.J. WILLIAMS",
+          "JON BEASON"
+        ]
+      }
+    ]
   }
 ]

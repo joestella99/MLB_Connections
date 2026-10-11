@@ -4980,5 +4980,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 107,
+    "date": "2026-10-11",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "GEORGE BRETT",
+          "CARLOS BELTRÁN",
+          "JAKE BECKLEY",
+          "STAN MUSIAL"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ADAM DUNN",
+          "JOSH HAMILTON",
+          "CURTIS GRANDERSON",
+          "GIANCARLO STANTON"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2012",
+        "difficulty": "hard",
+        "words": [
+          "AROLDIS CHAPMAN",
+          "JOEL HANRAHAN",
+          "JOSE VALVERDE",
+          "JASON MOTTE"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "GEORGE SPRINGER",
+          "RON CEY",
+          "PEDRO GUERRERO",
+          "JOHN WETTELAND"
+        ]
+      }
+    ]
   }
 ]
