@@ -4702,5 +4702,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 99,
+    "date": "2026-10-12",
+    "sport": "nfl",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2019",
+        "difficulty": "easy",
+        "words": [
+          "AMARI COOPER",
+          "CHRIS GODWIN JR.",
+          "ROBERT WOODS",
+          "DEVANTE PARKER"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "MIKE EVANS",
+          "DJ CHARK",
+          "A.J. BROWN",
+          "JARED COOK"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2019",
+        "difficulty": "hard",
+        "words": [
+          "DAK PRESCOTT",
+          "PHILIP RIVERS",
+          "JARED GOFF",
+          "JAMEIS WINSTON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2019",
+        "difficulty": "tricky",
+        "words": [
+          "JOE SCHOBERT",
+          "JORDAN HICKS",
+          "BUDDA BAKER",
+          "BOBBY WAGNER"
+        ]
+      }
+    ]
   }
 ]

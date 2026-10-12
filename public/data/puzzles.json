@@ -5027,5 +5027,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 108,
+    "date": "2026-10-12",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "TODD HELTON",
+          "ADRIAN BELTRÉ",
+          "ROBIN YOUNT",
+          "DAVID ORTIZ"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2025",
+        "difficulty": "medium",
+        "words": [
+          "BOBBY WITT JR.",
+          "SHOHEI OHTANI",
+          "CORBIN CARROLL",
+          "PETE ALONSO"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2025",
+        "difficulty": "hard",
+        "words": [
+          "AARON JUDGE",
+          "KYLE SCHWARBER",
+          "CAL RALEIGH",
+          "GEORGE SPRINGER"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "COREY SEAGER",
+          "BOB GIBSON",
+          "RON CEY",
+          "ALAN TRAMMELL"
+        ]
+      }
+    ]
   }
 ]
