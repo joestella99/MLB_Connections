@@ -5074,5 +5074,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 109,
+    "date": "2026-10-13",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "PAUL WANER",
+          "BOBBY ABREU",
+          "CHIPPER JONES",
+          "TONY GWYNN"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2022",
+        "difficulty": "medium",
+        "words": [
+          "MOOKIE BETTS",
+          "MIKE TROUT",
+          "NOLAN ARENADO",
+          "MANNY MACHADO"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "MICKEY COCHRANE",
+          "HANK GREENBERG",
+          "JEFF BURROUGHS",
+          "YOGI BERRA"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "ANDREW BAILEY",
+          "DAVE RIGHETTI",
+          "TIM SALMON",
+          "BILL VIRDON"
+        ]
+      }
+    ]
   }
 ]

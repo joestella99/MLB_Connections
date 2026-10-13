@@ -4750,5 +4750,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 100,
+    "date": "2026-10-13",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2024",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "JORDAN LOVE",
+          "CALEB WILLIAMS",
+          "GENO SMITH"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JAHMYR GIBBS",
+          "SAQUON BARKLEY",
+          "JAMES COOK III",
+          "JOE MIXON"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2024",
+        "difficulty": "hard",
+        "words": [
+          "NIK BONITTO",
+          "DANIELLE HUNTER",
+          "ODAFE OWEH",
+          "KYLE VAN NOY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "JORDYN BROOKS",
+          "KADEN ELLISS",
+          "E.J. SPEED"
+        ]
+      }
+    ]
   }
 ]
