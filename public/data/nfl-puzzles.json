@@ -4798,5 +4798,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 101,
+    "date": "2026-10-14",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "CARSON PALMER",
+          "PEYTON MANNING",
+          "DREW BREES",
+          "TOM BRADY"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2005",
+        "difficulty": "medium",
+        "words": [
+          "CHRIS CHAMBERS",
+          "MARVIN HARRISON",
+          "SANTANA MOSS",
+          "KEENAN MCCARDELL"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2005",
+        "difficulty": "hard",
+        "words": [
+          "CHAD JOHNSON",
+          "STEVE SMITH SR.",
+          "LARRY FITZGERALD",
+          "ANQUAN BOLDIN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "ZACH THOMAS",
+          "LONDON FLETCHER",
+          "ANDRA DAVIS",
+          "MIKE PETERSON"
+        ]
+      }
+    ]
   }
 ]

@@ -5121,5 +5121,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 110,
+    "date": "2026-10-14",
+    "season": 2001,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "JOE DIMAGGIO",
+          "HARRY HEILMANN",
+          "CARL YASTRZEMSKI",
+          "WILLIE MCCOVEY"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "STEVE CARLTON",
+          "EDDIE PLANK",
+          "EARLY WYNN",
+          "KID NICHOLS"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2001",
+        "difficulty": "hard",
+        "words": [
+          "CHIPPER JONES",
+          "TODD HELTON",
+          "BRIAN GILES",
+          "CLIFF FLOYD"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "OZZIE GUILLEN",
+          "JOE BLACK",
+          "HIDEO NOMO",
+          "PETE ALONSO"
+        ]
+      }
+    ]
   }
 ]
