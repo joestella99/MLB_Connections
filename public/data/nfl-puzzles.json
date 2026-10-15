@@ -4846,5 +4846,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 102,
+    "date": "2026-10-15",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2012",
+        "difficulty": "easy",
+        "words": [
+          "REGGIE WAYNE",
+          "STEVIE JOHNSON",
+          "LANCE MOORE",
+          "STEVE SMITH SR."
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2012",
+        "difficulty": "medium",
+        "words": [
+          "ARIAN FOSTER",
+          "STEVAN RIDLEY",
+          "FRANK GORE",
+          "CHRIS JOHNSON"
+        ]
+      },
+      {
+        "name": "4,500+ Passing Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "TOM BRADY",
+          "MATT RYAN",
+          "MATTHEW STAFFORD",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "DARYL WASHINGTON",
+          "LUKE KUECHLY",
+          "KARLOS DANSBY",
+          "JERRELL FREEMAN"
+        ]
+      }
+    ]
   }
 ]

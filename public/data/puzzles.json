@@ -5168,5 +5168,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 111,
+    "date": "2026-10-15",
+    "season": 2013,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "RAFAEL PALMEIRO",
+          "GEORGE BRETT",
+          "WILLIE STARGELL",
+          "TED WILLIAMS"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2013",
+        "difficulty": "medium",
+        "words": [
+          "CHRIS DAVIS",
+          "MATT CARPENTER",
+          "JED LOWRIE",
+          "ANTHONY RIZZO"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "JOSE MESA",
+          "LEE SMITH",
+          "JEFF REARDON",
+          "JONATHAN PAPELBON"
+        ]
+      },
+      {
+        "name": "All-Star in 2013",
+        "difficulty": "tricky",
+        "words": [
+          "J.J. HARDY",
+          "FÉLIX HERNÁNDEZ",
+          "ADAM JONES",
+          "JOE MAUER"
+        ]
+      }
+    ]
   }
 ]
