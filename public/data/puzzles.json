@@ -5215,5 +5215,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 112,
+    "date": "2026-10-16",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "MEL OTT",
+          "HANK AARON",
+          "FRANK THOMAS",
+          "MARK MCGWIRE"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2021",
+        "difficulty": "medium",
+        "words": [
+          "MANNY MACHADO",
+          "YORDAN ALVAREZ",
+          "JOSÉ RAMÍREZ",
+          "SALVADOR PEREZ"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2021",
+        "difficulty": "hard",
+        "words": [
+          "AROLDIS CHAPMAN",
+          "RAISEL IGLESIAS",
+          "LIAM HENDRIKS",
+          "KENLEY JANSEN"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "GERRIT COLE",
+          "JULIO URÍAS",
+          "SANDY ALCANTARA",
+          "JOE MUSGROVE"
+        ]
+      }
+    ]
   }
 ]

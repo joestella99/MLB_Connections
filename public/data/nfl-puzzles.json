@@ -4894,5 +4894,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 103,
+    "date": "2026-10-16",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2022",
+        "difficulty": "easy",
+        "words": [
+          "RHAMONDRE STEVENSON",
+          "TONY POLLARD",
+          "DERRICK HENRY",
+          "DALVIN COOK"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2022",
+        "difficulty": "medium",
+        "words": [
+          "ELANDON ROBERTS",
+          "LAVONTE DAVID",
+          "DRUE TRANQUILL",
+          "KEVIN BYARD"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2022",
+        "difficulty": "hard",
+        "words": [
+          "STEFON DIGGS",
+          "JUSTIN JEFFERSON",
+          "A.J. BROWN",
+          "TYREEK HILL"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "MATTHEW JUDON",
+          "NICK BOSA",
+          "CHRIS JONES",
+          "HAASON REDDICK"
+        ]
+      }
+    ]
   }
 ]
