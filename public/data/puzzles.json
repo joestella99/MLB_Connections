@@ -5262,5 +5262,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 113,
+    "date": "2026-10-17",
+    "season": 2019,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "RAFAEL PALMEIRO",
+          "ANDRE DAWSON",
+          "TED WILLIAMS",
+          "MIGUEL CABRERA"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2019",
+        "difficulty": "medium",
+        "words": [
+          "RONALD ACUÑA JR.",
+          "BRYCE HARPER",
+          "TREVOR STORY",
+          "ALEX BREGMAN"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "AROLDIS CHAPMAN",
+          "KENLEY JANSEN",
+          "RICH GOSSAGE",
+          "ROBERTO HERNANDEZ"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "ROLLIE FINGERS",
+          "FREDDIE FREEMAN",
+          "DONN CLENDENON",
+          "TROY GLAUS"
+        ]
+      }
+    ]
   }
 ]

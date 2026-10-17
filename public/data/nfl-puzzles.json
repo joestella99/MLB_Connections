@@ -4942,5 +4942,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 104,
+    "date": "2026-10-17",
+    "sport": "nfl",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2023",
+        "difficulty": "easy",
+        "words": [
+          "DERRICK HENRY",
+          "NAJEE HARRIS",
+          "TONY POLLARD",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2023",
+        "difficulty": "medium",
+        "words": [
+          "KAREEM HUNT",
+          "DAVID MONTGOMERY",
+          "DE'VON ACHANE",
+          "JALEN HURTS"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2023",
+        "difficulty": "hard",
+        "words": [
+          "PUKA NACUA",
+          "A.J. BROWN",
+          "AMON-RA ST. BROWN",
+          "TYREEK HILL"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "JOSH HINES-ALLEN",
+          "KHALIL MACK",
+          "DANIELLE HUNTER",
+          "TREY HENDRICKSON"
+        ]
+      }
+    ]
   }
 ]
