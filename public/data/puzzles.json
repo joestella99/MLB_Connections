@@ -5309,5 +5309,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 114,
+    "date": "2026-10-18",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "HANK AARON",
+          "GARY SHEFFIELD",
+          "RAFAEL PALMEIRO",
+          "FRANK ROBINSON"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2002",
+        "difficulty": "medium",
+        "words": [
+          "JASON GIAMBI",
+          "NOMAR GARCIAPARRA",
+          "TODD HELTON",
+          "BARRY BONDS"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2002",
+        "difficulty": "hard",
+        "words": [
+          "BILLY KOCH",
+          "ERIC GAGNE",
+          "DANNY GRAVES",
+          "JOSE JIMENEZ"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "LANCE BERKMAN",
+          "MIGUEL TEJADA",
+          "MAGGLIO ORDONEZ",
+          "ALBERT PUJOLS"
+        ]
+      }
+    ]
   }
 ]

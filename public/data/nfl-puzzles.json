@@ -4990,5 +4990,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 105,
+    "date": "2026-10-18",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2025",
+        "difficulty": "easy",
+        "words": [
+          "DAK PRESCOTT",
+          "AARON RODGERS",
+          "DRAKE MAYE",
+          "TREVOR LAWRENCE"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2025",
+        "difficulty": "medium",
+        "words": [
+          "ZAY FLOWERS",
+          "JA'MARR CHASE",
+          "PUKA NACUA",
+          "TREY MCBRIDE"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2025",
+        "difficulty": "hard",
+        "words": [
+          "JOSH JACOBS",
+          "JONATHAN TAYLOR",
+          "JOSH ALLEN",
+          "ZACH CHARBONNET"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "NATE LANDMAN",
+          "CARSON SCHWESINGER",
+          "BLAKE CASHMAN",
+          "JACK CAMPBELL"
+        ]
+      }
+    ]
   }
 ]
