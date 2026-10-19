@@ -5356,5 +5356,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 115,
+    "date": "2026-10-19",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "ALBERT PUJOLS",
+          "NAP LAJOIE",
+          "ANDRE DAWSON"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2003",
+        "difficulty": "medium",
+        "words": [
+          "DERREK LEE",
+          "ANDRUW JONES",
+          "MIKE CAMERON",
+          "MIKE HAMPTON"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2003",
+        "difficulty": "hard",
+        "words": [
+          "KEVIN BROWN",
+          "MARK PRIOR",
+          "TIM HUDSON",
+          "PEDRO MARTÍNEZ"
+        ]
+      },
+      {
+        "name": "All-Star in 2003",
+        "difficulty": "tricky",
+        "words": [
+          "SHAWN CHACON",
+          "ERIC GAGNE",
+          "MARK MULDER",
+          "SCOTT ROLEN"
+        ]
+      }
+    ]
   }
 ]

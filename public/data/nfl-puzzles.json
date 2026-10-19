@@ -5038,5 +5038,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 106,
+    "date": "2026-10-19",
+    "sport": "nfl",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2016",
+        "difficulty": "easy",
+        "words": [
+          "LEGARRETTE BLOUNT",
+          "DAVID JOHNSON",
+          "LESEAN MCCOY",
+          "DEVONTA FREEMAN"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2016",
+        "difficulty": "medium",
+        "words": [
+          "T.Y. HILTON",
+          "JULIO JONES",
+          "JORDY NELSON",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2016",
+        "difficulty": "hard",
+        "words": [
+          "REGGIE NELSON",
+          "DOMINIQUE RODGERS-CROMARTIE",
+          "CASEY HAYWARD",
+          "QUINTIN DEMPS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "PRESTON BROWN",
+          "CHRISTIAN KIRKSEY",
+          "PAUL POSLUSZNY",
+          "ALEC OGLETREE"
+        ]
+      }
+    ]
   }
 ]
