@@ -5086,5 +5086,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 107,
+    "date": "2026-10-20",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN PETERSON",
+          "CHRISTIAN MCCAFFREY",
+          "JOE MIXON",
+          "TODD GURLEY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "ALVIN KAMARA",
+          "JOSH ALLEN",
+          "JORDAN HOWARD",
+          "JAMES CONNER"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2018",
+        "difficulty": "hard",
+        "words": [
+          "MICHAEL THOMAS",
+          "TYREEK HILL",
+          "JUJU SMITH-SCHUSTER",
+          "DEANDRE HOPKINS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "TELVIN SMITH",
+          "SHAQUILLE LEONARD",
+          "BOBBY WAGNER",
+          "ANTHONY HITCHENS"
+        ]
+      }
+    ]
   }
 ]

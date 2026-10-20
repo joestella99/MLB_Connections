@@ -5403,5 +5403,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 116,
+    "date": "2026-10-20",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "CARL YASTRZEMSKI",
+          "PAUL WANER",
+          "CAL RIPKEN JR.",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "EARLY WYNN",
+          "LEFTY GROVE",
+          "JOHN CLARKSON",
+          "GROVER ALEXANDER"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "TOM GLAVINE",
+          "DENNIS ECKERSLEY",
+          "CC SABATHIA",
+          "RON GUIDRY"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "DAVID ORTIZ",
+          "GARRETT ATKINS",
+          "ALEX RODRIGUEZ",
+          "RAUL IBANEZ"
+        ]
+      }
+    ]
   }
 ]
