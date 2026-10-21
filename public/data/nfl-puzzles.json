@@ -5134,5 +5134,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 108,
+    "date": "2026-10-21",
+    "sport": "nfl",
+    "season": 2023,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2023",
+        "difficulty": "easy",
+        "words": [
+          "GENO SMITH",
+          "PATRICK MAHOMES",
+          "DAK PRESCOTT",
+          "LAMAR JACKSON"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2023",
+        "difficulty": "medium",
+        "words": [
+          "LOGAN WILSON",
+          "BOBBY OKEREKE",
+          "ZAIRE FRANKLIN",
+          "ERNEST JONES IV"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2023",
+        "difficulty": "hard",
+        "words": [
+          "DERRICK HENRY",
+          "CHRISTIAN MCCAFFREY",
+          "JALEN HURTS",
+          "KYREN WILLIAMS"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2023",
+        "difficulty": "tricky",
+        "words": [
+          "T.J. WATT",
+          "DANIELLE HUNTER",
+          "KHALIL MACK",
+          "TREY HENDRICKSON"
+        ]
+      }
+    ]
   }
 ]
