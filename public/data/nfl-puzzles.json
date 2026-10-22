@@ -5182,5 +5182,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 109,
+    "date": "2026-10-22",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "MATT SCHAUB",
+          "PHILIP RIVERS",
+          "JAY CUTLER",
+          "DAVID GARRARD"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2009",
+        "difficulty": "medium",
+        "words": [
+          "RYAN GRANT",
+          "MAURICE JONES-DREW",
+          "RAY RICE",
+          "ADRIAN PETERSON"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2009",
+        "difficulty": "hard",
+        "words": [
+          "WILLIS MCGAHEE",
+          "LADAINIAN TOMLINSON",
+          "THOMAS JONES",
+          "CHRIS JOHNSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "BRIAN CUSHING",
+          "PATRICK WILLIS",
+          "CURTIS LOFTON",
+          "KIRK MORRISON"
+        ]
+      }
+    ]
   }
 ]

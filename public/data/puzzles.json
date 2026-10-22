@@ -5497,5 +5497,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 118,
+    "date": "2026-10-22",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "BARRY BONDS",
+          "GEORGE BRETT",
+          "ROGERS HORNSBY",
+          "BABE RUTH"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2002",
+        "difficulty": "medium",
+        "words": [
+          "ALBERT PUJOLS",
+          "PAT BURRELL",
+          "MAGGLIO ORDONEZ",
+          "VLADIMIR GUERRERO"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "RANDY MYERS",
+          "TROY PERCIVAL",
+          "DOUG JONES",
+          "AROLDIS CHAPMAN"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "GARRET ANDERSON",
+          "NOMAR GARCIAPARRA",
+          "MIGUEL TEJADA",
+          "LANCE BERKMAN"
+        ]
+      }
+    ]
   }
 ]
