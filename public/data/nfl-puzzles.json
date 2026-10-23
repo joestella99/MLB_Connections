@@ -5230,5 +5230,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 110,
+    "date": "2026-10-23",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "STEVEN JACKSON",
+          "ADRIAN PETERSON",
+          "DEANGELO WILLIAMS",
+          "CEDRIC BENSON"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2009",
+        "difficulty": "medium",
+        "words": [
+          "DALLAS CLARK",
+          "MILES AUSTIN",
+          "VINCENT JACKSON",
+          "ANDRE JOHNSON"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2009",
+        "difficulty": "hard",
+        "words": [
+          "NICK COLLINS",
+          "CORTLAND FINNEGAN",
+          "DARREN SHARPER",
+          "JOHNATHAN JOSEPH"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "BARRETT RUUD",
+          "KIRK MORRISON",
+          "PATRICK WILLIS"
+        ]
+      }
+    ]
   }
 ]

@@ -5544,5 +5544,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 119,
+    "date": "2026-10-23",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "EARLE COMBS",
+          "ANDRE DAWSON",
+          "HILTON SMITH",
+          "ROGERS HORNSBY"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2003",
+        "difficulty": "medium",
+        "words": [
+          "JAVY LOPEZ",
+          "MANNY RAMIREZ",
+          "GARY SHEFFIELD",
+          "BARRY BONDS"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2003",
+        "difficulty": "hard",
+        "words": [
+          "ROY HALLADAY",
+          "MARK PRIOR",
+          "PEDRO MARTÍNEZ",
+          "ESTEBAN LOAIZA"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "MARIANO RIVERA",
+          "TOM GLAVINE",
+          "RANDY JOHNSON",
+          "JOHN WETTELAND"
+        ]
+      }
+    ]
   }
 ]
