@@ -5278,5 +5278,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 111,
+    "date": "2026-10-24",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2007",
+        "difficulty": "easy",
+        "words": [
+          "TONY ROMO",
+          "JON KITNA",
+          "CARSON PALMER",
+          "DEREK ANDERSON"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2007",
+        "difficulty": "medium",
+        "words": [
+          "RYAN GRANT",
+          "KEVIN JONES",
+          "LADAINIAN TOMLINSON",
+          "EARNEST GRAHAM"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2007",
+        "difficulty": "hard",
+        "words": [
+          "SEAN JONES",
+          "ASANTE SAMUEL",
+          "MARCUS TRUFANT",
+          "OSHIOMOGHO ATOGWE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "NICK BARNETT",
+          "D.J. WILLIAMS",
+          "JON BEASON",
+          "PATRICK WILLIS"
+        ]
+      }
+    ]
   }
 ]

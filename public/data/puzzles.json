@@ -5591,5 +5591,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 120,
+    "date": "2026-10-24",
+    "season": 2002,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "JIMMIE FOXX",
+          "ALEX RODRIGUEZ",
+          "DAVID ORTIZ",
+          "FRANK THOMAS"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2002",
+        "difficulty": "medium",
+        "words": [
+          "VLADIMIR GUERRERO",
+          "ALFONSO SORIANO",
+          "JIM THOME",
+          "PAT BURRELL"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2002",
+        "difficulty": "hard",
+        "words": [
+          "RANDY JOHNSON",
+          "TIM WAKEFIELD",
+          "GREG MADDUX",
+          "TIM HUDSON"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2002",
+        "difficulty": "tricky",
+        "words": [
+          "LANCE BERKMAN",
+          "MIGUEL TEJADA",
+          "GARRET ANDERSON",
+          "ALBERT PUJOLS"
+        ]
+      }
+    ]
   }
 ]
