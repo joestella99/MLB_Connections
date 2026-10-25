@@ -5638,5 +5638,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 121,
+    "date": "2026-10-25",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "LOU GEHRIG",
+          "VLADIMIR GUERRERO",
+          "DAVE KINGMAN",
+          "ADRIAN BELTRÉ"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2008",
+        "difficulty": "medium",
+        "words": [
+          "DAVID WRIGHT",
+          "MICHAEL YOUNG",
+          "BRANDON PHILLIPS",
+          "TORII HUNTER"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "LEFTY GROVE",
+          "GEORGE FOSTER",
+          "DALE MURPHY",
+          "DUSTIN PEDROIA"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "RAFAEL FURCAL",
+          "HUSTON STREET",
+          "CHUCK KNOBLAUCH",
+          "AARON JUDGE"
+        ]
+      }
+    ]
   }
 ]

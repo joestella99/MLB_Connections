@@ -5326,5 +5326,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 112,
+    "date": "2026-10-25",
+    "sport": "nfl",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2016",
+        "difficulty": "easy",
+        "words": [
+          "ELI MANNING",
+          "JOE FLACCO",
+          "PHILIP RIVERS",
+          "SAM BRADFORD"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2016",
+        "difficulty": "medium",
+        "words": [
+          "ODELL BECKHAM JR.",
+          "MIKE EVANS",
+          "JULIO JONES",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2016",
+        "difficulty": "hard",
+        "words": [
+          "QUINTIN DEMPS",
+          "LANDON COLLINS",
+          "HA HA CLINTON-DIX",
+          "STEPHON GILMORE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "PRESTON BROWN",
+          "CHRISTIAN KIRKSEY",
+          "BOBBY WAGNER",
+          "SEAN LEE"
+        ]
+      }
+    ]
   }
 ]
