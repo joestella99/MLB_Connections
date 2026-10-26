@@ -5685,5 +5685,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 122,
+    "date": "2026-10-26",
+    "season": 2020,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "STAN COVELESKI",
+          "ZACK WHEAT",
+          "MILLER HUGGINS",
+          "JOE KELLEY"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "GUS WEYHING",
+          "TED LYONS",
+          "JUSTIN VERLANDER",
+          "MIKE MUSSINA"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2020",
+        "difficulty": "hard",
+        "words": [
+          "YU DARVISH",
+          "CARLOS CARRASCO",
+          "TREVOR BAUER",
+          "KENTA MAEDA"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2020",
+        "difficulty": "tricky",
+        "words": [
+          "GERRIT COLE",
+          "AARON NOLA",
+          "DINELSON LAMET",
+          "LANCE LYNN"
+        ]
+      }
+    ]
   }
 ]

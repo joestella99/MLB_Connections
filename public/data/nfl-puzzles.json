@@ -5374,5 +5374,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 113,
+    "date": "2026-10-26",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "JAY CUTLER",
+          "ELI MANNING",
+          "ANDREW LUCK",
+          "MATTHEW STAFFORD"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2014",
+        "difficulty": "medium",
+        "words": [
+          "ANTONIO BROWN",
+          "RANDALL COBB",
+          "COBY FLEENER",
+          "BRANDON MARSHALL"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2014",
+        "difficulty": "hard",
+        "words": [
+          "JULIO JONES",
+          "MATT FORTE",
+          "DEMARYIUS THOMAS",
+          "EMMANUEL SANDERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "LAVONTE DAVID",
+          "CURTIS LOFTON",
+          "C.J. MOSLEY",
+          "LAWRENCE TIMMONS"
+        ]
+      }
+    ]
   }
 ]
