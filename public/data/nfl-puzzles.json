@@ -5422,5 +5422,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 114,
+    "date": "2026-10-27",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2011",
+        "difficulty": "easy",
+        "words": [
+          "STEVIE JOHNSON",
+          "DWAYNE BOWE",
+          "VINCENT JACKSON",
+          "NATE WASHINGTON"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2011",
+        "difficulty": "medium",
+        "words": [
+          "RAY RICE",
+          "ARIAN FOSTER",
+          "MARSHAWN LYNCH",
+          "MICHAEL TURNER"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2011",
+        "difficulty": "hard",
+        "words": [
+          "MATT GIORDANO",
+          "BRANDON BROWNER",
+          "KYLE ARRINGTON",
+          "CHRIS HOUSTON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "CURTIS LOFTON",
+          "JAMES LAURINAITIS",
+          "PAT ANGERER",
+          "NICK BARNETT"
+        ]
+      }
+    ]
   }
 ]

@@ -5732,5 +5732,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 123,
+    "date": "2026-10-27",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "BARRY BONDS",
+          "FRANK ROBINSON",
+          "CAP ANSON",
+          "LUIS GONZALEZ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2021",
+        "difficulty": "medium",
+        "words": [
+          "CEDRIC MULLINS",
+          "SALVADOR PEREZ",
+          "SHOHEI OHTANI",
+          "VLADIMIR GUERRERO JR."
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2021",
+        "difficulty": "hard",
+        "words": [
+          "WALKER BUEHLER",
+          "GERRIT COLE",
+          "MAX SCHERZER",
+          "JULIO URÍAS"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY RICHARDSON",
+          "FRANK VIOLA",
+          "DARRELL PORTER",
+          "RON CEY"
+        ]
+      }
+    ]
   }
 ]
