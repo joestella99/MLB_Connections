@@ -5470,5 +5470,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 115,
+    "date": "2026-10-28",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "JARED GOFF",
+          "JUSTIN HERBERT",
+          "BO NIX",
+          "CALEB WILLIAMS"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2025",
+        "difficulty": "medium",
+        "words": [
+          "PUKA NACUA",
+          "AMON-RA ST. BROWN",
+          "TREY MCBRIDE",
+          "JAXON SMITH-NJIGBA"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2025",
+        "difficulty": "hard",
+        "words": [
+          "MICAH PARSONS",
+          "BYRON YOUNG",
+          "CAMERON JORDAN",
+          "MAXX CROSBY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BLAKE CASHMAN",
+          "NICK BOLTON",
+          "FOYESADE OLUOKUN",
+          "DEVIN WHITE"
+        ]
+      }
+    ]
   }
 ]

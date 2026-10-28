@@ -5779,5 +5779,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 124,
+    "date": "2026-10-28",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRED MCGRIFF",
+          "GIANCARLO STANTON",
+          "JOSÉ CANSECO",
+          "VLADIMIR GUERRERO"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2009",
+        "difficulty": "medium",
+        "words": [
+          "JASON KUBEL",
+          "ANDRE ETHIER",
+          "MATT KEMP",
+          "ALBERT PUJOLS"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "ROBB NEN",
+          "FRANCISCO CORDERO",
+          "JONATHAN PAPELBON",
+          "RICK AGUILERA"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "MARK REYNOLDS",
+          "PRINCE FIELDER",
+          "RYAN HOWARD",
+          "ADRIÁN GONZÁLEZ"
+        ]
+      }
+    ]
   }
 ]
