@@ -5826,5 +5826,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 125,
+    "date": "2026-10-29",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "CY YOUNG",
+          "BILL MAZEROSKI",
+          "JIM THOME",
+          "TY COBB"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2011",
+        "difficulty": "medium",
+        "words": [
+          "CURTIS GRANDERSON",
+          "JOSÉ BAUTISTA",
+          "ALBERT PUJOLS",
+          "MARK TEIXEIRA"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "HUSTON STREET",
+          "TROY PERCIVAL",
+          "RICH GOSSAGE",
+          "JOSE MESA"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "RAY KNIGHT",
+          "WILLIAM CONTRERAS",
+          "WILLIE STARGELL",
+          "BRET SABERHAGEN"
+        ]
+      }
+    ]
   }
 ]

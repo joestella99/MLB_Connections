@@ -5518,5 +5518,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 116,
+    "date": "2026-10-29",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2006",
+        "difficulty": "easy",
+        "words": [
+          "DREW BREES",
+          "PEYTON MANNING",
+          "CARSON PALMER",
+          "MARC BULGER"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2006",
+        "difficulty": "medium",
+        "words": [
+          "DONALD DRIVER",
+          "LEE EVANS",
+          "CHAD JOHNSON",
+          "REGGIE WAYNE"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2006",
+        "difficulty": "hard",
+        "words": [
+          "STEVEN JACKSON",
+          "TIKI BARBER",
+          "LARRY JOHNSON",
+          "LADAINIAN TOMLINSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "LONDON FLETCHER",
+          "KEITH BULLUCK",
+          "DONNIE EDWARDS",
+          "KEITH BROOKING"
+        ]
+      }
+    ]
   }
 ]
