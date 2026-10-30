@@ -5566,5 +5566,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 117,
+    "date": "2026-10-30",
+    "sport": "nfl",
+    "season": 2008,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2008",
+        "difficulty": "easy",
+        "words": [
+          "BRANDON JACOBS",
+          "DERRICK WARD",
+          "THOMAS JONES",
+          "MICHAEL TURNER"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2008",
+        "difficulty": "medium",
+        "words": [
+          "AARON RODGERS",
+          "JAY CUTLER",
+          "KURT WARNER",
+          "DREW BREES"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2008",
+        "difficulty": "hard",
+        "words": [
+          "DEANGELO HALL",
+          "MICHAEL GRIFFIN",
+          "CHARLES WOODSON",
+          "JASON DAVID"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2008",
+        "difficulty": "tricky",
+        "words": [
+          "DEMARCUS WARE",
+          "JOEY PORTER",
+          "JAMES HARRISON",
+          "JOHN ABRAHAM"
+        ]
+      }
+    ]
   }
 ]
