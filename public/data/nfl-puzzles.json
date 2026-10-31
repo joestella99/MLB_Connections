@@ -5614,5 +5614,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 118,
+    "date": "2026-10-31",
+    "sport": "nfl",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2025",
+        "difficulty": "easy",
+        "words": [
+          "RICO DOWDLE",
+          "JAVONTE WILLIAMS",
+          "DERRICK HENRY",
+          "CHRISTIAN MCCAFFREY"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2025",
+        "difficulty": "medium",
+        "words": [
+          "JOSH ALLEN",
+          "ZACH CHARBONNET",
+          "JALEN HURTS",
+          "JONATHAN TAYLOR"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2025",
+        "difficulty": "hard",
+        "words": [
+          "DRAKE MAYE",
+          "MATTHEW STAFFORD",
+          "JARED GOFF",
+          "DAK PRESCOTT"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "ROQUAN SMITH",
+          "ALEX SINGLETON",
+          "JACK CAMPBELL"
+        ]
+      }
+    ]
   }
 ]

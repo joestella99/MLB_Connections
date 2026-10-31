@@ -5920,5 +5920,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 127,
+    "date": "2026-10-31",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "HANK AARON",
+          "ALEX RODRIGUEZ",
+          "JIM THOME",
+          "FRANK ROBINSON"
+        ]
+      },
+      {
+        "name": "35+ Home Runs in 2017",
+        "difficulty": "medium",
+        "words": [
+          "CODY BELLINGER",
+          "JOEY VOTTO",
+          "PAUL GOLDSCHMIDT",
+          "JUSTIN UPTON"
+        ]
+      },
+      {
+        "name": "Won Cy Young Award",
+        "difficulty": "hard",
+        "words": [
+          "FÉLIX HERNÁNDEZ",
+          "ROLLIE FINGERS",
+          "RICK SUTCLIFFE",
+          "JOHN DENNY"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "BUCKY DENT",
+          "MICKEY LOLICH",
+          "BROOKS ROBINSON",
+          "STEVE YEAGER"
+        ]
+      }
+    ]
   }
 ]
