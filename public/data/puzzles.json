@@ -5967,5 +5967,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 128,
+    "date": "2026-11-01",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "VLADIMIR GUERRERO",
+          "WILLIE STARGELL",
+          "GIANCARLO STANTON",
+          "CARLOS BELTRÁN"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "GREG MADDUX",
+          "CY YOUNG",
+          "EDDIE PLANK",
+          "TOM SEAVER"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2009",
+        "difficulty": "hard",
+        "words": [
+          "ADAM WAINWRIGHT",
+          "JAIR JURRJENS",
+          "FÉLIX HERNÁNDEZ",
+          "MATT CAIN"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "ALBERT PUJOLS",
+          "ADRIÁN GONZÁLEZ",
+          "PRINCE FIELDER",
+          "MARK REYNOLDS"
+        ]
+      }
+    ]
   }
 ]
