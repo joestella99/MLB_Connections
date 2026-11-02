@@ -6014,5 +6014,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 129,
+    "date": "2026-11-02",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "COOL PAPA BELL",
+          "JOHN WARD",
+          "ICHIRO SUZUKI",
+          "BUCK LEONARD"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2014",
+        "difficulty": "medium",
+        "words": [
+          "NELSON CRUZ",
+          "MIKE TROUT",
+          "JOSÉ ABREU",
+          "MIGUEL CABRERA"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2014",
+        "difficulty": "hard",
+        "words": [
+          "JON LESTER",
+          "DALLAS KEUCHEL",
+          "ALEX COBB",
+          "ALEX WOOD"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "DAVID PRICE",
+          "CLAYTON KERSHAW",
+          "JEFF SAMARDZIJA",
+          "GARRETT RICHARDS"
+        ]
+      }
+    ]
   }
 ]

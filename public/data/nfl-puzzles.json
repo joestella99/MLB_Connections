@@ -5710,5 +5710,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 120,
+    "date": "2026-11-02",
+    "sport": "nfl",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2005",
+        "difficulty": "easy",
+        "words": [
+          "CHRIS CHAMBERS",
+          "TORRY HOLT",
+          "DERRICK MASON",
+          "MARVIN HARRISON"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2005",
+        "difficulty": "medium",
+        "words": [
+          "EDGERRIN JAMES",
+          "TIKI BARBER",
+          "REUBEN DROUGHNS",
+          "CLINTON PORTIS"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2005",
+        "difficulty": "hard",
+        "words": [
+          "JOEY PORTER",
+          "MICHAEL STRAHAN",
+          "SHAWNE MERRIMAN",
+          "JULIUS PEPPERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "DONNIE EDWARDS",
+          "KEITH BULLUCK",
+          "LONDON FLETCHER",
+          "ZACH THOMAS"
+        ]
+      }
+    ]
   }
 ]
