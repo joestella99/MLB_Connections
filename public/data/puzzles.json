@@ -6061,5 +6061,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 130,
+    "date": "2026-11-03",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "MIGUEL CABRERA",
+          "JOE DIMAGGIO",
+          "DAVID ORTIZ",
+          "TY COBB"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2016",
+        "difficulty": "medium",
+        "words": [
+          "CARLOS GONZÁLEZ",
+          "COREY SEAGER",
+          "MOOKIE BETTS",
+          "FREDDIE FREEMAN"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2016",
+        "difficulty": "hard",
+        "words": [
+          "CHRIS SALE",
+          "MADISON BUMGARNER",
+          "DAVID PRICE",
+          "COREY KLUBER"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "DAVID FREESE",
+          "DEREK JETER",
+          "FRANK VIOLA",
+          "WHITEY FORD"
+        ]
+      }
+    ]
   }
 ]

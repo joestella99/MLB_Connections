@@ -5758,5 +5758,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 121,
+    "date": "2026-11-03",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2022",
+        "difficulty": "easy",
+        "words": [
+          "DEREK CARR",
+          "PATRICK MAHOMES",
+          "AARON RODGERS",
+          "JOE BURROW"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2022",
+        "difficulty": "medium",
+        "words": [
+          "JAYLEN WADDLE",
+          "JUSTIN JEFFERSON",
+          "DAVANTE ADAMS",
+          "TRAVIS KELCE"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2022",
+        "difficulty": "hard",
+        "words": [
+          "EZEKIEL ELLIOTT",
+          "JALEN HURTS",
+          "JAMAAL WILLIAMS",
+          "AUSTIN EKELER"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "MYLES GARRETT",
+          "MATTHEW JUDON",
+          "NICK BOSA",
+          "HAASON REDDICK"
+        ]
+      }
+    ]
   }
 ]
