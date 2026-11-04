@@ -5806,5 +5806,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 122,
+    "date": "2026-11-04",
+    "sport": "nfl",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2016",
+        "difficulty": "easy",
+        "words": [
+          "JOE FLACCO",
+          "CAM NEWTON",
+          "SAM BRADFORD",
+          "ALEX SMITH"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2016",
+        "difficulty": "medium",
+        "words": [
+          "JEREMY HILL",
+          "EZEKIEL ELLIOTT",
+          "LATAVIUS MURRAY",
+          "DEVONTA FREEMAN"
+        ]
+      },
+      {
+        "name": "12+ Receiving TDs in 2016",
+        "difficulty": "hard",
+        "words": [
+          "DAVANTE ADAMS",
+          "MIKE EVANS",
+          "JORDY NELSON",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "KWON ALEXANDER",
+          "PRESTON BROWN",
+          "SEAN LEE",
+          "CHRISTIAN KIRKSEY"
+        ]
+      }
+    ]
   }
 ]

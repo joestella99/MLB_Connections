@@ -6108,5 +6108,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 131,
+    "date": "2026-11-04",
+    "season": 2000,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "CARLOS BELTRÁN",
+          "GIANCARLO STANTON",
+          "JOSÉ CANSECO",
+          "ANDRUW JONES"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "MICKEY WELCH",
+          "EDDIE PLANK",
+          "RANDY JOHNSON",
+          "CY YOUNG"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2000",
+        "difficulty": "hard",
+        "words": [
+          "BARTOLO COLON",
+          "PEDRO MARTÍNEZ",
+          "AL LEITER",
+          "MIKE MUSSINA"
+        ]
+      },
+      {
+        "name": "All-Star in 2000",
+        "difficulty": "tricky",
+        "words": [
+          "GARY SHEFFIELD",
+          "SHANE REYNOLDS",
+          "JERMAINE DYE",
+          "TODD JONES"
+        ]
+      }
+    ]
   }
 ]
