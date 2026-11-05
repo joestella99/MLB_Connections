@@ -5854,5 +5854,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 123,
+    "date": "2026-11-05",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "MAC JONES",
+          "BEN ROETHLISBERGER",
+          "DAK PRESCOTT",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2021",
+        "difficulty": "medium",
+        "words": [
+          "JUSTIN JEFFERSON",
+          "DAVANTE ADAMS",
+          "COOPER KUPP",
+          "JA'MARR CHASE"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2021",
+        "difficulty": "hard",
+        "words": [
+          "TYREEK HILL",
+          "STEFON DIGGS",
+          "KEENAN ALLEN",
+          "JAYLEN WADDLE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "ALEX SINGLETON",
+          "T.J. EDWARDS",
+          "ROQUAN SMITH",
+          "TAE CROWDER"
+        ]
+      }
+    ]
   }
 ]

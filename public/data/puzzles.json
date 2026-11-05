@@ -6155,5 +6155,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 132,
+    "date": "2026-11-05",
+    "season": 2010,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "KEN GRIFFEY JR.",
+          "PEE WEE REESE",
+          "NESTOR CHYLAK",
+          "GROVER ALEXANDER"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2010",
+        "difficulty": "medium",
+        "words": [
+          "MARK TEIXEIRA",
+          "EVAN LONGORIA",
+          "CARL CRAWFORD",
+          "JOE MAUER"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2010",
+        "difficulty": "hard",
+        "words": [
+          "TIM HUDSON",
+          "DAVID PRICE",
+          "JAIME GARCÍA",
+          "CLAYTON KERSHAW"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2010",
+        "difficulty": "tricky",
+        "words": [
+          "CLIFF LEE",
+          "TED LILLY",
+          "ROY OSWALT",
+          "ADAM WAINWRIGHT"
+        ]
+      }
+    ]
   }
 ]
