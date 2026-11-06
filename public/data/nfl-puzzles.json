@@ -5902,5 +5902,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 124,
+    "date": "2026-11-06",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "NICK CHUBB",
+          "JONATHAN TAYLOR",
+          "NAJEE HARRIS",
+          "DALVIN COOK"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2021",
+        "difficulty": "medium",
+        "words": [
+          "JAMES ROBINSON",
+          "JAMES CONNER",
+          "LEONARD FOURNETTE",
+          "JOE MIXON"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2021",
+        "difficulty": "hard",
+        "words": [
+          "DAK PRESCOTT",
+          "TOM BRADY",
+          "AARON RODGERS",
+          "PATRICK MAHOMES"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "DENZEL PERRYMAN",
+          "BOBBY OKEREKE",
+          "ERIC KENDRICKS",
+          "BOBBY WAGNER"
+        ]
+      }
+    ]
   }
 ]
