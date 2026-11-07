@@ -5950,5 +5950,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 125,
+    "date": "2026-11-07",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2012",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "AARON RODGERS",
+          "RUSSELL WILSON",
+          "TONY ROMO"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2012",
+        "difficulty": "medium",
+        "words": [
+          "FRANK GORE",
+          "ALFRED MORRIS",
+          "ARIAN FOSTER",
+          "C.J. SPILLER"
+        ]
+      },
+      {
+        "name": "1,400+ Receiving Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "ANDRE JOHNSON",
+          "DEMARYIUS THOMAS",
+          "BRANDON MARSHALL",
+          "CALVIN JOHNSON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "JEROD MAYO",
+          "CHAD GREENWAY",
+          "DARYL WASHINGTON",
+          "LAVONTE DAVID"
+        ]
+      }
+    ]
   }
 ]

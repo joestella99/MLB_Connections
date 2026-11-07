@@ -6249,5 +6249,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 134,
+    "date": "2026-11-07",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "REGGIE JACKSON",
+          "HONUS WAGNER",
+          "ANDRE DAWSON",
+          "CHIPPER JONES"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2006",
+        "difficulty": "medium",
+        "words": [
+          "MATT HOLLIDAY",
+          "FREDDY SANCHEZ",
+          "CARLOS GUILLÉN",
+          "EMIL BROWN"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "RICH GOSSAGE",
+          "RANDY MYERS",
+          "FRANCISCO CORDERO",
+          "ROLLIE FINGERS"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "ANDRUW JONES",
+          "ALBERT PUJOLS",
+          "RYAN HOWARD",
+          "LANCE BERKMAN"
+        ]
+      }
+    ]
   }
 ]
