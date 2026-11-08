@@ -6296,5 +6296,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 135,
+    "date": "2026-11-08",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "BOBBY ABREU",
+          "TY COBB",
+          "FRANK ROBINSON",
+          "PETE ROSE"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2003",
+        "difficulty": "medium",
+        "words": [
+          "CHIPPER JONES",
+          "PRESTON WILSON",
+          "JASON GIAMBI",
+          "RICHIE SEXSON"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2003",
+        "difficulty": "hard",
+        "words": [
+          "CARLOS DELGADO",
+          "GARY SHEFFIELD",
+          "RICHARD HIDALGO",
+          "JOSE GUILLEN"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2003",
+        "difficulty": "tricky",
+        "words": [
+          "MIKE MUSSINA",
+          "JASON SCHMIDT",
+          "TIM HUDSON",
+          "PEDRO MARTÍNEZ"
+        ]
+      }
+    ]
   }
 ]

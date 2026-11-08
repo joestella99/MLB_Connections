@@ -5998,5 +5998,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 126,
+    "date": "2026-11-08",
+    "sport": "nfl",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2007",
+        "difficulty": "easy",
+        "words": [
+          "MATT HASSELBECK",
+          "CARSON PALMER",
+          "ELI MANNING",
+          "PHILIP RIVERS"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2007",
+        "difficulty": "medium",
+        "words": [
+          "JON KITNA",
+          "TOM BRADY",
+          "DREW BREES",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2007",
+        "difficulty": "hard",
+        "words": [
+          "LARRY FITZGERALD",
+          "BRANDON MARSHALL",
+          "WES WELKER",
+          "DERRICK MASON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2007",
+        "difficulty": "tricky",
+        "words": [
+          "ERNIE SIMS",
+          "D.J. WILLIAMS",
+          "PATRICK WILLIS",
+          "NICK BARNETT"
+        ]
+      }
+    ]
   }
 ]
