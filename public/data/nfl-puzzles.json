@@ -6046,5 +6046,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 127,
+    "date": "2026-11-09",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2011",
+        "difficulty": "easy",
+        "words": [
+          "TONY ROMO",
+          "AARON RODGERS",
+          "MARK SANCHEZ",
+          "PHILIP RIVERS"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2011",
+        "difficulty": "medium",
+        "words": [
+          "NICK BARNETT",
+          "BRIAN URLACHER",
+          "PAUL POSLUSZNY",
+          "DERRICK JOHNSON"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2011",
+        "difficulty": "hard",
+        "words": [
+          "KYLE ARRINGTON",
+          "DASHON GOLDSON",
+          "LARDARIUS WEBB",
+          "BRANDON BROWNER"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "DEMARCUS WARE",
+          "JASON PIERRE-PAUL",
+          "JASON BABIN",
+          "JARED ALLEN"
+        ]
+      }
+    ]
   }
 ]

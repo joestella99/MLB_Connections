@@ -6343,5 +6343,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 136,
+    "date": "2026-11-09",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "WILLIE MAYS",
+          "BARRY BONDS",
+          "ROBINSON CANÓ",
+          "ADRIAN BELTRÉ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2021",
+        "difficulty": "medium",
+        "words": [
+          "SHOHEI OHTANI",
+          "BUSTER POSEY",
+          "NICK CASTELLANOS",
+          "MAX FRIED"
+        ]
+      },
+      {
+        "name": "Won AL or NL MVP",
+        "difficulty": "hard",
+        "words": [
+          "LARRY WALKER",
+          "JIM KONSTANTY",
+          "JOSÉ ABREU",
+          "CARL YASTRZEMSKI"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "SANDY ALCANTARA",
+          "ZACK WHEELER",
+          "YU DARVISH",
+          "BRANDON WOODRUFF"
+        ]
+      }
+    ]
   }
 ]
