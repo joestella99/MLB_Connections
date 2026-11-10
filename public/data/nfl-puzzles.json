@@ -6094,5 +6094,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 128,
+    "date": "2026-11-10",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2024",
+        "difficulty": "easy",
+        "words": [
+          "JARED GOFF",
+          "PATRICK MAHOMES",
+          "BROCK PURDY",
+          "SAM DARNOLD"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JA'MARR CHASE",
+          "MALIK NABERS",
+          "JERRY JEUDY",
+          "AMON-RA ST. BROWN"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2024",
+        "difficulty": "hard",
+        "words": [
+          "KYREN WILLIAMS",
+          "JALEN HURTS",
+          "JAMES COOK III",
+          "DAVID MONTGOMERY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "ERIC KENDRICKS",
+          "E.J. SPEED",
+          "DEMARIO DAVIS",
+          "NICK CROSS"
+        ]
+      }
+    ]
   }
 ]

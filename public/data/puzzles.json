@@ -6390,5 +6390,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 137,
+    "date": "2026-11-10",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "MINNIE MINOSO",
+          "FRANK GRANT",
+          "GAYLORD PERRY",
+          "CONNIE MACK"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2005",
+        "difficulty": "medium",
+        "words": [
+          "GARY SHEFFIELD",
+          "ALFONSO SORIANO",
+          "VLADIMIR GUERRERO",
+          "CARLOS LEE"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2005",
+        "difficulty": "hard",
+        "words": [
+          "PEDRO MARTÍNEZ",
+          "BRETT MYERS",
+          "CHRIS CARPENTER",
+          "RANDY JOHNSON"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "MANNY RAMIREZ",
+          "ALEX RODRIGUEZ",
+          "ALBERT PUJOLS",
+          "ANDRUW JONES"
+        ]
+      }
+    ]
   }
 ]
