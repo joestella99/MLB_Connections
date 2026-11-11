@@ -6437,5 +6437,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 138,
+    "date": "2026-11-11",
+    "season": 2007,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "JAKE BECKLEY",
+          "MANNY RAMIREZ",
+          "DAVID ORTIZ",
+          "REGGIE JACKSON"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2007",
+        "difficulty": "medium",
+        "words": [
+          "DAVID WRIGHT",
+          "GRADY SIZEMORE",
+          "PLACIDO POLANCO",
+          "ORLANDO CABRERA"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2007",
+        "difficulty": "hard",
+        "words": [
+          "CC SABATHIA",
+          "TIM HUDSON",
+          "PAUL BYRD",
+          "ROY HALLADAY"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "SAL STEWART",
+          "VINCE COLEMAN",
+          "CAL RIPKEN JR.",
+          "BOB HAMELIN"
+        ]
+      }
+    ]
   }
 ]
