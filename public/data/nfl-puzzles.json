@@ -6190,5 +6190,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 130,
+    "date": "2026-11-12",
+    "sport": "nfl",
+    "season": 2016,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2016",
+        "difficulty": "easy",
+        "words": [
+          "MATTHEW STAFFORD",
+          "JOE FLACCO",
+          "BLAKE BORTLES",
+          "RUSSELL WILSON"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2016",
+        "difficulty": "medium",
+        "words": [
+          "BRANDIN COOKS",
+          "HUNTER HENRY",
+          "ODELL BECKHAM JR.",
+          "DEZ BRYANT"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2016",
+        "difficulty": "hard",
+        "words": [
+          "EZEKIEL ELLIOTT",
+          "DAVID JOHNSON",
+          "LEGARRETTE BLOUNT",
+          "LATAVIUS MURRAY"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2016",
+        "difficulty": "tricky",
+        "words": [
+          "ZACH BROWN",
+          "CHRISTIAN KIRKSEY",
+          "PRESTON BROWN",
+          "ALEC OGLETREE"
+        ]
+      }
+    ]
   }
 ]
