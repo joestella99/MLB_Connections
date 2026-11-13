@@ -6531,5 +6531,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 140,
+    "date": "2026-11-13",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "PAT GILLICK",
+          "WILLIE KEELER",
+          "PAUL WANER",
+          "CANDY CUMMINGS"
+        ]
+      },
+      {
+        "name": "Gold Glove Winners in 2006",
+        "difficulty": "medium",
+        "words": [
+          "IVAN RODRIGUEZ",
+          "ICHIRO SUZUKI",
+          "GREG MADDUX",
+          "ORLANDO HUDSON"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "AROLDIS CHAPMAN",
+          "RICK AGUILERA",
+          "JEFF REARDON",
+          "JOHN WETTELAND"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "ROY SIEVERS",
+          "ANDRE DAWSON",
+          "BOB ALLISON",
+          "HARVEY KUENN"
+        ]
+      }
+    ]
   }
 ]

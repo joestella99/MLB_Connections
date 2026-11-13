@@ -6238,5 +6238,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 131,
+    "date": "2026-11-13",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2022",
+        "difficulty": "easy",
+        "words": [
+          "JA'MARR CHASE",
+          "TRAVIS KELCE",
+          "MIKE EVANS",
+          "TEE HIGGINS"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2022",
+        "difficulty": "medium",
+        "words": [
+          "RAYSHAWN JENKINS",
+          "C.J. MOSLEY",
+          "RICHIE GRANT",
+          "PATRICK QUEEN"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2022",
+        "difficulty": "hard",
+        "words": [
+          "EZEKIEL ELLIOTT",
+          "DERRICK HENRY",
+          "JOSH JACOBS",
+          "AUSTIN EKELER"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "MATTHEW JUDON",
+          "CHRIS JONES",
+          "MYLES GARRETT",
+          "HAASON REDDICK"
+        ]
+      }
+    ]
   }
 ]
