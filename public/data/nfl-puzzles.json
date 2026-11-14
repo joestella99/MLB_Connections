@@ -6286,5 +6286,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 132,
+    "date": "2026-11-14",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2009",
+        "difficulty": "easy",
+        "words": [
+          "REGGIE WAYNE",
+          "WES WELKER",
+          "TONY GONZALEZ",
+          "STEVE SMITH"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2009",
+        "difficulty": "medium",
+        "words": [
+          "SANTONIO HOLMES",
+          "MILES AUSTIN",
+          "SIDNEY RICE",
+          "RANDY MOSS"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2009",
+        "difficulty": "hard",
+        "words": [
+          "BRETT FAVRE",
+          "DREW BREES",
+          "AARON RODGERS",
+          "PEYTON MANNING"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "RAY LEWIS",
+          "CURTIS LOFTON",
+          "KIRK MORRISON",
+          "BRIAN CUSHING"
+        ]
+      }
+    ]
   }
 ]

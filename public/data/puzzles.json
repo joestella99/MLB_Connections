@@ -6578,5 +6578,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 141,
+    "date": "2026-11-14",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "500+ Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRANK THOMAS",
+          "REGGIE JACKSON",
+          "ALBERT PUJOLS",
+          "SAMMY SOSA"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "KID NICHOLS",
+          "RANDY JOHNSON",
+          "EARLY WYNN",
+          "WALTER JOHNSON"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2005",
+        "difficulty": "hard",
+        "words": [
+          "ALEX RODRIGUEZ",
+          "DAVID ORTIZ",
+          "KEN GRIFFEY JR.",
+          "CARLOS DELGADO"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "MANNY RAMIREZ",
+          "MARK TEIXEIRA",
+          "DERREK LEE",
+          "PAUL KONERKO"
+        ]
+      }
+    ]
   }
 ]
