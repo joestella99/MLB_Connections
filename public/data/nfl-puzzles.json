@@ -6334,5 +6334,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 133,
+    "date": "2026-11-15",
+    "sport": "nfl",
+    "season": 2011,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2011",
+        "difficulty": "easy",
+        "words": [
+          "A.J. GREEN",
+          "WES WELKER",
+          "LARRY FITZGERALD",
+          "JORDY NELSON"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2011",
+        "difficulty": "medium",
+        "words": [
+          "MARSHAWN LYNCH",
+          "MICHAEL TURNER",
+          "RAY RICE",
+          "ARIAN FOSTER"
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2011",
+        "difficulty": "hard",
+        "words": [
+          "DREW BREES",
+          "TONY ROMO",
+          "TOM BRADY",
+          "AARON RODGERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2011",
+        "difficulty": "tricky",
+        "words": [
+          "D'QWELL JACKSON",
+          "CHAD GREENWAY",
+          "PAT ANGERER",
+          "JAMES ANDERSON"
+        ]
+      }
+    ]
   }
 ]

@@ -6625,5 +6625,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 142,
+    "date": "2026-11-15",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "NAP LAJOIE",
+          "MEL OTT",
+          "HARRY HEILMANN",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "40+ Doubles in 2004",
+        "difficulty": "medium",
+        "words": [
+          "TODD HELTON",
+          "TRAVIS HAFNER",
+          "RONNIE BELLIARD",
+          "DEREK JETER"
+        ]
+      },
+      {
+        "name": "300+ Career Saves",
+        "difficulty": "hard",
+        "words": [
+          "CRAIG KIMBREL",
+          "BRUCE SUTTER",
+          "TREVOR HOFFMAN",
+          "JASON ISRINGHAUSEN"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "BUCKY DENT",
+          "RAY KNIGHT",
+          "RON CEY",
+          "MICKEY LOLICH"
+        ]
+      }
+    ]
   }
 ]
