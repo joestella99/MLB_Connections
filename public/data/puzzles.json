@@ -6672,5 +6672,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 143,
+    "date": "2026-11-16",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "HACK WILSON",
+          "JESSE HAINES",
+          "DICK ALLEN",
+          "TONY LA RUSSA JR."
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "ROBIN ROBERTS",
+          "BOB GIBSON",
+          "CC SABATHIA",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2025",
+        "difficulty": "hard",
+        "words": [
+          "GEORGE SPRINGER",
+          "JUAN SOTO",
+          "CAL RALEIGH",
+          "KYLE SCHWARBER"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "BRYAN WOO",
+          "KEVIN GAUSMAN",
+          "HUNTER BROWN",
+          "CARLOS RODÓN"
+        ]
+      }
+    ]
   }
 ]

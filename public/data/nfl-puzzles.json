@@ -6382,5 +6382,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 134,
+    "date": "2026-11-16",
+    "sport": "nfl",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "1,000+ Rushing Yards in 2021",
+        "difficulty": "easy",
+        "words": [
+          "NAJEE HARRIS",
+          "JOE MIXON",
+          "EZEKIEL ELLIOTT",
+          "DALVIN COOK"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2021",
+        "difficulty": "medium",
+        "words": [
+          "DALTON SCHULTZ",
+          "JUSTIN JEFFERSON",
+          "HUNTER RENFROW",
+          "JA'MARR CHASE"
+        ]
+      },
+      {
+        "name": "5+ Interceptions in 2021",
+        "difficulty": "hard",
+        "words": [
+          "KEVIN BYARD",
+          "XAVIEN HOWARD",
+          "J.C. JACKSON",
+          "AMANI ORUWARIYE"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2021",
+        "difficulty": "tricky",
+        "words": [
+          "MYLES GARRETT",
+          "NICK BOSA",
+          "T.J. WATT",
+          "ROBERT QUINN"
+        ]
+      }
+    ]
   }
 ]
