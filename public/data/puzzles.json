@@ -6719,5 +6719,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 144,
+    "date": "2026-11-17",
+    "season": 2021,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "HONUS WAGNER",
+          "ROGERS HORNSBY",
+          "JEFF KENT",
+          "ADRIAN BELTRÉ"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "TED LYONS",
+          "TOMMY JOHN",
+          "JUSTIN VERLANDER",
+          "ANDY PETTITTE"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2021",
+        "difficulty": "hard",
+        "words": [
+          "WALKER BUEHLER",
+          "JULIO URÍAS",
+          "ADAM WAINWRIGHT",
+          "MAX SCHERZER"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "ALAN TRAMMELL",
+          "OREL HERSHISER",
+          "FREDDIE FREEMAN",
+          "LIVAN HERNANDEZ"
+        ]
+      }
+    ]
   }
 ]

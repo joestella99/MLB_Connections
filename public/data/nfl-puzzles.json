@@ -6430,5 +6430,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 135,
+    "date": "2026-11-17",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "DONALD DRIVER",
+          "STEVE SMITH",
+          "DALLAS CLARK",
+          "ANQUAN BOLDIN"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2009",
+        "difficulty": "medium",
+        "words": [
+          "STEVEN JACKSON",
+          "CEDRIC BENSON",
+          "RAY RICE",
+          "ADRIAN PETERSON"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2009",
+        "difficulty": "hard",
+        "words": [
+          "WILLIS MCGAHEE",
+          "LADAINIAN TOMLINSON",
+          "MAURICE JONES-DREW",
+          "THOMAS JONES"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "BARRETT RUUD",
+          "BRIAN CUSHING",
+          "JON BEASON",
+          "KIRK MORRISON"
+        ]
+      }
+    ]
   }
 ]
