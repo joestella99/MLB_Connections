@@ -6478,5 +6478,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 136,
+    "date": "2026-11-18",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "BEN ROETHLISBERGER",
+          "DREW BREES",
+          "MARC BULGER",
+          "JON KITNA"
+        ]
+      },
+      {
+        "name": "100+ Total Tackles in 2006",
+        "difficulty": "medium",
+        "words": [
+          "JONATHAN VILMA",
+          "LONDON FLETCHER",
+          "CATO JUNE",
+          "BRADIE JAMES"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2006",
+        "difficulty": "hard",
+        "words": [
+          "LEONARD LITTLE",
+          "SHAWNE MERRIMAN",
+          "JULIAN PETERSON",
+          "SHAUN PHILLIPS"
+        ]
+      },
+      {
+        "name": "1,600+ Rushing Yards in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "LARRY JOHNSON",
+          "FRANK GORE",
+          "LADAINIAN TOMLINSON",
+          "TIKI BARBER"
+        ]
+      }
+    ]
   }
 ]
