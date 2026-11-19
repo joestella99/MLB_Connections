@@ -6813,5 +6813,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 146,
+    "date": "2026-11-19",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ADRIAN BELTRÉ",
+          "ANDRE DAWSON",
+          "WILLIE STARGELL",
+          "CARL YASTRZEMSKI"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2004",
+        "difficulty": "medium",
+        "words": [
+          "ALBERT PUJOLS",
+          "MIGUEL TEJADA",
+          "MIGUEL CABRERA",
+          "JIM EDMONDS"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2004",
+        "difficulty": "hard",
+        "words": [
+          "RUSS ORTIZ",
+          "ROGER CLEMENS",
+          "CARLOS ZAMBRANO",
+          "MARK BUEHRLE"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "DAVID ECKSTEIN",
+          "COREY SEAGER",
+          "EDGAR RENTERIA",
+          "DAVID FREESE"
+        ]
+      }
+    ]
   }
 ]

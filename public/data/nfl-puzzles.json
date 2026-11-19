@@ -6526,5 +6526,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 137,
+    "date": "2026-11-19",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2012",
+        "difficulty": "easy",
+        "words": [
+          "STEVIE JOHNSON",
+          "RODDY WHITE",
+          "WES WELKER",
+          "MICHAEL CRABTREE"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "JAMES JONES",
+          "JULIO JONES",
+          "SANTANA MOSS",
+          "KYLE RUDOLPH"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "JAMAAL CHARLES",
+          "DOUG MARTIN",
+          "MARSHAWN LYNCH",
+          "ARIAN FOSTER"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "KARLOS DANSBY",
+          "RUSSELL ALLEN",
+          "LUKE KUECHLY",
+          "LAVONTE DAVID"
+        ]
+      }
+    ]
   }
 ]
