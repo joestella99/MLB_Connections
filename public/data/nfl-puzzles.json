@@ -6574,5 +6574,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 138,
+    "date": "2026-11-20",
+    "sport": "nfl",
+    "season": 2018,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2018",
+        "difficulty": "easy",
+        "words": [
+          "BAKER MAYFIELD",
+          "PHILIP RIVERS",
+          "DESHAUN WATSON",
+          "BEN ROETHLISBERGER"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2018",
+        "difficulty": "medium",
+        "words": [
+          "MARLON MACK",
+          "NICK CHUBB",
+          "JOSH ALLEN",
+          "AARON JONES SR."
+        ]
+      },
+      {
+        "name": "30+ Passing TDs in 2018",
+        "difficulty": "hard",
+        "words": [
+          "RUSSELL WILSON",
+          "ANDREW LUCK",
+          "JARED GOFF",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2018",
+        "difficulty": "tricky",
+        "words": [
+          "MASON FOSTER",
+          "LUKE KUECHLY",
+          "BLAKE MARTINEZ",
+          "LEIGHTON VANDER ESCH"
+        ]
+      }
+    ]
   }
 ]

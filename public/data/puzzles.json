@@ -6860,5 +6860,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 147,
+    "date": "2026-11-20",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "Hall of Famers",
+        "difficulty": "easy",
+        "words": [
+          "HARRY HEILMANN",
+          "RICKEY HENDERSON",
+          "LEFTY GOMEZ",
+          "NESTOR CHYLAK"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "EPPA RIXEY",
+          "BOB GIBSON",
+          "BURLEIGH GRIMES",
+          "TOMMY JOHN"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2004",
+        "difficulty": "hard",
+        "words": [
+          "ROGER CLEMENS",
+          "PEDRO MARTÍNEZ",
+          "BEN SHEETS",
+          "CURT SCHILLING"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "ERIC KARROS",
+          "ANDREW BAILEY",
+          "LOU WHITAKER",
+          "BOB HAMELIN"
+        ]
+      }
+    ]
   }
 ]
