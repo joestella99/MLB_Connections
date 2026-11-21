@@ -6907,5 +6907,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 148,
+    "date": "2026-11-21",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "CARLOS BELTRÁN",
+          "NAP LAJOIE",
+          "HARRY HEILMANN",
+          "JEFF KENT"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "BOB GIBSON",
+          "JIM KAAT",
+          "JIM MCCORMICK",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "2,500+ Career Strikeouts (Pitchers)",
+        "difficulty": "hard",
+        "words": [
+          "CHUCK FINLEY",
+          "BOB FELLER",
+          "JIM BUNNING",
+          "CLAYTON KERSHAW"
+        ]
+      },
+      {
+        "name": "World Series MVP",
+        "difficulty": "tricky",
+        "words": [
+          "PEDRO GUERRERO",
+          "WILLIAM CONTRERAS",
+          "WILLIE STARGELL",
+          "COREY SEAGER"
+        ]
+      }
+    ]
   }
 ]

@@ -6622,5 +6622,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 139,
+    "date": "2026-11-21",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2014",
+        "difficulty": "easy",
+        "words": [
+          "JAY CUTLER",
+          "PHILIP RIVERS",
+          "MATT RYAN",
+          "RUSSELL WILSON"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2014",
+        "difficulty": "medium",
+        "words": [
+          "DEMARYIUS THOMAS",
+          "ANTONIO BROWN",
+          "JULIO JONES",
+          "EMMANUEL SANDERS"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2014",
+        "difficulty": "hard",
+        "words": [
+          "JUSTIN HOUSTON",
+          "CONNOR BARWIN",
+          "MARCELL DAREUS",
+          "MARIO WILLIAMS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "DEANDRE LEVY",
+          "C.J. MOSLEY",
+          "LUKE KUECHLY",
+          "LAVONTE DAVID"
+        ]
+      }
+    ]
   }
 ]
