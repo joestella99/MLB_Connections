@@ -6954,5 +6954,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 149,
+    "date": "2026-11-22",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "RAFAEL PALMEIRO",
+          "WILLIE MCCOVEY",
+          "MIGUEL CABRERA",
+          "HARRY HEILMANN"
+        ]
+      },
+      {
+        "name": "100+ RBI in 2014",
+        "difficulty": "medium",
+        "words": [
+          "MIKE TROUT",
+          "JUSTIN UPTON",
+          "ALBERT PUJOLS",
+          "JOSÉ ABREU"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2014",
+        "difficulty": "hard",
+        "words": [
+          "VICTOR MARTINEZ",
+          "JOSÉ BAUTISTA",
+          "ANDREW MCCUTCHEN",
+          "ANTHONY RIZZO"
+        ]
+      },
+      {
+        "name": "Won Rookie of the Year",
+        "difficulty": "tricky",
+        "words": [
+          "JACOB DEGROM",
+          "WALT WEISS",
+          "GEOVANY SOTO",
+          "JOHN CASTINO"
+        ]
+      }
+    ]
   }
 ]

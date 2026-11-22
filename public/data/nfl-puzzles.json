@@ -6670,5 +6670,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 140,
+    "date": "2026-11-22",
+    "sport": "nfl",
+    "season": 2017,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2017",
+        "difficulty": "easy",
+        "words": [
+          "ADAM THIELEN",
+          "MIKE EVANS",
+          "TRAVIS KELCE",
+          "ANTONIO BROWN"
+        ]
+      },
+      {
+        "name": "4,000+ Passing Yards in 2017",
+        "difficulty": "medium",
+        "words": [
+          "BEN ROETHLISBERGER",
+          "DREW BREES",
+          "ALEX SMITH",
+          "MATT RYAN"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2017",
+        "difficulty": "hard",
+        "words": [
+          "CAMERON JORDAN",
+          "CAMERON HEYWARD",
+          "MELVIN INGRAM",
+          "JULIUS PEPPERS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2017",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "BLAKE MARTINEZ",
+          "C.J. MOSLEY",
+          "JOE SCHOBERT"
+        ]
+      }
+    ]
   }
 ]
