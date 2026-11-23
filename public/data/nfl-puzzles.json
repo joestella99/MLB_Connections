@@ -6718,5 +6718,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 141,
+    "date": "2026-11-23",
+    "sport": "nfl",
+    "season": 2012,
+    "categories": [
+      {
+        "name": "80+ Receptions in 2012",
+        "difficulty": "easy",
+        "words": [
+          "ANDRE JOHNSON",
+          "JASON WITTEN",
+          "WES WELKER",
+          "REGGIE WAYNE"
+        ]
+      },
+      {
+        "name": "8+ Rushing TDs in 2012",
+        "difficulty": "medium",
+        "words": [
+          "FRANK GORE",
+          "SHONN GREENE",
+          "ARIAN FOSTER",
+          "MARSHAWN LYNCH"
+        ]
+      },
+      {
+        "name": "1,400+ Rushing Yards in 2012",
+        "difficulty": "hard",
+        "words": [
+          "ALFRED MORRIS",
+          "DOUG MARTIN",
+          "ADRIAN PETERSON",
+          "JAMAAL CHARLES"
+        ]
+      },
+      {
+        "name": "15+ Sacks in 2012",
+        "difficulty": "tricky",
+        "words": [
+          "CAMERON WAKE",
+          "J.J. WATT",
+          "ALDON SMITH",
+          "VON MILLER"
+        ]
+      }
+    ]
   }
 ]

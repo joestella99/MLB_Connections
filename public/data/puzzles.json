@@ -7001,5 +7001,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 150,
+    "date": "2026-11-23",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "FRED MCGRIFF",
+          "WILLIE STARGELL",
+          "JUAN GONZALEZ",
+          "CARL YASTRZEMSKI"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JACK MORRIS",
+          "RED FABER",
+          "JIM KAAT",
+          "GUS WEYHING"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2025",
+        "difficulty": "hard",
+        "words": [
+          "YOSHINOBU YAMAMOTO",
+          "DYLAN CEASE",
+          "SONNY GRAY",
+          "PAUL SKENES"
+        ]
+      },
+      {
+        "name": "WHIP Under 1.10 in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "JOE RYAN",
+          "CARLOS RODÓN",
+          "GARRETT CROCHET",
+          "MATTHEW BOYD"
+        ]
+      }
+    ]
   }
 ]
