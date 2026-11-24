@@ -7048,5 +7048,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 151,
+    "date": "2026-11-24",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "LOU GEHRIG",
+          "HONUS WAGNER",
+          "WILLIE MCCOVEY",
+          "SAMMY SOSA"
+        ]
+      },
+      {
+        "name": "70+ Extra-Base Hits in 2004",
+        "difficulty": "medium",
+        "words": [
+          "JIM THOME",
+          "ADRIAN BELTRÉ",
+          "TODD HELTON",
+          "JEROMY BURNITZ"
+        ]
+      },
+      {
+        "name": "15+ Wins (Pitching) in 2004",
+        "difficulty": "hard",
+        "words": [
+          "JOHAN SANTANA",
+          "PEDRO MARTÍNEZ",
+          "ROGER CLEMENS",
+          "CURT SCHILLING"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2004",
+        "difficulty": "tricky",
+        "words": [
+          "SCOTT ROLEN",
+          "MANNY RAMIREZ",
+          "VLADIMIR GUERRERO",
+          "GARY SHEFFIELD"
+        ]
+      }
+    ]
   }
 ]

@@ -6766,5 +6766,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 142,
+    "date": "2026-11-24",
+    "sport": "nfl",
+    "season": 2024,
+    "categories": [
+      {
+        "name": "20+ Passing TDs in 2024",
+        "difficulty": "easy",
+        "words": [
+          "LAMAR JACKSON",
+          "JAYDEN DANIELS",
+          "JARED GOFF",
+          "GENO SMITH"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2024",
+        "difficulty": "medium",
+        "words": [
+          "JONATHAN TAYLOR",
+          "SAQUON BARKLEY",
+          "JOSH JACOBS",
+          "KYREN WILLIAMS"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2024",
+        "difficulty": "hard",
+        "words": [
+          "JAXON SMITH-NJIGBA",
+          "CEEDEE LAMB",
+          "AMON-RA ST. BROWN",
+          "JA'MARR CHASE"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2024",
+        "difficulty": "tricky",
+        "words": [
+          "BOBBY WAGNER",
+          "ROBERT SPILLANE",
+          "JORDYN BROOKS",
+          "FRED WARNER"
+        ]
+      }
+    ]
   }
 ]
