@@ -7095,5 +7095,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 152,
+    "date": "2026-11-25",
+    "season": 2025,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "TED WILLIAMS",
+          "ALEX RODRIGUEZ",
+          "PAUL WANER",
+          "TONY GWYNN"
+        ]
+      },
+      {
+        "name": "300+ Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "WALTER JOHNSON",
+          "PUD GALVIN",
+          "EARLY WYNN",
+          "KID NICHOLS"
+        ]
+      },
+      {
+        "name": "200+ Strikeouts (Pitching) in 2025",
+        "difficulty": "hard",
+        "words": [
+          "CARLOS RODÓN",
+          "GARRETT CROCHET",
+          "FREDDY PERALTA",
+          "CRISTOPHER SÁNCHEZ"
+        ]
+      },
+      {
+        "name": "All-Star in 2025",
+        "difficulty": "tricky",
+        "words": [
+          "CHRIS SALE",
+          "TREVOR MEGILL",
+          "BRANDON LOWE",
+          "BRENDAN DONOVAN"
+        ]
+      }
+    ]
   }
 ]

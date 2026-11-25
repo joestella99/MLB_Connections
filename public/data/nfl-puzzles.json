@@ -6814,5 +6814,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 143,
+    "date": "2026-11-25",
+    "sport": "nfl",
+    "season": 2009,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2009",
+        "difficulty": "easy",
+        "words": [
+          "TOM BRADY",
+          "BEN ROETHLISBERGER",
+          "BRETT FAVRE",
+          "PHILIP RIVERS"
+        ]
+      },
+      {
+        "name": "1,200+ Rushing Yards in 2009",
+        "difficulty": "medium",
+        "words": [
+          "STEVEN JACKSON",
+          "CEDRIC BENSON",
+          "ADRIAN PETERSON",
+          "RAY RICE"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2009",
+        "difficulty": "hard",
+        "words": [
+          "DEMARCUS WARE",
+          "LAMARR WOODLEY",
+          "AARON SCHOBEL",
+          "CLAY MATTHEWS"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2009",
+        "difficulty": "tricky",
+        "words": [
+          "PATRICK WILLIS",
+          "CURTIS LOFTON",
+          "BRIAN CUSHING",
+          "JON BEASON"
+        ]
+      }
+    ]
   }
 ]
