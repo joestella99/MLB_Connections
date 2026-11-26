@@ -7142,5 +7142,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 153,
+    "date": "2026-11-26",
+    "season": 2003,
+    "categories": [
+      {
+        "name": "500+ Career Doubles",
+        "difficulty": "easy",
+        "words": [
+          "TODD HELTON",
+          "TY COBB",
+          "CHARLIE GEHRINGER",
+          "MANNY RAMIREZ"
+        ]
+      },
+      {
+        "name": "250-299 Career Wins (Pitchers)",
+        "difficulty": "medium",
+        "words": [
+          "JAMIE MOYER",
+          "RED RUFFING",
+          "TOMMY JOHN",
+          "JUSTIN VERLANDER"
+        ]
+      },
+      {
+        "name": "ERA Under 3.00 in 2003",
+        "difficulty": "hard",
+        "words": [
+          "CURT SCHILLING",
+          "BRANDON WEBB",
+          "PEDRO MARTÍNEZ",
+          "TIM HUDSON"
+        ]
+      },
+      {
+        "name": "All-Star in 2003",
+        "difficulty": "tricky",
+        "words": [
+          "EDDIE GUARDADO",
+          "RICHIE SEXSON",
+          "LUIS GONZALEZ",
+          "RAFAEL FURCAL"
+        ]
+      }
+    ]
   }
 ]

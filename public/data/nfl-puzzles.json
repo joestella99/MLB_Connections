@@ -6862,5 +6862,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 144,
+    "date": "2026-11-26",
+    "sport": "nfl",
+    "season": 2022,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2022",
+        "difficulty": "easy",
+        "words": [
+          "JARED GOFF",
+          "KIRK COUSINS",
+          "JUSTIN HERBERT",
+          "JALEN HURTS"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2022",
+        "difficulty": "medium",
+        "words": [
+          "CEEDEE LAMB",
+          "DAVANTE ADAMS",
+          "STEFON DIGGS",
+          "A.J. BROWN"
+        ]
+      },
+      {
+        "name": "100+ Receptions in 2022",
+        "difficulty": "hard",
+        "words": [
+          "AMON-RA ST. BROWN",
+          "TRAVIS KELCE",
+          "JUSTIN JEFFERSON",
+          "CHRIS GODWIN JR."
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2022",
+        "difficulty": "tricky",
+        "words": [
+          "JALEN PITRE",
+          "CODY BARTON",
+          "ZAIRE FRANKLIN",
+          "NICK BOLTON"
+        ]
+      }
+    ]
   }
 ]
