@@ -6910,5 +6910,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 145,
+    "date": "2026-11-27",
+    "sport": "nfl",
+    "season": 2006,
+    "categories": [
+      {
+        "name": "1,000+ Receiving Yards in 2006",
+        "difficulty": "easy",
+        "words": [
+          "ANQUAN BOLDIN",
+          "TERRY GLENN",
+          "TERRELL OWENS",
+          "JOEY GALLOWAY"
+        ]
+      },
+      {
+        "name": "8+ Receiving TDs in 2006",
+        "difficulty": "medium",
+        "words": [
+          "STEVE SMITH SR.",
+          "PLAXICO BURRESS",
+          "LEE EVANS",
+          "DONALD DRIVER"
+        ]
+      },
+      {
+        "name": "12+ Rushing TDs in 2006",
+        "difficulty": "hard",
+        "words": [
+          "LARRY JOHNSON",
+          "WILLIE PARKER",
+          "MARION BARBER",
+          "COREY DILLON"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2006",
+        "difficulty": "tricky",
+        "words": [
+          "LANCE BRIGGS",
+          "KEITH BROOKING",
+          "ZACH THOMAS",
+          "BRIAN URLACHER"
+        ]
+      }
+    ]
   }
 ]

@@ -7189,5 +7189,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 154,
+    "date": "2026-11-27",
+    "season": 2004,
+    "categories": [
+      {
+        "name": "1,500+ Career RBI",
+        "difficulty": "easy",
+        "words": [
+          "GARY SHEFFIELD",
+          "TY COBB",
+          "FRED MCGRIFF",
+          "DAVID ORTIZ"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2004",
+        "difficulty": "medium",
+        "words": [
+          "MELVIN MORA",
+          "MANNY RAMIREZ",
+          "JACK WILSON",
+          "JOHNNY ESTRADA"
+        ]
+      },
+      {
+        "name": "OPS Over .900 in 2004",
+        "difficulty": "hard",
+        "words": [
+          "JIM THOME",
+          "SCOTT ROLEN",
+          "ADRIAN BELTRÉ",
+          "J.D. DREW"
+        ]
+      },
+      {
+        "name": "40+ Home Runs in 2004",
+        "difficulty": "tricky",
+        "words": [
+          "PAUL KONERKO",
+          "ALBERT PUJOLS",
+          "BARRY BONDS",
+          "ADAM DUNN"
+        ]
+      }
+    ]
   }
 ]
