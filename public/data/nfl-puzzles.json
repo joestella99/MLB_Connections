@@ -6958,5 +6958,53 @@
         ]
       }
     ]
+  },
+  {
+    "id": 146,
+    "date": "2026-11-28",
+    "sport": "nfl",
+    "season": 2014,
+    "categories": [
+      {
+        "name": "3,500+ Passing Yards in 2014",
+        "difficulty": "easy",
+        "words": [
+          "PEYTON MANNING",
+          "MATTHEW STAFFORD",
+          "TOM BRADY",
+          "ELI MANNING"
+        ]
+      },
+      {
+        "name": "1,200+ Receiving Yards in 2014",
+        "difficulty": "medium",
+        "words": [
+          "JORDY NELSON",
+          "DEANDRE HOPKINS",
+          "T.Y. HILTON",
+          "DEZ BRYANT"
+        ]
+      },
+      {
+        "name": "10+ Sacks in 2014",
+        "difficulty": "hard",
+        "words": [
+          "J.J. WATT",
+          "JUSTIN HOUSTON",
+          "JASON PIERRE-PAUL",
+          "ROBERT QUINN"
+        ]
+      },
+      {
+        "name": "130+ Total Tackles in 2014",
+        "difficulty": "tricky",
+        "words": [
+          "LUKE KUECHLY",
+          "LAWRENCE TIMMONS",
+          "CURTIS LOFTON",
+          "LAVONTE DAVID"
+        ]
+      }
+    ]
   }
 ]

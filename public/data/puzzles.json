@@ -7236,5 +7236,52 @@
         ]
       }
     ]
+  },
+  {
+    "id": 155,
+    "date": "2026-11-28",
+    "season": 2005,
+    "categories": [
+      {
+        "name": "400-499 Career Home Runs",
+        "difficulty": "easy",
+        "words": [
+          "ANDRUW JONES",
+          "WILLIE STARGELL",
+          "ADAM DUNN",
+          "LOU GEHRIG"
+        ]
+      },
+      {
+        "name": "Silver Slugger Winners in 2005",
+        "difficulty": "medium",
+        "words": [
+          "JASON VARITEK",
+          "CARLOS LEE",
+          "MANNY RAMIREZ",
+          "MORGAN ENSBERG"
+        ]
+      },
+      {
+        "name": "30+ Saves in 2005",
+        "difficulty": "hard",
+        "words": [
+          "CHAD CORDERO",
+          "DERRICK TURNBOW",
+          "BOB WICKMAN",
+          "B.J. RYAN"
+        ]
+      },
+      {
+        "name": "120+ RBI in 2005",
+        "difficulty": "tricky",
+        "words": [
+          "GARY SHEFFIELD",
+          "DAVID ORTIZ",
+          "RICHIE SEXSON",
+          "ALEX RODRIGUEZ"
+        ]
+      }
+    ]
   }
 ]
